@@ -9,12 +9,16 @@ creat a database of resturants from various sources to understand how these busi
   3. Step by step approach for cleaning data and answering strategic questions
 
 ### Project Scope
+  
 
 ### Project Description
 
-  This project will create a database of restaurants from variable sources to undertand how those businesses have benn impacted bu Coivd-19. qa
+  This project will create a database of restaurants from variable sources to undertand how those businesses have benn impacted bu Coivd-19. 
 
 #### Data souces
+  Google Place API --  name , type, business status, rating, longitude ，latitude， opening_hours 
+  Bing 
 #### Strategic Question
+  How many resturant 
 #### Approach
 
