@@ -9,11 +9,7 @@ creat a database of resturants from various sources to understand how these busi
   3. Step by step approach for cleaning data and answering strategic questions
 
 ### Project Scope
-  
-
-### Project Description
-
-  This project will create a database of restaurants from variable sources to undertand how those businesses have benn impacted bu Coivd-19. 
+  This project is to create a consolidated database of restaurants by data source Google Place API, Yelp, GrubHub, Uber Eats, Safegraph, city of Boston. To understand how thses restaurants have been impacted by Covid-19. To understand the impact of various goverment policies and assistance program on the boston food business.There are four delivarables and the last deadline is 2020/12/09. 
 
 #### Data souces
   - Google Place API --  restuarants: name , type, business status, rating, longitude ，latitude， opening_hours [API](https://developers.google.com/places/web-service/details)
@@ -22,6 +18,10 @@ creat a database of resturants from various sources to understand how these busi
   - Uber Eats  --  [Uber delivery](https://www.ubereats.com/)
   
 #### Strategic Question
-  How many resturant 
-#### Approach
+  1. How many restaurants have permanently closed during Covid-19 ?
+  2. how many restaurants open ?
+  3. How many are temporarily closed ? 
+  4. How much activity is happening at different types of business by restaurant type?
+  5.  what has been the relative impact on goverment policies?
+
 
