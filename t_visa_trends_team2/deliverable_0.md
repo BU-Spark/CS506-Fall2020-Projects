@@ -7,7 +7,7 @@ There has been an increase in denials in T-Visa applications (there are 5,000 av
 Categorize and analyze all relevant data to understand trends within the decisions, by analyzing the presence of specific keywords within the texts and to conduct topic modeling.
 
 ### Datasets: 
-https://www.uscis.gov/administrative-appeals/aao-decisions/aao-non-precedent-decisions
+https://www.uscis.gov/administrative-appeals/aao-decisions/aao-non-precedent-decisions /n
 https://www.justice.gov/eoir/dhs-aao-ins-decisions
 
 ## Methodology:
