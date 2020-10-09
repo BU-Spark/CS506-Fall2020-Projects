@@ -21,8 +21,11 @@ What would the cost be to make an entire regional transit area free and how woul
 # Datasets
 ## Transportation data
 [RTA Bus Stops](https://geo-massdot.opendata.arcgis.com/datasets/rta-bus-stops/data)
+
 [MBTA Bus Stops](https://docs.digital.mass.gov/dataset/massgis-data-mbta-rapid-transit)
+
 [MBTA Fare Calculator](https://www.mbta.com/fares)
+
 [RTA Fares](https://www.mass.gov/info-details/public-transportation-in-massachusetts#map-of-transit-authorities-in-massachusetts-)
 
 ## Income level data
@@ -30,7 +33,6 @@ What would the cost be to make an entire regional transit area free and how woul
 
 ## Ridershop data
 [Ridership](https://mbta-massdot.opendata.arcgis.com/datasets/mbta-bus-ridership-by-trip-season-route-line-and-stop)
-[Walk scores](https://www.walkscore.com/professional/public-transit-api.php#route)
 
 # Approach
 ## Step One:
@@ -58,7 +60,9 @@ In the meantime, we spoke with the other team and decided the following:
 Focus on MBTA bus routes until rep gets back with information on how to split by geographic location. We are setting aside RTA for until we have a better understanding about which regional transit authorities to analyze in addition to MBTA.
 
 For the MBTA we are splitting the [bus routes](https://www.mbta.com/schedules/bus) into two groups. We will be aggregating the data into one repo that both teams can access. For each bus route, we will collect the stop, route, county #, tract #, and rideship data (TBD).
+
 Transit equity team 1: routes 100 - 700 + silver line + crosstown
+
 Transit equity team 2: routes 0 - 99
 
 ## Additional Metrics
