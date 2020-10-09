@@ -13,6 +13,7 @@ The goal of this project is to test the hypothesis and answer questions related:
   4. What grounds were cases denied?
   5. How has this changed over time?
   6. Any patterns that can help predict?
+  7. The distriubtion of each visa applier based on different category (race, sex, age, original nationality etc.)
 
 ### Datasets: 
 AAO Non-Precedent Decisions:
