@@ -1,7 +1,7 @@
 # Trends in T-Visa Applications.
 ## Team 2: Yizhou Mao, Zixuan Jiang, Heriberto Varela.
 ### Motivation:
-There has been an increase in denials in T-Visa applications (there are 5,000 available per year). Never have more than 1,000 been granted in a year and the past few years have seen both an increase in applications and an increase in denials. There is a hypothesis that the increase in denials is related to procedural barriers that immigration is constructing to make it more difficult to for applications to find success.
+There has been an increase in denials in T-Visa applications (there are 5,000 available per year). Never have more than 1,000 been granted in a year and the past few years have seen both an increase in applications and an increase in denials. There is a hypothesis that the increase in denials is related to procedural barriers that immigration is constructing to make it more difficult for applications to find success.
 
 ### Project goal:
 Categorize and analyze all relevant data to understand trends within the decisions, by analyzing the presence of specific keywords within the texts and to conduct topic modeling.
