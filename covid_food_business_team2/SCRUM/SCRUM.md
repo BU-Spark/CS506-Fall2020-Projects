@@ -15,12 +15,12 @@
 
 - ## What will be working on next? 
 
-        We will filter some useful information due to so larget datasets. 
-        
+    We will filter some useful information due to so larget datasets. 
+
 - ## Have we run into issues? Do we need help?
 
-        We found the Bing API is not free, Most restaurants information overlaps with Google Place API. And Google Place API has rich documents and example can be referenced.
+    We found the Bing API is not free, Most restaurants information overlaps with Google Place API. And Google Place API has rich documents and example can be referenced.
 
     
 - ## Have we talked to the client recently? 
-        Yes, We talked with client and  assigned tasks. We decided work together with team1. 
+    Yes, We talked with client and  assigned tasks. We decided work together with team1. 

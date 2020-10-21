@@ -33,7 +33,7 @@ creat a database of resturants from various sources to understand how these busi
   - Attempt to answer one relevant question in Strategic quenstion. 
 
   ## Data Collection 
-  - [x] Bing
+  - [] Bing
   - [X] Boston Certified Business 
   - [X] Food Establishment Inspections
   - [ ] Active Food Establishmen Licenses
