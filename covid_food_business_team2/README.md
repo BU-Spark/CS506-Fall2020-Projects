@@ -1,5 +1,11 @@
 # CS506 Fall 2020 Final Projects--- Boston-Restaurants-During-Covid
-creat a database of resturants from various sources to understand how these businesses have been impacted by covid.
+Creat a database of resturants from various sources to understand how these businesses have been impacted by covid.
+
+## Membership :
+  - Li jingyi
+  - Li Junwei
+  - Pei Qingxuan (leader)
+  - Hu Shiyang
 
 ## Project Deliverable 0 (Due on 2020/9/30)
   - Teams met with project client
