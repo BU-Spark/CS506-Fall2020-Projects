@@ -3,7 +3,7 @@
 ## 2020/10/12 - 2020/10/18
 - ## What have we work on?
     
-        We are working on database. For boston restaurants project team2, we were asssigned to prepare six database sources 
+    We are working on database. For boston restaurants project team2, we were asssigned to prepare six database sources 
      
     - [Food Establishment Inspection](https://data.boston.gov/dataset/food-establishment-inspections)
     - [Bing](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/)
