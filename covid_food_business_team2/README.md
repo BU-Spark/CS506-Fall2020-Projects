@@ -32,10 +32,14 @@ creat a database of resturants from various sources to understand how these busi
   - Perform Preliminary analysis of the data.
   - Attempt to answer one relevant question in Strategic quenstion. 
 
-    ## Data Collection 
+    ### Data Collection 
     - [ ] Bing
     - [X] Boston Certified Business 
     - [X] Food Establishment Inspections
     - [X] Active Food Establishmen Licenses
     - [X] Licenses Alcohol 
     - [X] Licensing Board Licenses
+
+    ### Data Analysis 
+
+    ### Answer Question
