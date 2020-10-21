@@ -12,13 +12,17 @@ creat a database of resturants from various sources to understand how these busi
       This project is to create a consolidated database of restaurants by data source Google Place API, Yelp, GrubHub, Uber Eats, Safegraph, city of Boston. To understand how thses restaurants have been impacted by Covid-19. To understand the impact of various goverment policies and assistance program on the boston food business.There are four delivarables and the last deadline is 2020/12/09. 
 
     ### Data souces
-      -   [Google Place API](https://developers.google.com/places/web-service/details)
-      - [City of Boston Certified Businesses](https://www.yelp.com/developers/documentation/v3/event)
+      - [Yelp API ](https://www.yelp.com/developers/documentation/v3/event)
+      - [Bing](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/)
       - [GrubHub](https://stevesie.com/apps/grubhub-api) 
       - [Uber Eats](https://www.ubereats.com/)
-      - [boston certified business ](https://data.boston.gov/dataset/certified-business-directory/resource/3fc08ca2-9baf-4d77-b03a-aaed1cc936ed)
+      -   [Google Place API](https://developers.google.com/places/web-service/details)
+      - [Licenses (Alcohol)](https://data.boston.gov/dataset/liquor-licenses)
+      - [City of Boston Certified Businesses](https://data.boston.gov/dataset/certified-business-directory/resource/3fc08ca2-9baf-4d77-b03a-aaed1cc936ed)
       - [FOOD ESTABLISHMENT INSPECTIONS](https://data.boston.gov/dataset/food-establishment-inspections)
-      - [Bing](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/)
+      - [Licensing Board Licenses - Datasets](https://data.boston.gov/dataset/licensing-board-licenses)
+      - [Active Food Establishment Licenses](https://data.boston.gov/dataset/active-food-establishment-licenses)
+      
       
     ### Strategic Question
       1. How many restaurants have permanently closed during Covid-19 ?
