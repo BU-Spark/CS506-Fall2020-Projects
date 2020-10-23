@@ -7,11 +7,15 @@ from os.path import isfile, join
 def get_links(file_name):
     if not file_name:
         raise ValueError('Expected Non Empty File Name')
+    ret = []
     file = open(file_name, 'r')
-    links = file.readline().strip('][\n').split(', ')
-    for i in range(len(links)):
-        links[i] = links[i].strip("'")
-    return links
+    lines = file.readlines()
+    for line in lines:
+        links = line.strip('][\n').split(', ')
+        for i in range(len(links)):
+            links[i] = links[i].strip("'")
+            ret.append(links[i])
+    return ret
 
 
 def get_pdfs(links):
