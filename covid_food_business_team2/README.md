@@ -42,7 +42,7 @@ Creat a database of resturants from various sources to understand how these busi
   - Perform Preliminary analysis of the data.
   - Attempt to answer one relevant question in Strategic quenstion. 
 
-    ### Data Collection 
+    ### Data Collection   
     - [ ] Bing
     - [X] Boston Certified Business 
     - [X] Food Establishment Inspections
@@ -51,5 +51,8 @@ Creat a database of resturants from various sources to understand how these busi
     - [X] Licensing Board Licenses
 
     ### Data Analysis 
-
+    seen in the data_Visualization folder
     ### Answer Question
+    Based on the current datasets and analysis we can do, the above question can not be answered.<br>
+    For the next sprint of the project,we will collect the data we just recieved from the instructor and collect the safegraph data using aws<br>
+    At that time, we can do the further and deeper analysis, at least 3 questions will be answered.
