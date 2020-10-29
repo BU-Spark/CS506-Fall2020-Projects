@@ -54,5 +54,5 @@ Creat a database of resturants from various sources to understand how these busi
     seen in the data_Visualization folder
     ### Answer Question
     Based on the current datasets and analysis we can do, the above question can not be answered.<br>
-    For the next sprint of the project,we will collect the data we just recieved from the instructor and collect the safegraph data using aws<br>
+    For the next sprint of the project,we will merge the data we collected and combined with the safegraph data using aws<br>
     At that time, we can do the further and deeper analysis, at least 3 questions will be answered.
