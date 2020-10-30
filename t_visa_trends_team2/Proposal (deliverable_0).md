@@ -16,14 +16,7 @@ The goal of this project is to test the hypothesis and answer questions related:
   7. The distriubtion of each visa applier based on different category (race, sex, age, original nationality etc.)
 
 ### Datasets: 
-AAO Non-Precedent Decisions:
-https://www.uscis.gov/administrative-appeals/aao-decisions/aao-non-precedent-decisions
-
-AAO Precedent Decisions:
-https://www.justice.gov/eoir/dhs-aao-ins-decisions
-
-All AAO Decisions:
-https://www.uscis.gov/about-us/directorates-and-program-offices/the-administrative-appeals-office-aao
+[AAO Non-Precedent Decisions](https://www.uscis.gov/administrative-appeals/aao-decisions/aao-non-precedent-decisions)
 
 ## Methodology:
 Package Usage:
@@ -35,9 +28,9 @@ Package Usage:
   6. Data visualization libraries such as Matplotlib, Seaborn, and Bokeh (interactive web-integratable visualizations) will be used to display the financial information between black and other nonprofits.
 
 Analysis Methods(High Level):
-  1. Divide all decisions into *precedent* and *non-precedent*, by year. These will be the two main categories. 
-  2. Further categorize them into *appeals* and *motions to reopen and reconsider*. These will not include derivative applications.
-  3. The last categorization of the decisions will be into *dismissals* and *granted* requests. At these categories, further language analysis will be done to find patterns in the decisions. 
+  1. Divide all *non-precedent* decisions, by year, and then by appeals and motions to reopen and reconsider. These will not include derivative applications.
+  2. Categorize the decisions into *dismissals* and *granted* requests. 
+  3. Analyze prevalence of keywords/phrases specified in the decisions of the applications to find patterns.  
   
 ## Conclusion:
   A dataset containing all non-precedent and precedent decision cases should be obtained at the end of the project. The pattern or the trend of the T-Visa Applications should be concluded by analyzing the dataset collected to test the validity of the hypothesis that the increase in denials is related to procedural barriers that immigration is constructing to make it more difficult for applications to find success. If time allows, a website demonstrating the information collected and the pattern or the trend concluded can be built to help people understand more about the issue, which achieves the goal of the Boston University School of Law Immigrants’ Rights and Human Trafficking Program.
