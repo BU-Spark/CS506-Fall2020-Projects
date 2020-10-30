@@ -1,0 +1,11 @@
+- What have I worked on? - 
+Team converted data into csv for easier manipulation. 
+
+- What will I be working on next? -
+Analizing one category of the data, appeals or motions. 
+
+- Have I run into any issues? Do I need help? - 
+We might get more data from the client later on, but we'll start the analysis to be ready to process said data and present early insights on the data we already have. 
+
+- Have I talked to the client recently? When are we meeting with them next? -
+We met with the PM today. Meeting with the client to present early insights will be next Friday 11/6/2020.
