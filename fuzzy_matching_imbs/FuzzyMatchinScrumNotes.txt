@@ -99,4 +99,11 @@ Looking ahead:
 
  -------
 
- 
+ Meeting: 11/3
+
+Next up: address matching
+ - start with state
+ - then zip/city
+ - then street
+
+Have preliminary results for next week.
