@@ -97,6 +97,30 @@ Looking ahead:
  - can look at accuracy with Yelp vs. with Google Places vs. with both
  - can look into spaCy rule matchers and NER matchers. (We don't have to reinvent the wheel for this one.)
 
- -------
+-------
 
- 
+Meeting: 11/3
+
+Next up: address matching
+ - start with state
+ - then zip/city
+ - then street
+
+Have preliminary results for next week.
+
+-------
+
+Meeting: 11/10
+
+Need to split addresses still. Then we can use spaCy for matching.
+(Also need to phone number and name match.)
+
+For spaCy, jupyter is easier than scripts, but either is fine.
+(And either is fine for end of project submission.)
+
+Presentation: Give what we've done and preview what's ahead:
+Similar to deliverable 1.
+
+For next week:
+ - Research spaCy
+ - Figure out what to use and start building a script
