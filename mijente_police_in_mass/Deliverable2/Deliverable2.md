@@ -13,6 +13,11 @@
 2. focused on committee leaders in the state legislature specifically the Judiciary, public safety, and conference committe and how much their leaders and memebers received from the police.
 3. Created visualizations of the summary
 
+#### Important Graphs and Charts:
+
+1. Bar Graph: Total Contribution, Contribution from Police Individual, Contribution from Union/Association, Contribution from all police.(Both top 6 and everyone)
+2. Pie Chart: Percentage ofTotal Contribution, Contribution from Police Individual and Contribution from all police
+
 ### Step3: Answered questions
 
 1. Q: Who are the top donors to state level officials and city officials across MA?
