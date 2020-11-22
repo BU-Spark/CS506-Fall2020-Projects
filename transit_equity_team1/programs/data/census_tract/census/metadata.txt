@@ -1,0 +1,10 @@
+Columns of interest:
+
+Each row represents a tract in MA
+
+DP03_0021E - Workers 16 and over commuting to work via public transportation
+DP03_0022E - Workers 16 and over commuting to work via walking
+DP03_0023E - Workers 16 and over commuting to work via other means (not car)
+DP03_0026E - Civilian employed population 16 years and over
+
+DP03_0062E - Median household income (this is the exact column pulled by Rishab in the function he gave to us)
