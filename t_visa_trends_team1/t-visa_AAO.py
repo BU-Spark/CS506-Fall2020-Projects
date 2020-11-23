@@ -212,7 +212,7 @@ def parse_pdf_info(tool='PyPDF2'):
         except:
             import traceback
             traceback.print_exc()
-            print(f'{fname}解析失败')
+            print(f'{fname}failed')
             import ipdb
             ipdb.set_trace()
 
