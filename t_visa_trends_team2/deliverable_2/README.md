@@ -1,5 +1,5 @@
 ## Data explanation.
-The final preprocessed data for all applications can be found in [processed_data.csv](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/deliverable_2/t_visa_trends_team2/deliverable_2/processed_data.csv). Our team handled the Motions, which can be found in [motions_data.csv](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/deliverable_2/t_visa_trends_team2/deliverable_2/motions_data.csv)
+The final preprocessed data for all applications can be found in [processed_data.csv](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/deliverable_2/t_visa_trends_team2/deliverable_2/processed_data.csv). Our team handled the Motions, which can be found in [motions_data.csv](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/deliverable_2/t_visa_trends_team2/deliverable_2/motions_data.csv). Below, we explain the features in our data.
 \
 \
 **url** - contains the source of the application's PDF.\
