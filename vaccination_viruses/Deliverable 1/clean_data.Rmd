@@ -1,0 +1,72 @@
+---
+title: "Clean_data"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+```{r clean_healthExpenditures}
+# data from 2014
+healthcareSpending_headers <- read.csv(file = 'data/healthExpendituresState.csv', skip = 1, nrows = 1, as.is = TRUE)
+healthcareSpending = read.csv(file = 'data/healthExpendituresState.csv', skip = 3, nrows = 51, as.is = TRUE)
+colnames(healthcareSpending) = healthcareSpending_headers
+healthcareSpending$`Total Health Spending` = gsub("\\$", "", healthcareSpending$`Total Health Spending`)
+healthcareSpending$`Total Health Spending` = as.numeric(gsub("\\,", "", healthcareSpending$`Total Health Spending`))
+healthcareSpending <- healthcareSpending %>% rename(States = Location)
+```
+
+```{r clean_population_by_state}
+# data from 2019
+population <- read.csv(file = 'data/population_by_state.csv')
+population <- population[order(population$States),]
+population$Population = as.numeric(gsub("\\,", "", population$Population))
+```
+
+```{r vaccination rate}
+# data from 2017
+vaccinationRate <- read.csv(file = 'data/vaccinationrate_and_exemption.csv')
+vaccinationRate <- vaccinationRate %>% rename(VaxRate = `X.`)
+vaccinationRate <- subset(vaccinationRate, select=c('States', 'VaxRate', 'Exemption'))
+```
+
+```{r populationDensity}
+# data from 2020
+populationDensity <- read.csv(file = 'data/populationDensity.csv')
+populationDensity <- subset(populationDensity, select=c('States', 'Density'))
+populationDensity = populationDensity %>% rename(population_density = Density)
+```
+
+```{r medianIncome}
+# data from 2017
+medianIncome <- read.csv(file = 'data/medianHouseholdIncome.csv')
+medianIncome <- subset(medianIncome, select=c('States', 'Median_income'))
+medianIncome$Median_income = as.numeric(gsub("\\,", "", medianIncome$Median_income))
+```
+
+```{r educational_attainment}
+# data from 2020
+educational_attainment <- read.csv(file = 'data/educational_attainment.csv')
+  
+  
+```
+
+
+```{r merge_all_data and export}
+# Vaccination data is from 2017, Exemption is from 2020, Healthcare spending is from 2014
+
+data <- merge(vaccinationRate, healthcareSpending, by="States")
+data <- merge(data, population, by="States")
+data <- data %>% mutate(spending_per_capita = (`Total Health Spending`/Population)*1000000)
+data <- merge(data, populationDensity, by="States")
+data <- merge(data, medianIncome, by="States")
+data <- merge(data, educational_attainment, by="States")
+write.csv(data, "data\\full_data.csv")
+```
+
+```{}
+
+
+
+
