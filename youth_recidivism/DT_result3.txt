@@ -1,0 +1,22 @@
+|--- CONTACT_TYPE <= 15.50
+|   |--- WHO_WAS_CONTACTED <= 98.50
+|   |   |--- CONTACT_TYPE <= 6.50
+|   |   |   |--- class: 1
+|   |   |--- CONTACT_TYPE >  6.50
+|   |   |   |--- class: 0
+|   |--- WHO_WAS_CONTACTED >  98.50
+|   |   |--- WHO_WAS_CONTACTED <= 162.50
+|   |   |   |--- class: 1
+|   |   |--- WHO_WAS_CONTACTED >  162.50
+|   |   |   |--- class: 1
+|--- CONTACT_TYPE >  15.50
+|   |--- CONTACT_TYPE <= 20.50
+|   |   |--- WHO_WAS_CONTACTED <= 97.50
+|   |   |   |--- class: 1
+|   |   |--- WHO_WAS_CONTACTED >  97.50
+|   |   |   |--- class: 1
+|   |--- CONTACT_TYPE >  20.50
+|   |   |--- WHY <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- WHY >  0.50
+|   |   |   |--- class: 1

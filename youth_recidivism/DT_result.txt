@@ -22,7 +22,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
 |   |   |   |   |   |   |   |   |   |   |--- Psychological >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
@@ -36,9 +36,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  318.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  1078.50
-|   |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Family <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Family >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
 |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
@@ -81,10 +81,10 @@
 |   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  378.50
-|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 5.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  5.50
+|   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  578.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 720.50
 |   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
@@ -93,30 +93,30 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  720.50
 |   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
 |   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- CommitDays >  904.00
-|   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |--- class: 5
-|   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 922.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  922.50
+|   |   |   |   |   |   |   |   |--- Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |--- CommitDays >  942.00
 |   |   |   |   |   |   |   |--- DistrictOfficevisit <= 0.50
 |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
-|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 5.00
-|   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  5.00
-|   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 5.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  5.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 968.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
@@ -138,9 +138,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  125.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
 |   |   |   |   |   |   |   |   |   |--- Recreation >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- ClothingVoucher <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- ClothingVoucher >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  163.00
 |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
@@ -179,7 +179,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1007.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1007.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
 |   |   |   |   |   |   |   |   |--- Homevisit >  0.50
 |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
@@ -202,7 +202,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1212.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1212.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
 |   |   |   |   |   |   |   |   |--- HealthServices >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 381.00
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 262.50
@@ -235,15 +235,15 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 131.00
-|   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
+|   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
+|   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  131.00
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1346.50
@@ -358,13 +358,13 @@
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 5.50
 |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  5.50
-|   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays <= 108.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |--- CommitDays >  108.00
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 282.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  282.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- Legal >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |--- CommitDays >  340.00
 |   |   |   |   |   |   |   |   |--- CommitDays <= 2001.50
 |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
@@ -409,9 +409,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  551.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 85.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  85.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- CommitDays >  831.00
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1061.50
@@ -425,7 +425,7 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  1061.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2292.50
 |   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
 |   |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  2292.50
@@ -442,10 +442,10 @@
 |   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  603.50
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- DrugScreening <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- DrugScreening >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1611.50
 |   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
@@ -456,9 +456,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 623.00
-|   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays <= 579.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays >  579.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  623.00
 |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
@@ -499,7 +499,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |--- InternalCollateral >  0.50
 |   |   |   |--- Educational <= 0.50
 |   |   |   |   |--- Vocational <= 0.50
@@ -531,10 +531,10 @@
 |   |   |   |   |   |   |   |--- RRT >  0.50
 |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
 |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 4.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 741.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  741.00
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  4.50
 |   |   |   |   |   |   |   |   |   |   |--- Father <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
@@ -558,7 +558,7 @@
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  3.50
 |   |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Father <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
 |   |   |   |   |   |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
@@ -574,9 +574,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  400.50
-|   |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 8.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  8.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  638.50
 |   |   |   |   |   |   |   |   |   |--- CommunityService <= 0.50
@@ -613,12 +613,12 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |--- Mother >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1025.00
-|   |   |   |   |   |   |   |   |   |--- InitialVisit <= 0.50
+|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 11.00
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 375.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  375.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |   |   |   |   |   |--- InitialVisit >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  11.00
 |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |--- CommitDays >  1025.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1365.50
@@ -627,10 +627,10 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1093.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  1365.50
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 8.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  8.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |--- Psychological <= 0.50
 |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
@@ -674,10 +674,10 @@
 |   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  12.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |--- Dental >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1948.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1948.50
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 5.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  5.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |--- Vocational >  0.50
 |   |   |   |   |   |--- CommitDays <= 278.00
 |   |   |   |   |   |   |--- Legal <= 0.50
@@ -714,9 +714,9 @@
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 548.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  548.00
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |--- class: 1
@@ -760,24 +760,24 @@
 |   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- Housing >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |--- Educational >  0.50
 |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |--- CommitDays <= 1547.00
 |   |   |   |   |   |   |--- Mother <= 0.50
 |   |   |   |   |   |   |   |--- SubstanceAbuse <= 0.50
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 4.00
-|   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |--- Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- Vocational >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  4.00
 |   |   |   |   |   |   |   |   |   |--- SocialServices <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Father <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 40
 |   |   |   |   |   |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
 |   |   |   |   |   |   |   |   |   |--- SocialServices >  0.50
@@ -788,15 +788,15 @@
 |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
 |   |   |   |   |   |   |   |   |--- Recreation <= 0.50
 |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 417.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  417.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 245.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  245.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |--- Recreation >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |--- Mother >  0.50
@@ -841,9 +841,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- Recreation >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |--- Vocational >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 4
@@ -891,7 +891,7 @@
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 11.00
 |   |   |   |   |   |   |   |   |   |--- RevocationHearing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 77.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  77.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
 |   |   |   |   |   |   |   |   |   |--- RevocationHearing >  0.50
@@ -909,13 +909,13 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |--- RRT >  0.50
 |   |   |   |   |   |   |   |   |--- Pass <= 0.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 664.00
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  664.00
+|   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- HealthServices <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- HealthServices >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- Pass >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 2
 |   |   |   |   |   |   |--- ClothingVoucher >  0.50
@@ -923,12 +923,12 @@
 |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |--- CommitDays <= 528.50
-|   |   |   |   |   |   |   |   |--- CommitDays <= 323.50
+|   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |--- CommitDays >  323.50
-|   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
+|   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
+|   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- Psychological >  0.50
+|   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |--- CommitDays >  528.50
 |   |   |   |   |   |   |   |   |--- class: 0
@@ -937,20 +937,20 @@
 |   |   |   |   |   |   |   |   |--- CommitDays <= 580.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  580.50
-|   |   |   |   |   |   |   |   |   |--- Family <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- Family >  0.50
+|   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- Mother >  0.50
-|   |   |   |   |   |   |   |   |--- SubstanceAbuse <= 0.50
-|   |   |   |   |   |   |   |   |   |--- Vocational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- Vocational >  0.50
+|   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 8.00
+|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 5.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
+|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  5.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 292.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  292.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  8.00
 |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
@@ -1033,9 +1033,9 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- CommitDays >  951.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 989.50
-|   |   |   |   |   |   |   |   |   |   |--- Vocational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- Vocational >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  989.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 997.50
@@ -1075,9 +1075,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1054.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
 |   |   |   |   |   |   |   |   |   |--- Father >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Vocational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
@@ -1094,9 +1094,9 @@
 |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1753.00
 |   |   |   |   |   |   |   |   |   |--- FamilySupport(s) <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Empty <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
-|   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Empty >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 2
 |   |   |   |   |   |   |   |   |   |--- FamilySupport(s) >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
@@ -1117,9 +1117,9 @@
 |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1329.00
 |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1321.50
+|   |   |   |   |   |   |   |   |   |   |--- SocialServices <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1321.50
+|   |   |   |   |   |   |   |   |   |   |--- SocialServices >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 4
@@ -1141,7 +1141,7 @@
 |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
 |   |   |   |   |   |   |   |   |   |--- InternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 35
 |   |   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
 |   |   |   |   |   |   |   |   |   |--- InternalCollateral >  0.50
@@ -1190,7 +1190,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
 |   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |   |--- Check-in >  0.50
@@ -1207,9 +1207,9 @@
 |   |   |   |   |   |   |   |--- CommitDays >  647.00
 |   |   |   |   |   |   |   |   |--- CommitDays <= 678.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 674.50
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  674.50
 |   |   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
@@ -1256,7 +1256,7 @@
 |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1429.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1429.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
@@ -1285,7 +1285,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  1081.50
 |   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
 |   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- Recreation >  0.50
@@ -1298,12 +1298,12 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 493.00
-|   |   |   |   |   |   |   |   |   |--- InternalCollateral <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
-|   |   |   |   |   |   |   |   |   |   |--- Psychological >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- InternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  493.00
 |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
@@ -1368,14 +1368,14 @@
 |   |   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
 |   |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
 |   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
 |   |   |   |   |   |   |   |   |--- CurfewManagement >  0.50
 |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
@@ -1434,9 +1434,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 580.50
+|   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  580.50
+|   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |--- InternalCollateral <= 0.50
@@ -1457,9 +1457,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- Pass >  0.50
-|   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
+|   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |--- CommitDays >  861.50
 |   |   |   |   |   |   |   |   |--- Mother <= 0.50
@@ -1501,10 +1501,10 @@
 |   |   |   |   |   |   |   |--- Psychological >  0.50
 |   |   |   |   |   |   |   |   |--- Recreation <= 0.50
 |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
@@ -1551,13 +1551,13 @@
 |   |   |   |   |   |   |--- CommitDays <= 1661.00
 |   |   |   |   |   |   |   |--- CommitDays <= 1630.50
 |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays <= 1609.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- CommitDays >  1609.50
+|   |   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1587.00
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
@@ -1567,18 +1567,18 @@
 |   |   |   |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |--- CommitDays >  1630.50
-|   |   |   |   |   |   |   |   |--- CommitDays <= 1637.00
-|   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |--- CommitDays >  1637.00
-|   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
+|   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
+|   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1637.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1637.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |--- CommitDays >  1661.00
-|   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
@@ -1598,7 +1598,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  2389.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |--- InternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2156.00
 |   |   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
@@ -1650,12 +1650,12 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1880.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- Psychological >  0.50
-|   |   |   |   |   |   |   |   |   |--- Family <= 0.50
+|   |   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 343.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  343.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
-|   |   |   |   |   |   |   |   |   |--- Family >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 497.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  497.00
@@ -1665,7 +1665,7 @@
 |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 955.00
 |   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
 |   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  955.00
@@ -1699,7 +1699,7 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  452.50
 |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- SocialServices <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
 |   |   |   |   |   |   |   |   |   |   |--- SocialServices >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
 |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
@@ -1726,7 +1726,7 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  569.50
 |   |   |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- InitialVisit <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
 |   |   |   |   |   |   |   |   |   |   |--- InitialVisit >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
@@ -1748,9 +1748,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  133.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |--- Meeting >  0.50
-|   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- CommitDays >  1022.00
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1256.00
@@ -1765,12 +1765,12 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1036.00
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  1256.00
-|   |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
+|   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Mother <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Mother >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |   |--- Housing >  0.50
@@ -1782,9 +1782,9 @@
 |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 507.00
 |   |   |   |   |   |   |   |   |   |   |--- HealthServices <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
 |   |   |   |   |   |   |   |   |   |   |--- HealthServices >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  507.00
 |   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
@@ -1802,13 +1802,13 @@
 |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |--- CommitDays >  1543.50
 |   |   |   |   |   |   |   |--- CommitDays <= 1617.50
-|   |   |   |   |   |   |   |   |--- CommitDays <= 1601.00
-|   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |--- CommitDays >  1601.00
-|   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
+|   |   |   |   |   |   |   |   |--- HealthServices <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- Housing >  0.50
+|   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- HealthServices >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- CommitDays >  1617.50
 |   |   |   |   |   |   |   |   |--- CrisisScreening <= 0.50
 |   |   |   |   |   |   |   |   |   |--- InternalCollateral <= 0.50
@@ -1817,16 +1817,16 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1955.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |   |--- InternalCollateral >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CrisisScreening >  0.50
 |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- HealthServices <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- HealthServices >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1710.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1710.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |--- CONTACT_TYPE >  12.50
@@ -1844,13 +1844,13 @@
 |   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |--- Guardian >  0.50
-|   |   |   |   |   |   |   |   |   |--- Pass <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 154.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  154.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
-|   |   |   |   |   |   |   |   |   |--- Pass >  0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays <= 154.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- CommitDays >  154.50
+|   |   |   |   |   |   |   |   |   |   |--- Pass <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- Pass >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- LifeSkills >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1049.00
 |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
@@ -1865,9 +1865,9 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |--- CommitDays >  1049.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1080.50
-|   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1070.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1070.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  1080.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
@@ -1932,10 +1932,10 @@
 |   |   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |   |   |   |   |   |--- Housing >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1192.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1192.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 14.00
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1175.50
@@ -1943,16 +1943,16 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1175.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
 |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  14.00
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1151.50
+|   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1151.50
+|   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |--- CurfewManagement >  0.50
 |   |   |   |   |   |   |   |--- ClothingVoucher <= 0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 128.00
-|   |   |   |   |   |   |   |   |   |--- SubstanceAbuse <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
+|   |   |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |--- CommitDays >  128.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 257.50
@@ -1966,10 +1966,10 @@
 |   |   |   |   |   |   |   |   |--- CommitDays <= 700.00
 |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- CommitDays >  700.00
-|   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- Legal >  0.50
+|   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |--- CONTACT_TYPE <= 8.00
 |   |   |   |   |   |   |   |--- class: 1
@@ -2001,7 +2001,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
 |   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
 |   |   |   |   |--- CommitDays >  1202.50
 |   |   |   |   |   |--- CommitDays <= 2026.50
 |   |   |   |   |   |   |--- Educational <= 0.50
@@ -2030,9 +2030,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- CommitDays >  1573.50
 |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 12.50
@@ -2053,26 +2053,26 @@
 |   |   |   |   |   |   |   |   |   |   |--- LevelReview >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- CommitDays >  1499.00
-|   |   |   |   |   |   |   |   |   |--- FamilySupport(s) <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- FamilySupport(s) <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- FamilySupport(s) >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |--- FamilySupport(s) >  0.50
+|   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |--- CommitDays >  1626.50
-|   |   |   |   |   |   |   |   |--- Family <= 0.50
+|   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1685.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1685.50
+|   |   |   |   |   |   |   |   |   |   |--- InternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |   |--- Meeting >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- InternalCollateral >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |--- Family >  0.50
+|   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- HealthServices <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- HealthServices >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |--- CommitDays >  2026.50
 |   |   |   |   |   |   |--- CommitDays <= 2058.00
@@ -2086,39 +2086,39 @@
 |   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  12.50
-|   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
+|   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |--- CommitDays >  2058.00
 |   |   |   |   |   |   |   |--- CommitDays <= 2125.50
-|   |   |   |   |   |   |   |   |--- SupervisedVisit <= 0.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 2096.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  2096.00
-|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
+|   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |--- SupervisedVisit <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- SupervisedVisit >  0.50
+|   |   |   |   |   |   |   |   |   |--- SupervisedVisit >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- CommitDays >  2125.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 2408.50
-|   |   |   |   |   |   |   |   |   |--- Family <= 0.50
+|   |   |   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- Family >  0.50
+|   |   |   |   |   |   |   |   |   |--- CurfewManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |--- CommitDays >  2408.50
 |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- SubstanceAbuse <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
@@ -2153,7 +2153,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
 |   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
 |   |   |   |   |   |   |   |--- ClothingVoucher >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 407.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 302.00
@@ -2164,12 +2164,12 @@
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  302.00
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  407.00
-|   |   |   |   |   |   |   |   |   |--- Family <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 994.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  994.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |--- Family >  0.50
+|   |   |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
@@ -2187,7 +2187,7 @@
 |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 311.50
 |   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
 |   |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  311.50
@@ -2197,12 +2197,12 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
 |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
 |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
-|   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 59.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  59.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
-|   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- SupervisedVisit <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
 |   |   |   |   |   |   |   |   |   |   |--- SupervisedVisit >  0.50
@@ -2240,7 +2240,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- Client <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
 |   |   |   |   |   |   |   |   |   |   |--- Client >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
 |   |   |   |   |   |   |   |   |   |--- Pass >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
@@ -2256,15 +2256,15 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |--- CommitDays >  1332.00
 |   |   |   |   |   |   |   |--- Father <= 0.50
-|   |   |   |   |   |   |   |   |--- DrugScreening <= 0.50
-|   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
+|   |   |   |   |   |   |   |   |--- LevelReview <= 0.50
+|   |   |   |   |   |   |   |   |   |--- DrugScreening <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Legal <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- Legal >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |--- DrugScreening >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Legal >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- DrugScreening >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- LevelReview >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |   |   |--- class: 4
@@ -2314,23 +2314,23 @@
 |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |--- CommitDays <= 2248.50
 |   |   |   |   |   |   |   |   |--- Meeting <= 0.50
-|   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Psychological <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |--- Psychological >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |--- Meeting >  0.50
-|   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- CommitDays >  2248.50
-|   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
+|   |   |   |   |   |   |   |   |--- Mother <= 0.50
 |   |   |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- SubstanceAbuse <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
@@ -2341,7 +2341,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
+|   |   |   |   |   |   |   |   |--- Mother >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |--- CommitDays >  2374.50
 |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
@@ -2353,9 +2353,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  2397.00
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2414.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  2414.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- InternalCollateral >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2414.50
@@ -2425,10 +2425,10 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 633.00
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 430.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  430.00
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  633.00
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- Check-in >  0.50
@@ -2450,9 +2450,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |   |--- Pass >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- SubstanceAbuse <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- SubstanceAbuse >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |--- DrugScreening >  0.50
 |   |   |   |   |   |   |   |--- class: 0
@@ -2480,13 +2480,13 @@
 |   |   |   |   |   |   |   |   |   |--- HealthServices >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- DrugScreening >  0.50
-|   |   |   |   |   |   |   |   |--- CommitDays <= 223.00
-|   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |--- CommitDays >  223.00
-|   |   |   |   |   |   |   |   |   |--- Pass <= 0.50
+|   |   |   |   |   |   |   |   |--- Recreation <= 0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays <= 1035.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- Pass >  0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays >  1035.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- Recreation >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |--- CommitDays <= 53.50
 |   |   |   |   |   |   |   |   |--- class: 0
@@ -2503,19 +2503,19 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1263.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |   |--- CommitDays >  1438.50
-|   |   |   |   |   |   |   |   |   |--- LevelReview <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Client <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Client >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- LevelReview >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |--- SupervisedVisit >  0.50
-|   |   |   |   |   |   |--- Family <= 0.50
+|   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
 |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
-|   |   |   |   |   |   |   |   |--- Legal <= 0.50
+|   |   |   |   |   |   |   |   |--- Pass <= 0.50
 |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |--- Legal >  0.50
+|   |   |   |   |   |   |   |   |--- Pass >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- LifeSkills >  0.50
 |   |   |   |   |   |   |   |   |--- Recreation <= 0.50
@@ -2525,7 +2525,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  322.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- Family >  0.50
+|   |   |   |   |   |   |--- FamilyMember(s) >  0.50
 |   |   |   |   |   |   |   |--- class: 3
 |   |   |--- RRT >  0.50
 |   |   |   |--- Check-in <= 0.50
@@ -2533,9 +2533,9 @@
 |   |   |   |   |   |--- ClothingVoucher <= 0.50
 |   |   |   |   |   |   |--- CommitDays <= 2341.00
 |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 17.50
-|   |   |   |   |   |   |   |   |--- Psychological <= 0.50
+|   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |--- Psychological >  0.50
+|   |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |--- CONTACT_TYPE >  17.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1097.50
@@ -2552,13 +2552,13 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  1097.50
 |   |   |   |   |   |   |   |   |   |--- Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 18.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
 |   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  18.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
 |   |   |   |   |   |   |   |   |   |--- Vocational >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Housing >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |--- CommitDays >  2341.00
 |   |   |   |   |   |   |   |--- class: 0
@@ -2569,10 +2569,10 @@
 |   |   |   |   |   |   |--- CommitDays <= 33.00
 |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |--- CommitDays >  33.00
-|   |   |   |   |   |   |   |--- CONTACT_TYPE <= 19.50
-|   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |--- CONTACT_TYPE >  19.50
-|   |   |   |   |   |   |   |   |--- Father <= 0.50
+|   |   |   |   |   |   |   |--- Father <= 0.50
+|   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 19.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  19.50
 |   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 59.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
@@ -2580,14 +2580,14 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |--- Father >  0.50
-|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Father >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |--- CommitDays >  133.00
 |   |   |   |   |   |   |--- RevocationHearing <= 0.50
 |   |   |   |   |   |   |   |--- CommitDays <= 301.00
-|   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
+|   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
+|   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |--- CommitDays >  301.00
 |   |   |   |   |   |   |   |   |--- CommitDays <= 398.50
@@ -2600,10 +2600,10 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  398.50
 |   |   |   |   |   |   |   |   |   |--- Client <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 19.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  19.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- Client >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 601.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
@@ -2612,7 +2612,7 @@
 |   |   |   |   |   |   |--- RevocationHearing >  0.50
 |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |--- Check-in >  0.50
-|   |   |   |   |--- Family <= 0.50
+|   |   |   |   |--- FamilyMember(s) <= 0.50
 |   |   |   |   |   |--- CommitDays <= 1291.00
 |   |   |   |   |   |   |--- CONTACT_TYPE <= 19.50
 |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
@@ -2629,9 +2629,9 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- InitialVisit >  0.50
 |   |   |   |   |   |   |   |   |   |--- Psychiatric <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- ClothingVoucher <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- ClothingVoucher >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |--- Psychiatric >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 747.50
@@ -2644,7 +2644,7 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  1116.00
 |   |   |   |   |   |   |   |   |   |--- class: 2
 |   |   |   |   |   |   |--- CONTACT_TYPE >  19.50
-|   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
+|   |   |   |   |   |   |   |--- CommunityService <= 0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 1062.50
 |   |   |   |   |   |   |   |   |   |--- Father <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 223.00
@@ -2654,11 +2654,11 @@
 |   |   |   |   |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  1062.50
-|   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |--- LevelReview <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |--- LevelReview >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |--- CurfewManagement >  0.50
+|   |   |   |   |   |   |   |--- CommunityService >  0.50
 |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |--- CommitDays >  1291.00
 |   |   |   |   |   |   |--- CONTACT_TYPE <= 19.00
@@ -2683,11 +2683,11 @@
 |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- Client >  0.50
 |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- Family >  0.50
+|   |   |   |   |--- FamilyMember(s) >  0.50
 |   |   |   |   |   |--- InternalCollateral <= 0.50
-|   |   |   |   |   |   |--- SocialServices <= 0.50
+|   |   |   |   |   |   |--- SupervisedVisit <= 0.50
 |   |   |   |   |   |   |   |--- class: 5
-|   |   |   |   |   |   |--- SocialServices >  0.50
+|   |   |   |   |   |   |--- SupervisedVisit >  0.50
 |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |--- InternalCollateral >  0.50
 |   |   |   |   |   |   |--- class: 3
@@ -2700,9 +2700,9 @@
 |   |   |   |   |   |   |   |--- CommitDays <= 642.50
 |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
@@ -2729,25 +2729,25 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  651.50
 |   |   |   |   |   |   |   |   |   |--- SocialServices <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1065.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1065.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
 |   |   |   |   |   |   |   |   |   |--- SocialServices >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |--- CommitDays >  1385.50
 |   |   |   |   |   |   |   |--- CommitDays <= 1429.00
-|   |   |   |   |   |   |   |   |--- Check-in <= 0.50
-|   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |--- Check-in >  0.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 1415.50
-|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
+|   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Check-in >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1415.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  1415.50
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1415.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |--- CommitDays >  1429.00
 |   |   |   |   |   |   |   |   |--- AncillaryServices <= 0.50
@@ -2762,13 +2762,13 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  2345.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- AncillaryServices >  0.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 1493.00
-|   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  1493.00
+|   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |--- Mother >  0.50
 |   |   |   |   |   |   |--- CommitDays <= 479.00
 |   |   |   |   |   |   |   |--- Vocational <= 0.50
@@ -2781,9 +2781,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |--- Vocational >  0.50
 |   |   |   |   |   |   |   |   |--- Father <= 0.50
-|   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays <= 356.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 4
-|   |   |   |   |   |   |   |   |   |--- Educational >  0.50
+|   |   |   |   |   |   |   |   |   |--- CommitDays >  356.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |--- Father >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
@@ -2813,15 +2813,15 @@
 |   |   |   |   |   |   |   |--- CommitDays <= 464.00
 |   |   |   |   |   |   |   |   |--- FamilyRelationships <= 0.50
 |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
-|   |   |   |   |   |   |   |   |   |   |--- Parent/Guardian >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 376.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  376.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
 |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
 |   |   |   |   |   |   |   |   |   |--- Check-in <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 254.50
@@ -2895,9 +2895,9 @@
 |   |   |   |   |   |   |   |   |--- CommitDays >  598.00
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1288.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1288.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
 |   |   |   |   |   |   |   |   |   |--- BehaviorManagement >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
@@ -2918,9 +2918,9 @@
 |   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |   |--- FamilyRelationships >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- LifeSkills <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Educational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- LifeSkills >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Educational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 5
 |   |   |   |   |   |   |   |   |--- Legal >  0.50
 |   |   |   |   |   |   |   |   |   |--- class: 1
@@ -2945,22 +2945,22 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  1987.00
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2200.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  2200.00
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
 |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 2292.50
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 2021.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  2021.50
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2157.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  2157.00
+|   |   |   |   |   |   |   |   |   |--- ExternalCollateral <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 2021.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- CommitDays >  2021.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- ExternalCollateral >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  2292.50
-|   |   |   |   |   |   |   |   |   |--- FamilyMember(s) <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |--- FamilyMember(s) >  0.50
+|   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |--- CONTACT_TYPE >  23.50
 |   |   |   |   |--- Educational <= 0.50
@@ -3013,9 +3013,9 @@
 |   |   |   |   |   |   |   |--- CommitDays <= 961.50
 |   |   |   |   |   |   |   |   |--- CommitDays <= 936.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 93.50
-|   |   |   |   |   |   |   |   |   |   |--- Housing <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 2
-|   |   |   |   |   |   |   |   |   |   |--- Housing >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Guardian >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  93.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 926.50
@@ -3024,9 +3024,9 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  936.00
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 951.50
-|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 24.50
+|   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  24.50
+|   |   |   |   |   |   |   |   |   |   |--- Educational/Vocational >  0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  951.50
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 955.50
@@ -3065,10 +3065,10 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  676.50
 |   |   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |   |   |   |   |--- Client >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
-|   |   |   |   |   |   |   |   |   |   |--- CurfewManagement >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- Dental <= 0.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Dental >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |   |   |--- CommitDays >  686.50
 |   |   |   |   |   |   |   |   |   |--- CommitDays <= 1053.00
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays <= 854.50
@@ -3337,7 +3337,7 @@
 |   |   |   |   |   |   |   |   |   |   |--- CommitDays >  1565.50
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |--- CONTACT_TYPE >  22.50
-|   |   |   |   |--- FamilyMember(s) <= 0.50
+|   |   |   |   |--- Family <= 0.50
 |   |   |   |   |   |--- CommitDays <= 1832.50
 |   |   |   |   |   |   |--- CommitDays <= 1126.50
 |   |   |   |   |   |   |   |--- CommitDays <= 933.00
@@ -3369,17 +3369,17 @@
 |   |   |   |   |   |   |   |   |   |--- CommitDays >  1347.00
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
 |   |   |   |   |   |   |   |   |--- CommitDays >  1367.00
-|   |   |   |   |   |   |   |   |   |--- CommitDays <= 1502.50
-|   |   |   |   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |   |   |   |--- CommitDays >  1502.50
+|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE <= 24.50
 |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- CONTACT_TYPE >  24.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
 |   |   |   |   |   |--- CommitDays >  1832.50
 |   |   |   |   |   |   |--- CommitDays <= 1972.50
 |   |   |   |   |   |   |   |--- class: 3
 |   |   |   |   |   |   |--- CommitDays >  1972.50
-|   |   |   |   |   |   |   |--- CommitDays <= 2129.50
+|   |   |   |   |   |   |   |--- TransportOnly <= 0.50
 |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |   |--- CommitDays >  2129.50
+|   |   |   |   |   |   |   |--- TransportOnly >  0.50
 |   |   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- FamilyMember(s) >  0.50
+|   |   |   |   |--- Family >  0.50
 |   |   |   |   |   |--- class: 0
