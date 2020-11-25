@@ -146,3 +146,16 @@ Things to learn from these implementations:
  - We can use these discoveries to improve our methodology.
 
 Note: We can still do more tweaks and refinements post deliverable 3, but the bulk of it should be done by deliverable 3.
+
+-------
+
+Meeting: 11/24
+
+Request from Liz to add city and state column to our results. (Can also add a zip codes column.)
+
+Look into distance metric and edit distance. (At least for our presentation if not also our report.) See paper:
+https://ieeexplore.ieee.org/abstract/document/5767865?casa_token=EhRW1wi8vOkAAAAA:74kwuyW3jMpt_OH49oBoe5Btm_nze8kGzlMjK0tO0rjJe_VkZx2ockN5KORtCSxqPJwDVuV_
+
+We can look at other score metrics for a verification. Then our tiers and match criteria can be based on a combination of the score metrics.
+
+Something to look at and report: what percentage of rubmaps data has a match (from Google Places, Yelp, and combined).
