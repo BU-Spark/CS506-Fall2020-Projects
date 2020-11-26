@@ -11,16 +11,16 @@ library(tidyverse)
 
 ## Cleaning Data
 ```{r clean_data}
-data <- read.csv(file = '../data/vaccinationrate_and_exemption.csv')
-spending_data_headers <- read.csv(file = '../data/healthExpendituresState.csv', skip = 1, nrows = 1, as.is = TRUE)
-spending_data = read.csv(file = '../data/healthExpendituresState.csv', skip = 3, nrows = 51, as.is = TRUE)
+data <- read.csv(file = '../../data/vaccinationrate_and_exemption.csv')
+spending_data_headers <- read.csv(file = '../../data/healthExpendituresState.csv', skip = 1, nrows = 1, as.is = TRUE)
+spending_data = read.csv(file = '../../data/healthExpendituresState.csv', skip = 3, nrows = 51, as.is = TRUE)
 colnames(spending_data) = spending_data_headers
 spending_data$`Total Health Spending` = gsub("\\$", "", spending_data$`Total Health Spending`)
 spending_data$`Total Health Spending` = as.numeric(gsub("\\,", "", spending_data$`Total Health Spending`))
 spending_data <- spending_data %>% rename(
                     States = Location
 )
-population_data <- read.csv(file = '../data/population_by_state.csv')
+population_data <- read.csv(file = '../../data/population_by_state.csv')
 population_data <- population_data[order(population_data$States),]
 population_data$Population = as.numeric(gsub("\\,", "", population_data$Population))
 all_data <- merge(data, spending_data, by="States")

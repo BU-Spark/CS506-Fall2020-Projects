@@ -7,8 +7,6 @@ There are 50 states plus the District of Columbia (DC), which totals to 51 obser
 we're looking at state data, we found data and created this final dataset by merging the 
 observations with the state name.
 
-VaxRate (2017):
-
 - This label represents the percentage of each state's population that has received the MMR
 vaccine (measles, mumps, and rubella). The MMR vaccine is one of the most commonly 
 recommended vaccines for individuals and is typically taken at a young age in two doses.
@@ -55,6 +53,10 @@ additional insight into trends over the years.
 2016
 
 - Vaccination rates by state for 2016.
+
+2017
+
+- Vaccination rates by state for 2017.
 
 Exemption:
 
