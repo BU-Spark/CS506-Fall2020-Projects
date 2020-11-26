@@ -2,7 +2,7 @@
 title: "analyze_data"
 output: pdf_document
 ---
-
+Setup and import data. Rename columns cause read.csv renames any numerical columns.
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(olsrr)
@@ -25,14 +25,16 @@ data = data %>%
 )
 ```
 
+Select only columns with vaccination rate data (2007-2017) and use regression to find the rate of change from year to year.
+Then plot the rate of change and do a regression on the rate of change against spending per capita, population density, etc. to see if any of these factors has any correlation with rate of change of vaccination rate.
 ```{r plot1}
 data2 <- data %>% select(States, `2007`, `2008`, `2009`, `2010`, `2011`, `2012`, `2013`, `2014`, `2015`, `2016`, `2017`) %>% melt()
 data2$variable <- as.numeric(data2$variable)
 data2 <- data2 %>% mutate(Year = variable + 2006) %>% select(States, Year, value)
 
-data3 <- data2 %>% filter(States == "Michigan")
+#data3 <- data2 %>% filter(States == "Michigan")
 #data2
-ggplot(data=data3, aes(x = Year, y = value)) + geom_point() + geom_smooth(method= "lm", se=F)
+#ggplot(data=data3, aes(x = Year, y = value)) + geom_point() + geom_smooth(method= "lm", se=F)
 #data2
 
 models = data2 %>% group_by(States) %>% do(model = lm(value ~ Year, data = .))
@@ -51,9 +53,9 @@ summary(coeffModel)
 ols_coll_diag(coeffModel)
 ```
 
-
+Regress vaccination rate against many factors. Prints out summary and Tolerance/VIF to verify.
 ```{r regression against vaccination rate}
-model3 <- lm(`2011` ~ spending_per_capita + population_density + Median_income + HighSchool_Plus + Bachelors_Plus + spending_per_pupil + Exemption, data=data)
+model3 <- lm(`2017` ~ spending_per_capita + population_density + Median_income + HighSchool_Plus + Bachelors_Plus + spending_per_pupil + Exemption, data=data)
 
 summary(model3)
 ols_coll_diag(model3)
@@ -61,16 +63,10 @@ ols_coll_diag(model3)
 
 ```
 
+Regresses vaccination rate against only spending per capita and % of population with a bachelors' degree.
 ```{r regression2}
-model2 <- lm(`2011` ~ spending_per_capita + HighSchool_Plus + Exemption, data=data)
+model2 <- lm(`2017` ~ spending_per_capita + Bachelors_plus, data=data)
 summary(model2)
 ols_coll_diag(model2)
 #pairs(data %>% select(spending_per_capita, population_density, Median_income, HighSchool_Plus, Bachelors_Plus, spending_per_pupil))
 ```
-
-```{r logistic regression}
-glm.fit <- glm(`2011` ~ Exemption, data=data)
-summary(glm.fit)
-
-```
-
