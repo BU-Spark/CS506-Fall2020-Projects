@@ -1,0 +1,76 @@
+---
+title: "analyze_data"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(olsrr)
+library(reshape2)
+library(broom)
+data <- read.csv(file = "../../data/full_data.csv")
+data = data %>% 
+                  rename(
+                    `2007` = X2007,  
+                    `2008` = X2008,
+                    `2009` = X2009,
+                    `2010` = X2010,
+                    `2011` = X2011,
+                    `2012` = X2012,
+                    `2013` = X2013,
+                    `2014` = X2014,
+                    `2015` = X2015,
+                    `2016` = X2016,
+                    `2017` = X2017
+)
+```
+
+```{r plot1}
+data2 <- data %>% select(States, `2007`, `2008`, `2009`, `2010`, `2011`, `2012`, `2013`, `2014`, `2015`, `2016`, `2017`) %>% melt()
+data2$variable <- as.numeric(data2$variable)
+data2 <- data2 %>% mutate(Year = variable + 2006) %>% select(States, Year, value)
+
+data3 <- data2 %>% filter(States == "Michigan")
+#data2
+ggplot(data=data3, aes(x = Year, y = value)) + geom_point() + geom_smooth(method= "lm", se=F)
+#data2
+
+models = data2 %>% group_by(States) %>% do(model = lm(value ~ Year, data = .))
+trend <- models %>% tidy(model) %>% select(States, term, estimate, p.value) %>% pivot_wider(names_from = term, values_from = c(estimate, p.value)) %>% rename(Intercept = `estimate_(Intercept)`,
+                     Year_coefficient = `estimate_Year`,
+                     p.value_Intercept = `p.value_(Intercept)`) %>% arrange(Year_coefficient)
+trend
+
+ggplot(data=trend, aes(x=reorder(States, Year_coefficient), y=Year_coefficient)) + geom_point() + theme(axis.text.x = element_text(angle=45, hjust=1)) + xlab("State") + ylab("Change in vaccination rate (%)") + ggtitle("Plot of States' change in vaccination rate")
+
+#ggsave(file="../figures/test.png", width=8, height=4, dpi=500)
+
+all_data <- merge(data, trend, by="States")
+coeffModel <- lm(Year_coefficient~spending_per_capita + population_density + Median_income + HighSchool_Plus + Bachelors_Plus + spending_per_pupil + Exemption, data=all_data)
+summary(coeffModel)
+ols_coll_diag(coeffModel)
+```
+
+
+```{r regression against vaccination rate}
+model3 <- lm(`2011` ~ spending_per_capita + population_density + Median_income + HighSchool_Plus + Bachelors_Plus + spending_per_pupil + Exemption, data=data)
+
+summary(model3)
+ols_coll_diag(model3)
+
+
+```
+
+```{r regression2}
+model2 <- lm(`2011` ~ spending_per_capita + HighSchool_Plus + Exemption, data=data)
+summary(model2)
+ols_coll_diag(model2)
+#pairs(data %>% select(spending_per_capita, population_density, Median_income, HighSchool_Plus, Bachelors_Plus, spending_per_pupil))
+```
+
+```{r logistic regression}
+glm.fit <- glm(`2011` ~ Exemption, data=data)
+summary(glm.fit)
+
+```
+
