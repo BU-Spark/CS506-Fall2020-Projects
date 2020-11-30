@@ -1,0 +1,27 @@
+@misc{guggenheimABS}, url={https://www.guggenheiminvestments.com/perspectives/portfolio-strategy/asset-backed-securities-abs#:~:text=Consumer ABS is backed by,aircraft, and other commercial equipment.}, journal={Asset-backed securities (ABS) | Guggenheim Investments}}
+
+@article{shah_isah_zulkernine_2018, title={Predicting the Effects of News Sentiments on the Stock Market}, DOI={10.1109/bigdata.2018.8621884}, journal={2018 IEEE International Conference on Big Data (Big Data)}, author={Shah, Dev and Isah, Haruna and Zulkernine, Farhana}, year={2018}}
+
+@article{gu_kelly_xiu_2019_2, title={Empirical Asset Pricing via Machine Learning}, DOI={10.3386/w25398}, journal={SSRN Electronic Journal}, author={Gu, Shihao and Kelly, Bryan and Xiu, Dacheng}, year={2019}, month={Sep}}
+
+@article{reimers_gurev,
+  author    = {Nils Reimers and
+               Iryna Gurevych},
+  title     = {Reporting Score Distributions Makes a Difference: Performance Study
+               of LSTM-networks for Sequence Tagging},
+  journal   = {CoRR},
+  volume    = {abs/1707.09861},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1707.09861},
+  archivePrefix = {arXiv},
+  eprint    = {1707.09861},
+  timestamp = {Mon, 13 Aug 2018 16:47:50 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/ReimersG17a.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{medhat, title={Sentiment analysis algorithms and applications: A survey}, volume={5}, DOI={10.1016/j.asej.2014.04.011}, number={4}, journal={Ain Shams Engineering Journal}, author={Medhat, Walaa and Hassan, Ahmed and Korashy, Hoda}, year={2014}, pages={1093–1113}}
+
+@article{abirami, title={A survey on sentiment analysis methods and approach}, DOI={10.1109/icoac.2017.7951748}, journal={2016 Eighth International Conference on Advanced Computing (ICoAC)}, author={Abirami, A. M. and Gayathri, V.}, year={2017}}
+
+@article{xie_svm, title={Stock Market Forecasting Based on Text Mining Technology: A Support Vector Machine Method}, DOI={10.17706/jcp.12.6.500-510}, journal={Journal of Computers}, author={Xie, Yancong}, year={2017}, pages={500–510}}
