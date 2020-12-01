@@ -4,7 +4,7 @@ Project Description: [see here](https://github.com/ec506-Spark-Team/Fetch-Data-a
 
 # Past Stage: Deliverable 3
 
-[Summary]()
+[Summary](https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/deliverable_3.pdf)
 
 # Past Stage: Deliverable 1
 ## Main Progress in Deliverable 1 stage:
