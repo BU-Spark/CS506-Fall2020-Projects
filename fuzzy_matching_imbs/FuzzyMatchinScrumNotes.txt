@@ -1,0 +1,126 @@
+This text file contains notes from our weekly meetings.
+All weekly meetings have, as attendees, some subset of:
+Liz and Danielle, Rajat and Savannah, and Suzy, Haoran, Yang, and Chengyang.
+
+-------
+
+Meeting: 10/6
+Datasets: 
+ - Google Places: all massage businesses (already collected, approx 500k rows)
+ - Rubmaps.ch: illicit massage businesses (already collected, approx 30k rows)
+ - Yelp: massage businesses (still to be scraped, use API)
+
+We want to fuzzy match between Rubmaps and Google Places.
+The phone numbers should be an exact match.
+Names and addresses will be fuzzier, based on formatting and level of detail.
+Address is a high priority match. It takes precedence over other matches, as you cannot fake your address.
+
+Outputs: 
+ - matching criterion: want a confidence breakdown for each (phone, address, and name), and what confidence score qualifies as a match.
+ - dynamic scalable script: want a script that can be applied to any dataset. 
+ - ideally, all Rubmaps businesses will be matched to the Google Places set.
+
+Miscellaneous:
+ - phone numbers can be tied to more than one business
+ - can have two locations with the same address (if they have different suite numbers)
+ - names can have duplicates all over the country.
+ - want to err on the side of caution for our matching criteria.
+
+
+-------
+
+Meeting: 10/7 (team only)
+Create own private project repo for our code.
+Each of us will have ownership and can do our own work on our own branch.
+See deliverable 0 for sprint breakdown and goals, etc.
+
+-------
+
+Meeting: 10/13
+Next step: gather and collect Yelp data
+ - use API
+ - look for email from Liz with details
+
+When standardizing phone numbers, keep the country code.
+When working with Google Places data, keep the ID.
+When working with Rubmaps data, keep the location hash.
+
+We don't necessarily need a map visual. The primary goal for our project is the scalable script that they can apply to any dataset.
+
+Task: work some with the Yelp API for next time. Get familiar with it.
+
+
+-------
+
+Meeting: 10/20
+Task: use API to gather Yelp data for at least Missouri and Massachusetts.
+
+Found a script sample.py that can be modified and used for our purposes.
+Everyone can get a set of zip codes; we shouldn't have to worry about the daily limit.
+We will need to figure out what to do with the missing entries.
+Don't worry about the format for the scraping. Just get the data for now.
+Try for having the data by the end of the week.
+
+
+-------
+
+Meeting: 10/23 (team only)
+Yang shared her work with the API. It has been posted to our private repo.
+The code saves the data into a json file, which can easily be converted to csv.
+Start with just MO and MA.
+Cleaning: merge the separate csv files, remove duplicates, and standardize phone numbers.
+
+
+-------
+
+Meeting: 10/27
+
+We have gathered data from MA, MO, and RI. (Script on our private repo.)
+
+Data cleaning:
+ - E164 format for phone numbers.
+ - Missing entries:
+    - phone: NaN / null
+    - address: drop from df [A question: if the address is missing, can you still get a match?]
+
+There is not much in the way of intermediate steps.
+We can, however, try matching phone numbers for one state: Rubmaps <-> Google Places
+
+Liz will be adding data files (to our Google Drive) with a state column so we can filter the other datasets by state.
+
+Looking ahead:
+ - address matching:
+    - many ways to do this.
+    - can split into first and second line
+    - can match coordinates first
+    - the suite number will be the hardest to deal with. Not all data points have a suite number (even if they 'technically' should). Also, (as previously stated) you can have more than one business with the same address up to (but not including) suite number.
+ - can look at accuracy with Yelp vs. with Google Places vs. with both
+ - can look into spaCy rule matchers and NER matchers. (We don't have to reinvent the wheel for this one.)
+
+-------
+
+Meeting: 11/3
+
+Next up: address matching
+ - start with state
+ - then zip/city
+ - then street
+
+Have preliminary results for next week.
+
+-------
+
+Meeting: 11/10
+
+Need to split addresses still. Then we can use spaCy for matching.
+(Also need to phone number and name match.)
+
+For spaCy, jupyter is easier than scripts, but either is fine.
+(And either is fine for end of project submission.)
+
+Presentation: Give what we've done and preview what's ahead:
+Similar to deliverable 1.
+
+For next week:
+ - Research spaCy
+ - Figure out what to use and start building a script
