@@ -80,6 +80,6 @@ Creat a database of resturants from various sources to understand how these busi
   <img src="https://github.com/kentpei/CS506-Fall2020-Projects/blob/master/covid_food_business_team2/data_Visualization/data_visua_demo/postal_freq_month.png"  width="75%" height="75%">
   <img src="https://github.com/kentpei/CS506-Fall2020-Projects/blob/master/covid_food_business_team2/data_Visualization/data_visua_demo/postal_freq_week.png"  width="75%" height="75%">
   Further more, we plot the heapmap of the traffic for differnet zone of Boston and the correlation with covid-19 in MA and US. 
-  <img src="https://github.com/kentpei/CS506-Fall2020-Projects/blob/master/covid_food_business_team2/data_Visualization/data_visua_demo/heatmap_postalcode.png"  width="50%" height="50%">
+  <img src="https://github.com/kentpei/CS506-Fall2020-Projects/blob/master/covid_food_business_team2/data_Visualization/data_visua_demo/heatmap_postalcode.png"  width="75%" height="50%">
   <img src="https://github.com/kentpei/CS506-Fall2020-Projects/blob/master/covid_food_business_team2/data_Visualization/data_visua_demo/corona_case.png"  width="75%" height="75%">
   All the code are in "postalcode (1).ipynb" in Data Visualiazation folder, but we can not run the code in github directly for the further analysis I mention above, then I show those results as a picture form in "data_visua_demo" folder with explanation.
