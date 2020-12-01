@@ -1,0 +1,2 @@
+The field_incident_reports dataset is stored as a python pickle (.pkl) file -- I couldn't use a CSV because that wouldn't have properly stored the Point objects that you need for each incident in order to plot them on a map. So, you'll have to load it in with the read_pickle function from pandas.
+-Alex
