@@ -1,0 +1,11 @@
+- What have I worked on? - 
+Data has been scraped.
+
+- What will I be working on next? -
+Finalizing categorization of the files.
+
+- Have I run into any issues? Do I need help? - 
+To optimize the analysis of the data, might need to change the type of file from txt to csv.
+
+- Have I talked to the client recently? When are we meeting with them next? -
+We met with the PM today. We'll talk with the client next Friday. 
