@@ -56,3 +56,17 @@ Creat a database of resturants from various sources to understand how these busi
     Based on the current datasets and analysis we can do, the above question can not be answered.<br>
     For the next sprint of the project,we will merge the data we collected and combined with the safegraph data using aws<br>
     At that time, we can do the further and deeper analysis, at least 3 questions will be answered.
+
+## Project Deliverable 2
+- All project questions should have been reviewed, answered, and submitted in a written document outlining findings as a PR. 
+- You will also be asked to submit the associated data and a README explaining what each label/feature in your dataset represents.
+- Your team should meet with the client before this deliverable.
+  ### Question
+  For the restaurants part like the number of closed restaurants or open resturants, we'd like to answer them after a fully analysis considering our analysis are inaccuarte enough at this moment. We have met the name problem because different datasets use different name for the same restruant which cause lots of repeated calculation.
+
+  By analysing the data of popularity during last 7 months, we found that the populartiy Bosotn area is related to the reopening policies of the MA and Boston government.
+
+  ### Data
+  For the popularity of the resturants we still have trouble because of the differences between datasets. For the same restruant, the same resturant may have different name in diffferent datasets, so in our primary process, lots of resturants are recalculated, so we anlysis the polpularity based on post code which may partly reflects the impact on restruants in a specific neighborhood.
+
+  The data was saved as json file, and the formant is postcode:{popularity}, the data was collected from Feb 2020 to Nov 2020.
