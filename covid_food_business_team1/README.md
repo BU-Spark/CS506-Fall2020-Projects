@@ -2,7 +2,11 @@
 
 Project Description: [see here](https://github.com/ec506-Spark-Team/Fetch-Data-and-Code/blob/main/spark-project-summary.md#goal)
 
-# Current Stage: Deliverable 1
+# Past Stage: Deliverable 3
+
+[Summary]()
+
+# Past Stage: Deliverable 1
 ## Main Progress in Deliverable 1 stage:
 
 - [x] Specific APIs selected and tested into useful and not useful for data gathering.
