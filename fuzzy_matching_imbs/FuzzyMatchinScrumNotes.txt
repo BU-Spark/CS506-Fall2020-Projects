@@ -124,3 +124,38 @@ Similar to deliverable 1.
 For next week:
  - Research spaCy
  - Figure out what to use and start building a script
+
+-------
+
+Meeting: 11/17
+
+Report: 
+ - Mostly research and theorizing on technique done, not much solidified in code yet
+ - We as a team will be meeting tomorrow night (Wed 11/18) [to accommodate time zones]
+
+General comments on timeline:
+ - Deliverable 2 is due 11/23
+ - Deliverable 3 is due 11/30
+ - Deliverable 3 needs to be reviewed by Liz and Danielle (who don't work on 11/26-27). We will get that to them by the end of the weekend (by end of 11/29), so that they can review it on Monday.
+
+Libraries to Try: (before next meeting)
+ - fuzzywuzzy library for string matching
+ - phrase matcher (spaCy)
+Things to learn from these implementations:
+ - Where do these go wrong? (assuming they do)
+ - We can use these discoveries to improve our methodology.
+
+Note: We can still do more tweaks and refinements post deliverable 3, but the bulk of it should be done by deliverable 3.
+
+-------
+
+Meeting: 11/24
+
+Request from Liz to add city and state column to our results. (Can also add a zip codes column.)
+
+Look into distance metric and edit distance. (At least for our presentation if not also our report.) See paper:
+https://ieeexplore.ieee.org/abstract/document/5767865?casa_token=EhRW1wi8vOkAAAAA:74kwuyW3jMpt_OH49oBoe5Btm_nze8kGzlMjK0tO0rjJe_VkZx2ockN5KORtCSxqPJwDVuV_
+
+We can look at other score metrics for a verification. Then our tiers and match criteria can be based on a combination of the score metrics.
+
+Something to look at and report: what percentage of rubmaps data has a match (from Google Places, Yelp, and combined).
