@@ -1,0 +1,11 @@
+- What have I worked on? - 
+We converted the scraped data into csv files for easier manipulation. Some preliminary analysis were done, and we found 165 appeals and 23 motions/applications. Among those cases, there are 147 cases dismissed, 2 cases granted, and 0 cases decided. 
+
+- What will I be working on next? -
+We will analyze one category of the data, appeals or motions, and find if there are relationships among the characteristics that have been extracted from the data.
+
+- Have I run into any issues? Do I need help? - 
+Since the amount of data is small, we might get more data from the client later on. We will start the analysis to be ready to process said data and present early insights on the data we already have. 
+
+- Have I talked to the client recently? When are we meeting with them next? -
+We met with the PM today. Meeting with the client to present early insights will be next Friday 11/6/2020.

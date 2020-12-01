@@ -1,0 +1,119 @@
+code,description
+AA,Accountants
+AD,Advertising/Audovisual Graphic Design/Marketing Public Relations
+AL,Apparel
+AE,Architects/Engineers
+AS,Architectural Support Services
+AB,Aspestos Control
+AT,Attorneys
+AU,"Automobile (Sales, Services, Leasing, Rental)"
+BA,Banking/Financial Services
+BU,Business Management Consultants
+CB,Cable TV Services
+CA,Carpentry
+CT,Catering
+CC,Childcare
+CL,"Commercial Dry Cleaning, Laundry"
+CP,"Computer (Hardware, Software, Design, Data Processing (see also COS, COT)"
+CS,"Concession Stands (Food, Newspa[er, Cigarettes, etc.)"
+CM,Concrete & Masonry Contractors
+CE,Construction Estimating
+CN,Construction Management: Small Commercial Projects
+COA,"Consultants: Architecture, Engineering"
+COB,Consultants: City Planning
+CODe,Consultants: Design
+COE,Consultants: Editorial
+COG,Consultants: Human Resources
+COH,Consultants: Health
+COI,Consultants: Insurance & Financial
+COM,Consultants: Management
+CON,Consultants: Environmental
+COH,Consultants: Psychologial
+COR,Consultants: Relocation
+COP,Consultants: Public Relations
+COS,Consultants: Systems Analysis
+COT,Consultants: Telecommunications
+COU,Consultants: Transportation
+COV,Consultants: Translation
+CR,Corrugated Packaging
+CU,Cultural Organizations
+DI,Direct Mail Services
+DU,"Draperies, Upholstery (Custom)"
+EC,Economic Development
+ED,"Education (see also OS, TA)"
+EG,Civil/Structural Engineering
+EL,Electrical Contractors
+EO,"Electronic Parts (Mgfs., Distrib., Assembly Service)"
+ES,Elderly Services
+EM,"Employement (see also OS, TR)"
+ET,Entertainment/Entertainer
+EN,"Environmental Consultants ( Planning, Soil Boring, Hazardous Waste Treatment, etc.)"
+EP,Equiment Rental (Heavy Construction)
+ER,"Exterior Restoration, Sandblasting (Anti-Graffiti)"
+EV,Elevator Contractors
+FB,"Fabricators (Metals, Plastics)"
+FG,"Fencing, Guardrail Contractors"
+FI,Financial Services (see also BA and COI)
+FD,"Food Products, Services"
+FC,"Foster Care, Placement"
+FL,"Floor Contractors (Carpet, Tile, Linoleum)"
+FO,"Floral (Arrangement, Maintenance)"
+FU,Funieral Homes
+FR,"Furniture (Repair, Refinishing, Sales) see also OF"
+GC,General Contractors
+GG,Glass/Glazing Contractors
+HM,Hotels/Motels
+HW,Hazardous Waste Management (see also EN and CON)
+AHS,"Health Care (Providers, Services)"
+HO,Housing Advocacy
+IN,Insurance Agencies (see also COI)
+IT,Interior Deisgn Services
+JA,"Janitorial Services/Supplies (see also MA, RS)"
+LA,Landscaping Contractors
+LD,"Landscaping (Design, Architects)"
+LK,Locksmiths
+MS,Machine Shops
+MA,"Maintenance (Industrial, Commericial, Residential, see also JA, RS)"
+MU,Manufacturers
+MR,"Marine Contractors: Diving Services, Underwater Repair/Welding"
+MT,Marine Transportation
+MK,Marketing
+ME,"Mechanical Contractors (HVAC, Plumbing, Insulation, Service, see also GC, PB)"
+MO,Multi Service Organizations
+OF,"Office Furniture, Services and Equipment"
+OS,"Office Services (Clerical Support, Employment, Court Reporting, Typing, etc., see also EM)"
+PA,Painting and Papering Contractors
+PK,"Parking Lot (Mgmt., Maintenance)"
+PV,Paving Contractors
+PE,Pest Control
+PP,Petroleum Products (Sales/Service)
+PG,Photography
+PL,"Plastering, Drywall Contractors"
+PB,Plumbing
+PT,Printers
+PC,"Protective Coverings (Water and Fireproofing, Special Coverings/Coatings)"
+PU,Publishers
+RE,"Real Estate (Development, Management, Sales and Appraisals)"
+RC,Recreational
+RS,Residential Services
+GM,Retail Sales of Art & Framing
+LC,Small Commercial Lanscaping and Maintenance
+RT,Retail Sales of Art & Framing
+RO,"Road, Railroad, Highway, Bridge Contractors (see also PV)"
+RF,"Roofing, Sheet Metal Contractors"
+SA,Safety Products
+SE,"Security (Guards, Dogs, Systems)"
+SH,Shelter
+SI,"Sitework (Excavation, Demolition, Utilities, Sewage, see also GC)"
+SN,Snow Removal/Plowing (see also TK)
+ST,"Steel Contractos (Reinforcing, Erecting, see also FB, GC)"
+SU,Suppliers
+AS,Surveying
+TV,Television/Production
+TA,Training (see also ED)
+TR,"Travel, Transportation (Travel Agencies, Planning, Limo Services)"
+TK,Trucking (Waste Disposal Commodities Transport)
+UI,Underwater Inspection Contractors
+VT,Veterans Services
+WE,Welding (see also FB)
+YO,Youthful Offender Advocacy
