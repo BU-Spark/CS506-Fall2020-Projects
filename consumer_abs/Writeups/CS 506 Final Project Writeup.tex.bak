@@ -83,7 +83,7 @@
 \section*{Introduction}
 Asset Backed Securities (ABS) are a class of financial structured product that pool together cash flow generating assets and payout that cash to the securities' holders. Consumer ABS are a category of ABS where the underlying asset pools come from credit card loans, student loans, auto loans, or specific merchant loans like Affirm or Afterpay. 
 
-What makes Consumer ABS specifically interesting is how underdeveloped the market is, even relative to the rest of the ABS market or rest of the structured product market. Of the \$9.2 trillion strucutured products market, non-mortgage ABS comprised \$1.3 trillion, with consumer ABS making up about \$500 billion of this \ref{guggenheimABS}. 
+What makes Consumer ABS specifically interesting is how underdeveloped the market is, even relative to the rest of the ABS market or rest of the structured product market. Of the \$9.2 trillion strucutured products market, non-mortgage ABS comprised \$1.3 trillion, with consumer ABS making up about \$500 billion of this \citation{guggenheimABS}. 
 
 \begin{figure}[h]
 \includegraphics[scale=0.3]{meanIssuanceByYear}
