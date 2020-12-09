@@ -181,3 +181,17 @@ Clarification on 5: the states can be in separate sheets. (Please send both full
 (My clarification for #3 given in the meeting was that we could lower the threshold, but that doesn't mean we'll get more true matches. I explained that we set the criteria based on what actually were matches and the scores they had.)
 
 Regarding the presentation, be sure to discuss the context.
+
+-------
+
+Meeting: 12/8
+
+In regards to consolidating into one script, at the very least, consolidate standardization scripts.
+
+Both python script and Jupyter notebook are okay formats.
+
+At least run matching script on all 50 states. If we have time to consolidate all 50 state files, great. But only if time.
+
+Remember to send all files and final report to Liz and Danielle.
+
+Last meeting on 12/15.
