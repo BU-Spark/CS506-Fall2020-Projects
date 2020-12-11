@@ -22,4 +22,4 @@ script to create the model with the trained weights and classifies images into t
 
   2. Put a folder of all the images into this 'predict' folder, so the 'predict' folder will contain a folder of images.
 
-  3. Run the pklotClassifier.py and it will create a 'P' and a 'NP' folder, which contains corresponding images. Basically the python file will move the images from the predict directory into their classified folder.
+  3. Run the pklotClassifier.py and it will create a 'P' and a 'NP' folder, which contains corresponding images. Basically the script will move the images from the predict directory into their classified folder.
