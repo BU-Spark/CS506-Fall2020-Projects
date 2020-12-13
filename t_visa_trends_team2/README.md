@@ -26,7 +26,7 @@ Package Usage:
   6. Data visualization libraries such as Matplotlib were used to present the results of the analysis. 
 
 Analysis Methods(High Level):
-  1. Divide all *non-precedent* Motion decisions, by year, and then by appeals and motions to reopen and reconsider. These will not include derivative applications.
+  1. Divide all *non-precedent* Motion decisions by year. These will not include derivative applications.
   2. Categorize the decisions into *dismissals* and *granted* requests. 
   3. Analyze prevalence of keywords/phrases specified in the decisions of the applications to find patterns.  
   
