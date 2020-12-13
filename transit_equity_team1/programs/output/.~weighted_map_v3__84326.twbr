@@ -25,8 +25,8 @@
           <named-connection caption='HOUSE2012_POLY' name='ogrdirect.0gai0ry1fahce8129p7hz07xfgks'>
             <connection class='ogrdirect' directory='Data/data/house2012' filename='HOUSE2012_POLY.shp' ogr-grid-shift-folder='/Applications/Tableau Desktop 2020.3.app/Contents/install/local/proj4' server='' tablename='' workgroup-auth-mode='as-is' />
           </named-connection>
-          <named-connection caption='stops' name='ogrdirect.11kzjru0nsw7wq19cy7cd15t5hz8'>
-            <connection class='ogrdirect' directory='Data/output' filename='stops.shp' ogr-grid-shift-folder='/Applications/Tableau Desktop 2020.3.app/Contents/install/local/proj4' password='' server='' tablename='' />
+          <named-connection caption='stops' name='ogrdirect.0sj7mm00jj321s1cyovt3018t2a3'>
+            <connection class='ogrdirect' directory='Data/output/stops' filename='stops.shp' ogr-grid-shift-folder='/Applications/Tableau Desktop 2020.3.app/Contents/install/local/proj4' password='' server='' tablename='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='full' type='join'>
@@ -36,7 +36,7 @@
               <expression op='[HOUSE2012_POLY.shp].[Geometry]' />
             </expression>
           </clause>
-          <relation connection='ogrdirect.11kzjru0nsw7wq19cy7cd15t5hz8' name='stops.shp' table='[stops.shp]' type='table' />
+          <relation connection='ogrdirect.0sj7mm00jj321s1cyovt3018t2a3' name='stops.shp' table='[stops.shp]' type='table' />
           <relation connection='ogrdirect.0gai0ry1fahce8129p7hz07xfgks' name='HOUSE2012_POLY.shp' table='[HOUSE2012_POLY.shp]' type='table' />
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='full' type='join'>
@@ -46,7 +46,7 @@
               <expression op='[HOUSE2012_POLY.shp].[Geometry]' />
             </expression>
           </clause>
-          <relation connection='ogrdirect.11kzjru0nsw7wq19cy7cd15t5hz8' name='stops.shp' table='[stops.shp]' type='table' />
+          <relation connection='ogrdirect.0sj7mm00jj321s1cyovt3018t2a3' name='stops.shp' table='[stops.shp]' type='table' />
           <relation connection='ogrdirect.0gai0ry1fahce8129p7hz07xfgks' name='HOUSE2012_POLY.shp' table='[HOUSE2012_POLY.shp]' type='table' />
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <cols>
@@ -84,7 +84,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>TOWN</remote-name>
@@ -97,7 +97,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>STOP_NAME</remote-name>
@@ -110,7 +110,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>impacted_g</remote-name>
@@ -123,7 +123,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>proportion</remote-name>
@@ -136,7 +136,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>proporti_1</remote-name>
@@ -149,7 +149,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>income</remote-name>
@@ -161,7 +161,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>income_lev</remote-name>
@@ -173,7 +173,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>impacted_p</remote-name>
@@ -185,7 +185,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>route_ids</remote-name>
@@ -198,7 +198,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geometry</remote-name>
@@ -210,7 +210,7 @@
             <local-type>spatial</local-type>
             <aggregation>Collect</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>DIST_CODE</remote-name>
@@ -223,7 +223,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REPDISTNUM</remote-name>
@@ -235,7 +235,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_DIST</remote-name>
@@ -248,7 +248,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_FIRST</remote-name>
@@ -261,7 +261,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_LAST</remote-name>
@@ -274,7 +274,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_PARTY</remote-name>
@@ -287,7 +287,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP</remote-name>
@@ -300,7 +300,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>URL</remote-name>
@@ -313,7 +313,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>SHAPE_AREA</remote-name>
@@ -325,7 +325,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>SHAPE_LEN</remote-name>
@@ -337,7 +337,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geometry</remote-name>
@@ -349,7 +349,7 @@
             <local-type>spatial</local-type>
             <aggregation>Collect</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_58A0901316254E30887CDECD4B4429B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -370,7 +370,7 @@
       <column caption='Stop Id' datatype='integer' name='[STOP_ID]' role='dimension' type='ordinal' />
       <column caption='Stop Name' datatype='string' name='[STOP_NAME]' role='dimension' type='nominal' />
       <column caption='Town' datatype='string' name='[TOWN]' role='dimension' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='stops.shp' datatype='table' name='[__tableau_internal_object_id__].[stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='stops.shp' datatype='table' name='[__tableau_internal_object_id__].[stops.shp_58A0901316254E30887CDECD4B4429B0]' role='measure' type='quantitative' />
       <column caption='Impacted G' datatype='string' name='[impacted_g]' role='dimension' type='nominal' />
       <column caption='Impacted P' datatype='integer' name='[impacted_p]' role='measure' type='quantitative' />
       <column caption='Income' datatype='integer' name='[income]' role='measure' type='quantitative' />
@@ -925,12 +925,7 @@
       </field-sort-info>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='stops.shp' id='stops.shp_B9C3847096BB4C5BA5F6C3DF2317D4E4'>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-          <object caption='stops.shp' id='stops.shp_C023D9B0A3B94031A4D1F1AA38DDCFDB'>
+          <object caption='stops.shp' id='stops.shp_58A0901316254E30887CDECD4B4429B0'>
             <properties context=''>
               <relation join='full' type='join'>
                 <clause type='join'>
@@ -939,9 +934,14 @@
                     <expression op='[HOUSE2012_POLY.shp].[Geometry]' />
                   </expression>
                 </clause>
-                <relation connection='ogrdirect.11kzjru0nsw7wq19cy7cd15t5hz8' name='stops.shp' table='[stops.shp]' type='table' />
+                <relation connection='ogrdirect.0sj7mm00jj321s1cyovt3018t2a3' name='stops.shp' table='[stops.shp]' type='table' />
                 <relation connection='ogrdirect.0gai0ry1fahce8129p7hz07xfgks' name='HOUSE2012_POLY.shp' table='[HOUSE2012_POLY.shp]' type='table' />
               </relation>
+            </properties>
+          </object>
+          <object caption='stops.shp' id='stops.shp_B9C3847096BB4C5BA5F6C3DF2317D4E4'>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
             </properties>
           </object>
         </objects>
@@ -956,8 +956,8 @@
           <named-connection caption='HOUSE2012_POLY' name='ogrdirect.0nzcuw718vsyc015cz6tx0if2gp3'>
             <connection class='ogrdirect' directory='Data/data/house2012' filename='HOUSE2012_POLY.shp' ogr-grid-shift-folder='/Applications/Tableau Desktop 2020.3.app/Contents/install/local/proj4' server='' tablename='' workgroup-auth-mode='as-is' />
           </named-connection>
-          <named-connection caption='stops' name='ogrdirect.1ywddn21ayrbqj102sag01ml7ler'>
-            <connection class='ogrdirect' directory='Data/output' filename='stops.shp' ogr-grid-shift-folder='/Applications/Tableau Desktop 2020.3.app/Contents/install/local/proj4' password='' server='' tablename='' />
+          <named-connection caption='stops' name='ogrdirect.0cgisa312515lb1bjo43g1465wfg'>
+            <connection class='ogrdirect' directory='Data/output/stops' filename='stops.shp' ogr-grid-shift-folder='/Applications/Tableau Desktop 2020.3.app/Contents/install/local/proj4' password='' server='' tablename='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='full' type='join'>
@@ -967,14 +967,14 @@
               <expression op='[MBTABUSROUTES_ARC.shp].[Geometry]' />
             </expression>
           </clause>
-          <relation join='inner' type='join'>
+          <relation join='full' type='join'>
             <clause type='join'>
               <expression op='Intersects'>
                 <expression op='[stops.shp].[Geometry]' />
                 <expression op='[HOUSE2012_POLY.shp].[Geometry]' />
               </expression>
             </clause>
-            <relation connection='ogrdirect.1ywddn21ayrbqj102sag01ml7ler' name='stops.shp' table='[stops.shp]' type='table'>
+            <relation connection='ogrdirect.0cgisa312515lb1bjo43g1465wfg' name='stops.shp' table='[stops.shp]' type='table'>
               <columns>
                 <column datatype='integer' name='STOP_ID' ordinal='0' />
                 <column datatype='string' name='TOWN' ordinal='1' />
@@ -1029,14 +1029,14 @@
               <expression op='[MBTABUSROUTES_ARC.shp].[Geometry]' />
             </expression>
           </clause>
-          <relation join='inner' type='join'>
+          <relation join='full' type='join'>
             <clause type='join'>
               <expression op='Intersects'>
                 <expression op='[stops.shp].[Geometry]' />
                 <expression op='[HOUSE2012_POLY.shp].[Geometry]' />
               </expression>
             </clause>
-            <relation connection='ogrdirect.1ywddn21ayrbqj102sag01ml7ler' name='stops.shp' table='[stops.shp]' type='table'>
+            <relation connection='ogrdirect.0cgisa312515lb1bjo43g1465wfg' name='stops.shp' table='[stops.shp]' type='table'>
               <columns>
                 <column datatype='integer' name='STOP_ID' ordinal='0' />
                 <column datatype='string' name='TOWN' ordinal='1' />
@@ -1131,7 +1131,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>TOWN</remote-name>
@@ -1144,7 +1144,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>STOP_NAME</remote-name>
@@ -1157,7 +1157,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>impacted_g</remote-name>
@@ -1170,7 +1170,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>proportion</remote-name>
@@ -1183,7 +1183,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>proporti_1</remote-name>
@@ -1196,7 +1196,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>income</remote-name>
@@ -1208,7 +1208,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>income_lev</remote-name>
@@ -1220,7 +1220,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>impacted_p</remote-name>
@@ -1232,7 +1232,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>route_ids</remote-name>
@@ -1245,7 +1245,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geometry</remote-name>
@@ -1257,7 +1257,7 @@
             <local-type>spatial</local-type>
             <aggregation>Collect</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>DIST_CODE</remote-name>
@@ -1270,7 +1270,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REPDISTNUM</remote-name>
@@ -1282,7 +1282,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_DIST</remote-name>
@@ -1295,7 +1295,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_FIRST</remote-name>
@@ -1308,7 +1308,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_LAST</remote-name>
@@ -1321,7 +1321,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP_PARTY</remote-name>
@@ -1334,7 +1334,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>REP</remote-name>
@@ -1347,7 +1347,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>URL</remote-name>
@@ -1360,7 +1360,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>SHAPE_AREA</remote-name>
@@ -1372,7 +1372,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>SHAPE_LEN</remote-name>
@@ -1384,7 +1384,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geometry</remote-name>
@@ -1396,7 +1396,7 @@
             <local-type>spatial</local-type>
             <aggregation>Collect</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>SHAPE_ID</remote-name>
@@ -1409,7 +1409,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>MBTA_ROUTE</remote-name>
@@ -1422,7 +1422,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>MBTA_VARIA</remote-name>
@@ -1435,7 +1435,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>MBTA_ROU_1</remote-name>
@@ -1448,7 +1448,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>CTPS_ROUTE</remote-name>
@@ -1460,7 +1460,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>CTPS_ROU_1</remote-name>
@@ -1472,7 +1472,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>DIRECTION</remote-name>
@@ -1484,7 +1484,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ROUTE_DESC</remote-name>
@@ -1497,7 +1497,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>TRIP_HEADS</remote-name>
@@ -1510,7 +1510,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>CTPS_ROU_2</remote-name>
@@ -1522,7 +1522,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>SHAPE_LEN</remote-name>
@@ -1534,7 +1534,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Geometry</remote-name>
@@ -1546,7 +1546,7 @@
             <local-type>spatial</local-type>
             <aggregation>Collect</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -1554,9 +1554,6 @@
       <column caption='Ctps Route' datatype='integer' name='[CTPS_ROUTE]' role='measure' type='quantitative' />
       <column caption='Ctps Rou 1' datatype='real' name='[CTPS_ROU_1]' role='measure' type='quantitative' />
       <column caption='Ctps Rou 2' datatype='integer' name='[CTPS_ROU_2]' role='measure' type='quantitative' />
-      <column caption='Income Lev Tableau' datatype='integer' name='[Calculation_1350657731592495108]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='IIF([income] &lt;= 39100, 0, IIF([income] &lt;= 51200, 1, IIF([income] &lt;= 64300, 2, IIF([income] &lt;= 86700, 3, 4))))' />
-      </column>
       <column caption='Direction' datatype='integer' name='[DIRECTION]' role='measure' type='quantitative' />
       <column caption='Dist Code' datatype='string' name='[DIST_CODE]' role='dimension' type='nominal' />
       <column caption='Geometry (HOUSE2012 POLY.shp)' datatype='spatial' name='[Geometry (HOUSE2012_POLY.shp)]' role='measure' type='nominal' />
@@ -1577,21 +1574,24 @@
       <column caption='Route Desc' datatype='string' name='[ROUTE_DESC]' role='dimension' type='nominal' />
       <column caption='Shape Area' datatype='real' name='[SHAPE_AREA]' role='measure' type='quantitative' />
       <column caption='Shape Id' datatype='string' name='[SHAPE_ID]' role='dimension' type='nominal' />
-      <column caption='SHAPE LEN (MBTABUSROUTES ARC.shp)' datatype='real' name='[SHAPE_LEN (MBTABUSROUTES_ARC.shp)]' role='measure' type='quantitative' />
+      <column caption='SHAPE LEN (MBTABUSROUTES ARC.shp)' datatype='real' hidden='true' name='[SHAPE_LEN (MBTABUSROUTES_ARC.shp)]' role='measure' type='quantitative' />
       <column caption='Shape Len' datatype='real' name='[SHAPE_LEN]' role='measure' type='quantitative' />
       <column caption='Stop Id' datatype='integer' name='[STOP_ID]' role='dimension' type='ordinal' />
+      <column caption='Stop Name' datatype='string' name='[STOP_NAME]' role='dimension' type='nominal' />
+      <column caption='Town' datatype='string' name='[TOWN]' role='dimension' type='nominal' />
       <column caption='Trip Heads' datatype='string' name='[TRIP_HEADS]' role='dimension' type='nominal' />
       <column datatype='integer' hidden='true' name='[Tract Id]' role='dimension' type='ordinal' />
-      <_.fcp.ObjectModelTableType.true...column caption='stops.shp' datatype='table' name='[__tableau_internal_object_id__].[stops.shp_0E49544EDA564F8E8C9D499452487789]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='stops.shp' datatype='table' name='[__tableau_internal_object_id__].[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]' role='measure' type='quantitative' />
       <column caption='Impacted G' datatype='string' name='[impacted_g]' role='dimension' type='nominal' />
       <column caption='Impacted P' datatype='integer' name='[impacted_p]' role='measure' type='quantitative' />
       <column caption='Income' datatype='integer' name='[income]' role='measure' type='quantitative' />
       <column caption='Income Lev' datatype='integer' name='[income_lev]' role='measure' type='quantitative' />
       <column caption='Proporti 1' datatype='string' name='[proporti_1]' role='dimension' type='nominal' />
       <column caption='Proportion' datatype='string' name='[proportion]' role='dimension' type='nominal' />
+      <column caption='Route Ids' datatype='string' name='[route_ids]' role='dimension' type='nominal' />
       <column-instance column='[income_lev]' derivation='Attribute' name='[attr:income_lev:ok]' pivot='key' type='ordinal' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Datasources/stops.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='12/13/2020 03:36:02 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Datasources/stops.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='12/13/2020 10:08:02 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <cols>
@@ -1615,8 +1615,7 @@
             <map key='[ROUTE_DESC]' value='[Extract].[ROUTE_DESC]' />
             <map key='[SHAPE_AREA]' value='[Extract].[SHAPE_AREA]' />
             <map key='[SHAPE_ID]' value='[Extract].[SHAPE_ID]' />
-            <map key='[SHAPE_LEN (MBTABUSROUTES_ARC.shp)]' value='[Extract].[SHAPE_LEN]' />
-            <map key='[SHAPE_LEN]' value='[Extract].[SHAPE_LEN1]' />
+            <map key='[SHAPE_LEN]' value='[Extract].[SHAPE_LEN]' />
             <map key='[STOP_ID]' value='[Extract].[STOP_ID]' />
             <map key='[STOP_NAME]' value='[Extract].[STOP_NAME]' />
             <map key='[TOWN]' value='[Extract].[TOWN]' />
@@ -1631,7 +1630,7 @@
             <map key='[route_ids]' value='[Extract].[route_ids]' />
           </cols>
           <refresh>
-            <refresh-event add-from-file-path='stops_routes' increment-value='%null%' refresh-type='create' rows-inserted='8726' timestamp-start='2020-12-13 03:36:02.468' />
+            <refresh-event add-from-file-path='stops_routes' increment-value='%null%' refresh-type='create' rows-inserted='8837' timestamp-start='2020-12-13 22:08:02.702' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -1644,9 +1643,9 @@
               <family>stops.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>7904</approx-count>
+              <approx-count>7964</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>TOWN</remote-name>
@@ -1658,10 +1657,10 @@
               <family>stops.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>60</approx-count>
+              <approx-count>51</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>STOP_NAME</remote-name>
@@ -1673,10 +1672,10 @@
               <family>stops.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>5006</approx-count>
+              <approx-count>4729</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>impacted_g</remote-name>
@@ -1688,10 +1687,10 @@
               <family>stops.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1731</approx-count>
+              <approx-count>1901</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>proportion</remote-name>
@@ -1703,10 +1702,10 @@
               <family>stops.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>4515</approx-count>
+              <approx-count>4330</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>proporti_1</remote-name>
@@ -1718,10 +1717,10 @@
               <family>stops.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>3777</approx-count>
+              <approx-count>3680</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>income</remote-name>
@@ -1733,9 +1732,9 @@
               <family>stops.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>3799</approx-count>
+              <approx-count>4303</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>income_lev</remote-name>
@@ -1747,9 +1746,9 @@
               <family>stops.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>7</approx-count>
+              <approx-count>6</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>impacted_p</remote-name>
@@ -1761,9 +1760,9 @@
               <family>stops.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>2197</approx-count>
+              <approx-count>2260</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>route_ids</remote-name>
@@ -1775,10 +1774,10 @@
               <family>stops.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>581</approx-count>
+              <approx-count>578</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Geometry2</remote-name>
@@ -1790,9 +1789,9 @@
               <family>stops.shp</family>
               <local-type>spatial</local-type>
               <aggregation>Collect</aggregation>
-              <approx-count>6443</approx-count>
+              <approx-count>7591</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DIST_CODE</remote-name>
@@ -1804,10 +1803,10 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>REPDISTNUM</remote-name>
@@ -1819,9 +1818,9 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>REP_DIST</remote-name>
@@ -1833,10 +1832,10 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>REP_FIRST</remote-name>
@@ -1848,10 +1847,10 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>64</approx-count>
+              <approx-count>89</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>REP_LAST</remote-name>
@@ -1863,10 +1862,10 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>64</approx-count>
+              <approx-count>95</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>REP_PARTY</remote-name>
@@ -1881,7 +1880,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>REP</remote-name>
@@ -1893,10 +1892,10 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>URL</remote-name>
@@ -1908,10 +1907,10 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SHAPE_AREA</remote-name>
@@ -1923,23 +1922,23 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
-              <remote-name>SHAPE_LEN1</remote-name>
+              <remote-name>SHAPE_LEN</remote-name>
               <remote-type>5</remote-type>
               <local-name>[SHAPE_LEN]</local-name>
               <parent-name>[Extract]</parent-name>
-              <remote-alias>SHAPE_LEN1</remote-alias>
+              <remote-alias>SHAPE_LEN</remote-alias>
               <ordinal>20</ordinal>
               <family>HOUSE2012_POLY.shp</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Geometry</remote-name>
@@ -1951,9 +1950,9 @@
               <family>HOUSE2012_POLY.shp</family>
               <local-type>spatial</local-type>
               <aggregation>Collect</aggregation>
-              <approx-count>65</approx-count>
+              <approx-count>96</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SHAPE_ID</remote-name>
@@ -1965,10 +1964,10 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1456</approx-count>
+              <approx-count>1388</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MBTA_ROUTE</remote-name>
@@ -1980,10 +1979,10 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>193</approx-count>
+              <approx-count>164</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MBTA_VARIA</remote-name>
@@ -1995,10 +1994,10 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>19</approx-count>
+              <approx-count>15</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MBTA_ROU_1</remote-name>
@@ -2010,10 +2009,10 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>649</approx-count>
+              <approx-count>507</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CTPS_ROUTE</remote-name>
@@ -2025,9 +2024,9 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>190</approx-count>
+              <approx-count>164</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CTPS_ROU_1</remote-name>
@@ -2039,9 +2038,9 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>190</approx-count>
+              <approx-count>164</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DIRECTION</remote-name>
@@ -2055,7 +2054,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ROUTE_DESC</remote-name>
@@ -2067,10 +2066,10 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1456</approx-count>
+              <approx-count>1388</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>TRIP_HEADS</remote-name>
@@ -2082,10 +2081,10 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>291</approx-count>
+              <approx-count>260</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CTPS_ROU_2</remote-name>
@@ -2097,23 +2096,9 @@
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>1456</approx-count>
+              <approx-count>1388</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SHAPE_LEN</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[SHAPE_LEN (MBTABUSROUTES_ARC.shp)]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SHAPE_LEN</remote-alias>
-              <ordinal>32</ordinal>
-              <family>MBTABUSROUTES_ARC.shp</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1456</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Geometry1</remote-name>
@@ -2121,13 +2106,13 @@
               <local-name>[Geometry (MBTABUSROUTES_ARC.shp)]</local-name>
               <parent-name>[Extract]</parent-name>
               <remote-alias>Geometry1</remote-alias>
-              <ordinal>33</ordinal>
+              <ordinal>32</ordinal>
               <family>MBTABUSROUTES_ARC.shp</family>
               <local-type>spatial</local-type>
               <aggregation>Collect</aggregation>
-              <approx-count>1456</approx-count>
+              <approx-count>1388</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_0E49544EDA564F8E8C9D499452487789]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stops.shp_E6CFF8E228924D6FABB7E9949A088AE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -2197,7 +2182,7 @@
       </field-sort-info>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='stops.shp' id='stops.shp_0E49544EDA564F8E8C9D499452487789'>
+          <object caption='stops.shp' id='stops.shp_E6CFF8E228924D6FABB7E9949A088AE5'>
             <properties context=''>
               <relation join='full' type='join'>
                 <clause type='join'>
@@ -2206,14 +2191,14 @@
                     <expression op='[MBTABUSROUTES_ARC.shp].[Geometry]' />
                   </expression>
                 </clause>
-                <relation join='inner' type='join'>
+                <relation join='full' type='join'>
                   <clause type='join'>
                     <expression op='Intersects'>
                       <expression op='[stops.shp].[Geometry]' />
                       <expression op='[HOUSE2012_POLY.shp].[Geometry]' />
                     </expression>
                   </clause>
-                  <relation connection='ogrdirect.1ywddn21ayrbqj102sag01ml7ler' name='stops.shp' table='[stops.shp]' type='table'>
+                  <relation connection='ogrdirect.0cgisa312515lb1bjo43g1465wfg' name='stops.shp' table='[stops.shp]' type='table'>
                     <columns>
                       <column datatype='integer' name='STOP_ID' ordinal='0' />
                       <column datatype='string' name='TOWN' ordinal='1' />
@@ -2318,7 +2303,7 @@
             <column-instance column='[REP_DIST]' derivation='None' name='[none:REP_DIST:nk]' pivot='key' type='nominal' />
             <column-instance column='[STOP_ID]' derivation='None' name='[none:STOP_ID:ok]' pivot='key' type='ordinal' />
             <column-instance column='[route_ids]' derivation='None' name='[none:route_ids:nk]' pivot='key' type='nominal' />
-            <column datatype='string' name='[route_ids]' role='dimension' type='nominal' />
+            <column caption='Route Ids' datatype='string' name='[route_ids]' role='dimension' type='nominal' />
           </datasource-dependencies>
           <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' included-values='non-null' />
           <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' included-values='in-range-or-null'>
@@ -2672,9 +2657,9 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Latitude (generated)]' field-type='quantitative' max='5226863.5674313214' min='5192140.8090291414' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-            <encoding attr='space' class='0' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' field-type='quantitative' max='-7887795.0195736159' min='-7936599.7864065487' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='1' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' field-type='quantitative' fold='true' max='-7887795.0195736159' min='-7936599.7864065487' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Latitude (generated)]' field-type='quantitative' max='5232031.7344194241' min='5189866.8155543758' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' field-type='quantitative' max='-7885066.2273560064' min='-7944331.3643564414' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' field-type='quantitative' fold='true' max='-7885066.2273560064' min='-7944331.3643564414' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='size' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]' field-type='quantitative' max='10000' max-size='1' min='20' min-size='0' type='quantsize' />
