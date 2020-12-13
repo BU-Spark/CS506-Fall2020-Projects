@@ -13,7 +13,6 @@ The goal of this project is to test the hypothesis and answer questions related:
   4. What grounds were cases denied?
   5. How has this changed over time?
   6. Any patterns that can help predict?
-  7. The distriubtion of each visa applier based on different category (race, sex, age, original nationality etc.)
 
 ### Datasets: 
 [AAO Non-Precedent Decisions](https://www.uscis.gov/administrative-appeals/aao-decisions/aao-non-precedent-decisions)
@@ -23,9 +22,8 @@ Package Usage:
   1. Scrapy, Selenium webdriver, and/or Beautiful soup will be used for scraping the pdfs on the websites. Related APIs will also be used if present.
   2. Regular Expression and urllib2 packages will be used to organize the scraped pdfs by year or month.
   3. Python packages like pdfreader will be used to convert the pdfs into text files, which are easier for analysis.
-  4. NLP packages will be used to preprocess the text and find the words indicating decision.
   5. Pandas will be used to clean and preprocess the data and organize the dataset into dataframes for faster computation.
-  6. Data visualization libraries such as Matplotlib, Seaborn, and Bokeh (interactive web-integratable visualizations) will be used to display the financial information between black and other nonprofits.
+  6. Data visualization libraries such as Matplotlib were used to present the results of the analysis. 
 
 Analysis Methods(High Level):
   1. Divide all *non-precedent* decisions, by year, and then by appeals and motions to reopen and reconsider. These will not include derivative applications.
