@@ -17,7 +17,7 @@ The file [t-visas_processing_pdfs.py](https://github.com/hvarelaf/CS506-Fall2020
 **counsel** - contains 'no' if the application does not contain a Counsel section, 'yes' otherwise.
 **contents** - contains the text under the Analysis section, or the Opinion section if Analysis section not included.\
 
-The file [t-visas_motions_analysis.ipynb](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/master/t_visa_trends_team2/final_deliverable/t-visas_analysis.ipynb) is the Jupyter Notebook containing the code used for the analysis of the Motions data. Necessary imports are included at the beginning of the Notebook, along with the results of each step of the analysis. This analysis was used for the results presented in [to-be-updated](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/deliverable_3/t_visa_trends_team2/deliverable_3/t-visas_motions_report.pdf), which details our findings.
+The file [t-visas_motions_analysis.ipynb](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/master/t_visa_trends_team2/final_deliverable/t-visas_analysis.ipynb) is the Jupyter Notebook containing the code used for the analysis of the Motions data. Necessary imports are included at the beginning of the Notebook, along with the results of each step of the analysis. This analysis was used for the results presented in [t-visas_report.pdf](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/master/t_visa_trends_team2/final_deliverable/t-visas_report.pdf), which details our findings.
 
 
 
