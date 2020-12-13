@@ -15,7 +15,7 @@ The goal of this project is to test the hypothesis and answer questions related:
   6. Any patterns that can help predict?
 
 ### Datasets: 
-[AAO Non-Precedent Decisions](https://drive.google.com/drive/folders/1NNM6waXRsR6H6CXdompU1gGU9ZDfX-uh)
+[AAO Non-Precedent Decisions](https://drive.google.com/drive/folders/1NNM6waXRsR6H6CXdompU1gGU9ZDfX-uh), only Motions to reopen and reconsider.
 
 ## Methodology:
 Package Usage:
