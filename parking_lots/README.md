@@ -23,7 +23,7 @@ contains our scrums
 
 contains all the codes and report for the parking lot CNN binary classifier. 
 
-### extra code
+### extra code - Hanyu Chen
 
 contains the extra code and files we created and used throughout final project, which are there to simlpy show our progress.
 
