@@ -1,60 +1,40 @@
 # Spark Project: Restaurants During Covid
+Team Members: Ganghao Li, Zhou Shen, Zhenfei Yu, Kefan Zhang
 
-Project Description: [see here](https://github.com/ec506-Spark-Team/Fetch-Data-and-Code/blob/main/spark-project-summary.md#goal)
+## Background & Targets
 
-# Past Stage: Deliverable 3
+As the Covid-19 attacked the world in 2020, the restaurants in Boston were struggling to survive this difficult time. The Mayor’s Office of Economic Development was looking for some conclusions about the restaurants during Covid, supported by solid data.
 
+Main questions we are expected to answer are:
 
-[Summary](https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/deliverable_3.pdf)
+- How many businesses have permanently closed during Covid? How many are open? How many are temporarily closed? 
+- How much activity is happening at different types of businesses by restaurant type (e.g. Italian vs. Thai vs. pizza, etc.), by neighborhood or zip code?? Do hours of operation seem to impact overall activity/ success?
+- What has been the relative impact on government policies or assistance programs?
 
-# Past Stage: Deliverable 1
-## Main Progress in Deliverable 1 stage:
+Mainly we are focusing on answering them with the data we fetched and tools we use on those data, but we may also analyze the data in many other different ways to come up with other useful conclusions.
 
-- [x] Specific APIs selected and tested into useful and not useful for data gathering.
-- [x] Data of restaurants in Boston area collected and filtered.
-- [x] Dataset established and integrated from several sources.
-- [x] Data utilization plan for next stage made for project goals
+## Resources (APIs & Datasets)
 
-## Plans for next stage:
-- [ ] Clean the dataset for deeper level
-- [ ] Start to make use of the dataset to [answer questions in project summary](https://github.com/ec506-Spark-Team/Fetch-Data-and-Code/blob/main/spark-project-summary.md#questions-to-be-answered)
+- Google Maps Places API
+Google Maps Places API provides static data at the time when we started collecting information. It provides answers to below questions: location of restaurants, current business status of restaurants, whether restaurants are permanently closed, number of total ratings and ratings from users. To access it, we need to get a Google Maps Places API key.
 
-## Progress in details
+- Safegraph
+Safegraph provides data of Place foot-traffic and demographic aggregations that answer: how often people visit, where they came from, where else they go, and more. Available for ~3.6MM POI in the USA. To access it, we need to set up an AWS client and get an access key. 
 
-1. We use Google Place API and Yelp API to obtain restaurants in Boston Area, and also some data features include: 
-- ratings ( from 0 to 5 )
-- price_level ( from 0 to 5 )
-- reviews
-- business status
-  - open
-  - close
-  - temporarliy closed
-- address
-- opening hours(day & week)
+- Active Food Establishment license dataset
+The Health Division of the Department of Inspectional Services (ISD) creates and enforces food safety codes to protect public health. This dataset contains a list of restaurants that met the City’s standards to become licensed food service establishments.
 
-Note: we also tried below 2 popular delivery APIs, but neither of them give us access:    
-- Grubhub: only for signed-in restaurants, cannot sign up for an account.
-- Uber Eats: “Your application currently does not have access to any scopes. Please contact your Uber Business Development representative or Uber point of contact to request access.” + Please do not share this document or API endpoint details with anyone who is not authorized to have access.
+## Code instruction
 
-2. We utilize safegraph to get the location name. After step 1, we have get each resteraunt's name and we can join the csv files with safegraph dataset on the same restaurant name to get full detailed-information about this resteraunt.
-- visit counts (pv)
-- visitor counts (uv)
-- visits by day
-- popularity by day/hour
-- time
-  - which means we can filter data by time
-  
-3. From above data we get, we can solve the problem 
-- How many businesses are open? How many are temporarily closed? (based on yelp and google places data)
-- What hours are they operating under? 
-- How much activity is happening at different types of businesses by restaurant type (e.g. Italian vs. Thai vs. pizza, etc.), by neighborhood or zip code? (use safe graph data)? Do hours of operation seem to impact overall activity/ success?
-
-But now we are still working on these big datasets, so now we cannot get the exact number of these problems.
-
-## Problems in this stage:
-
-- API problems: Checked but cannot get access:
- - Grubhub - only for signed-in restaurants, cannot sign up for an account. 
- - Uber Eats - “Your application currently does not have access to any scopes. Please contact your Uber Business Development representative or Uber point of contact to request access.” + Please do not share this document or API endpoint details with anyone who is not authorized to have access. 
+- Data preparation and clearing
+Safegraph provides us data of monthly visits to all of the visiting places in the United States, so we first extracted data about Boston from it based on the city name column. Then we join what we get from safegraph with the active food license table, which generates the visiting information to Boston restaurants from January 2020 to September 2020.  
+The nine datasets are the main sources that our observation and analysis is based on. Here is an example of January data, which includes columns like restaurant name, address, city, postal_code, raw_visit_counts and etc.
 
 
+
+
+# Past Stage: [Deliverable 3](https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/Documents/deliverable_3.pdf)
+
+# Past Stage: [Deliverable 2](https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/Documents/deliverable_2.pdf)
+
+# Past Stage: [Deliverable 1](https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/Documents/deliverable_1.pdf)
