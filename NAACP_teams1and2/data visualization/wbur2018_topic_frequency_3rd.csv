@@ -1,0 +1,1926 @@
+,Neighborhood,Topic,Frequency
+0,South Boston,Violence,1
+1,South Boston,Education,1
+2,South Boston,Politics,4
+3,South Boston,Sports,6
+4,South Boston,Technology,0
+5,Jamaica Plain,Violence,1
+6,Jamaica Plain,Education,1
+7,Jamaica Plain,Politics,4
+8,Jamaica Plain,Sports,6
+9,Jamaica Plain,Technology,0
+10,Mattapan,Violence,1
+11,Mattapan,Education,1
+12,Mattapan,Politics,4
+13,Mattapan,Sports,6
+14,Mattapan,Technology,0
+15,Fenway,Violence,2
+16,Fenway,Education,0
+17,Fenway,Politics,1
+18,Fenway,Sports,32
+19,Fenway,Technology,0
+20,South End,Violence,0
+21,South End,Education,2
+22,South End,Politics,4
+23,South End,Sports,0
+24,South End,Technology,0
+25,Dorchester,Violence,0
+26,Dorchester,Education,2
+27,Dorchester,Politics,4
+28,Dorchester,Sports,0
+29,Dorchester,Technology,0
+30,Dorchester,Violence,1
+31,Dorchester,Education,0
+32,Dorchester,Politics,0
+33,Dorchester,Sports,0
+34,Dorchester,Technology,3
+35,Fenway,Violence,0
+36,Fenway,Education,2
+37,Fenway,Politics,0
+38,Fenway,Sports,1
+39,Fenway,Technology,0
+40,Roxbury,Violence,9
+41,Roxbury,Education,0
+42,Roxbury,Politics,0
+43,Roxbury,Sports,0
+44,Roxbury,Technology,1
+45,Dorchester,Violence,9
+46,Dorchester,Education,0
+47,Dorchester,Politics,0
+48,Dorchester,Sports,0
+49,Dorchester,Technology,1
+50,West Roxbury,Violence,9
+51,West Roxbury,Education,0
+52,West Roxbury,Politics,0
+53,West Roxbury,Sports,0
+54,West Roxbury,Technology,1
+55,South Boston,Violence,2
+56,South Boston,Education,1
+57,South Boston,Politics,2
+58,South Boston,Sports,0
+59,South Boston,Technology,0
+60,Beacon Hill,Violence,2
+61,Beacon Hill,Education,12
+62,Beacon Hill,Politics,8
+63,Beacon Hill,Sports,1
+64,Beacon Hill,Technology,0
+65,Jamaica Plain,Violence,2
+66,Jamaica Plain,Education,12
+67,Jamaica Plain,Politics,8
+68,Jamaica Plain,Sports,1
+69,Jamaica Plain,Technology,0
+70,South Boston,Violence,0
+71,South Boston,Education,0
+72,South Boston,Politics,0
+73,South Boston,Sports,0
+74,South Boston,Technology,0
+75,Fenway,Violence,0
+76,Fenway,Education,0
+77,Fenway,Politics,0
+78,Fenway,Sports,2
+79,Fenway,Technology,0
+80,Brighton,Violence,0
+81,Brighton,Education,0
+82,Brighton,Politics,0
+83,Brighton,Sports,3
+84,Brighton,Technology,1
+85,Fenway,Violence,0
+86,Fenway,Education,0
+87,Fenway,Politics,0
+88,Fenway,Sports,3
+89,Fenway,Technology,1
+90,Allston,Violence,1
+91,Allston,Education,0
+92,Allston,Politics,0
+93,Allston,Sports,0
+94,Allston,Technology,0
+95,South End,Violence,0
+96,South End,Education,2
+97,South End,Politics,1
+98,South End,Sports,1
+99,South End,Technology,3
+100,Fenway,Violence,0
+101,Fenway,Education,4
+102,Fenway,Politics,0
+103,Fenway,Sports,1
+104,Fenway,Technology,0
+105,East Boston,Violence,0
+106,East Boston,Education,0
+107,East Boston,Politics,0
+108,East Boston,Sports,0
+109,East Boston,Technology,0
+110,Roxbury,Violence,0
+111,Roxbury,Education,0
+112,Roxbury,Politics,0
+113,Roxbury,Sports,0
+114,Roxbury,Technology,0
+115,Dorchester,Violence,0
+116,Dorchester,Education,0
+117,Dorchester,Politics,0
+118,Dorchester,Sports,0
+119,Dorchester,Technology,0
+120,Mattapan,Violence,0
+121,Mattapan,Education,0
+122,Mattapan,Politics,0
+123,Mattapan,Sports,0
+124,Mattapan,Technology,0
+125,Roslindale,Violence,0
+126,Roslindale,Education,0
+127,Roslindale,Politics,0
+128,Roslindale,Sports,0
+129,Roslindale,Technology,0
+130,Hyde Park,Violence,0
+131,Hyde Park,Education,0
+132,Hyde Park,Politics,0
+133,Hyde Park,Sports,0
+134,Hyde Park,Technology,0
+135,Dorchester,Violence,0
+136,Dorchester,Education,0
+137,Dorchester,Politics,1
+138,Dorchester,Sports,1
+139,Dorchester,Technology,0
+140,Fenway,Violence,1
+141,Fenway,Education,3
+142,Fenway,Politics,0
+143,Fenway,Sports,20
+144,Fenway,Technology,1
+145,Harbor Islands,Violence,0
+146,Harbor Islands,Education,0
+147,Harbor Islands,Politics,3
+148,Harbor Islands,Sports,0
+149,Harbor Islands,Technology,0
+150,Fenway,Violence,2
+151,Fenway,Education,0
+152,Fenway,Politics,0
+153,Fenway,Sports,0
+154,Fenway,Technology,0
+155,Roxbury,Violence,0
+156,Roxbury,Education,0
+157,Roxbury,Politics,0
+158,Roxbury,Sports,0
+159,Roxbury,Technology,0
+160,South Boston,Violence,9
+161,South Boston,Education,0
+162,South Boston,Politics,2
+163,South Boston,Sports,0
+164,South Boston,Technology,0
+165,Dorchester,Violence,0
+166,Dorchester,Education,0
+167,Dorchester,Politics,1
+168,Dorchester,Sports,0
+169,Dorchester,Technology,0
+170,Roslindale,Violence,0
+171,Roslindale,Education,1
+172,Roslindale,Politics,0
+173,Roslindale,Sports,1
+174,Roslindale,Technology,0
+175,Dorchester,Violence,0
+176,Dorchester,Education,1
+177,Dorchester,Politics,2
+178,Dorchester,Sports,1
+179,Dorchester,Technology,1
+180,East Boston,Violence,9
+181,East Boston,Education,1
+182,East Boston,Politics,0
+183,East Boston,Sports,0
+184,East Boston,Technology,1
+185,Dorchester,Violence,0
+186,Dorchester,Education,1
+187,Dorchester,Politics,2
+188,Dorchester,Sports,0
+189,Dorchester,Technology,0
+190,Dorchester,Violence,0
+191,Dorchester,Education,0
+192,Dorchester,Politics,2
+193,Dorchester,Sports,5
+194,Dorchester,Technology,3
+195,Roxbury,Violence,8
+196,Roxbury,Education,2
+197,Roxbury,Politics,1
+198,Roxbury,Sports,0
+199,Roxbury,Technology,0
+200,Jamaica Plain,Violence,8
+201,Jamaica Plain,Education,2
+202,Jamaica Plain,Politics,1
+203,Jamaica Plain,Sports,0
+204,Jamaica Plain,Technology,0
+205,Dorchester,Violence,8
+206,Dorchester,Education,2
+207,Dorchester,Politics,1
+208,Dorchester,Sports,0
+209,Dorchester,Technology,0
+210,Roxbury,Violence,6
+211,Roxbury,Education,0
+212,Roxbury,Politics,0
+213,Roxbury,Sports,0
+214,Roxbury,Technology,0
+215,Fenway,Violence,1
+216,Fenway,Education,0
+217,Fenway,Politics,0
+218,Fenway,Sports,5
+219,Fenway,Technology,0
+220,Beacon Hill,Violence,1
+221,Beacon Hill,Education,7
+222,Beacon Hill,Politics,5
+223,Beacon Hill,Sports,1
+224,Beacon Hill,Technology,1
+225,Beacon Hill,Violence,1
+226,Beacon Hill,Education,0
+227,Beacon Hill,Politics,9
+228,Beacon Hill,Sports,3
+229,Beacon Hill,Technology,1
+230,Beacon Hill,Violence,1
+231,Beacon Hill,Education,2
+232,Beacon Hill,Politics,2
+233,Beacon Hill,Sports,0
+234,Beacon Hill,Technology,2
+235,South Boston,Violence,4
+236,South Boston,Education,1
+237,South Boston,Politics,44
+238,South Boston,Sports,8
+239,South Boston,Technology,4
+240,Roxbury,Violence,1
+241,Roxbury,Education,0
+242,Roxbury,Politics,0
+243,Roxbury,Sports,0
+244,Roxbury,Technology,0
+245,West Roxbury,Violence,1
+246,West Roxbury,Education,0
+247,West Roxbury,Politics,0
+248,West Roxbury,Sports,0
+249,West Roxbury,Technology,0
+250,Charlestown,Violence,0
+251,Charlestown,Education,1
+252,Charlestown,Politics,9
+253,Charlestown,Sports,0
+254,Charlestown,Technology,0
+255,Dorchester,Violence,0
+256,Dorchester,Education,1
+257,Dorchester,Politics,9
+258,Dorchester,Sports,0
+259,Dorchester,Technology,0
+260,Beacon Hill,Violence,2
+261,Beacon Hill,Education,0
+262,Beacon Hill,Politics,8
+263,Beacon Hill,Sports,1
+264,Beacon Hill,Technology,1
+265,North End,Violence,2
+266,North End,Education,0
+267,North End,Politics,8
+268,North End,Sports,1
+269,North End,Technology,1
+270,Jamaica Plain,Violence,2
+271,Jamaica Plain,Education,0
+272,Jamaica Plain,Politics,8
+273,Jamaica Plain,Sports,1
+274,Jamaica Plain,Technology,1
+275,Fenway,Violence,0
+276,Fenway,Education,7
+277,Fenway,Politics,0
+278,Fenway,Sports,0
+279,Fenway,Technology,0
+280,East Boston,Violence,3
+281,East Boston,Education,0
+282,East Boston,Politics,1
+283,East Boston,Sports,0
+284,East Boston,Technology,0
+285,South End,Violence,0
+286,South End,Education,0
+287,South End,Politics,2
+288,South End,Sports,0
+289,South End,Technology,0
+290,Dorchester,Violence,0
+291,Dorchester,Education,0
+292,Dorchester,Politics,2
+293,Dorchester,Sports,0
+294,Dorchester,Technology,0
+295,Beacon Hill,Violence,1
+296,Beacon Hill,Education,1
+297,Beacon Hill,Politics,14
+298,Beacon Hill,Sports,2
+299,Beacon Hill,Technology,0
+300,East Boston,Violence,0
+301,East Boston,Education,0
+302,East Boston,Politics,1
+303,East Boston,Sports,1
+304,East Boston,Technology,0
+305,East Boston,Violence,0
+306,East Boston,Education,0
+307,East Boston,Politics,0
+308,East Boston,Sports,1
+309,East Boston,Technology,0
+310,Fenway,Violence,0
+311,Fenway,Education,0
+312,Fenway,Politics,0
+313,Fenway,Sports,1
+314,Fenway,Technology,0
+315,Dorchester,Violence,0
+316,Dorchester,Education,0
+317,Dorchester,Politics,0
+318,Dorchester,Sports,7
+319,Dorchester,Technology,0
+320,East Boston,Violence,5
+321,East Boston,Education,27
+322,East Boston,Politics,6
+323,East Boston,Sports,3
+324,East Boston,Technology,1
+325,Jamaica Plain,Violence,6
+326,Jamaica Plain,Education,0
+327,Jamaica Plain,Politics,6
+328,Jamaica Plain,Sports,3
+329,Jamaica Plain,Technology,0
+330,Beacon Hill,Violence,0
+331,Beacon Hill,Education,0
+332,Beacon Hill,Politics,15
+333,Beacon Hill,Sports,1
+334,Beacon Hill,Technology,0
+335,East Boston,Violence,1
+336,East Boston,Education,0
+337,East Boston,Politics,0
+338,East Boston,Sports,0
+339,East Boston,Technology,1
+340,Beacon Hill,Violence,2
+341,Beacon Hill,Education,4
+342,Beacon Hill,Politics,26
+343,Beacon Hill,Sports,3
+344,Beacon Hill,Technology,1
+345,Mattapan,Violence,13
+346,Mattapan,Education,0
+347,Mattapan,Politics,0
+348,Mattapan,Sports,0
+349,Mattapan,Technology,0
+350,Back Bay,Violence,0
+351,Back Bay,Education,0
+352,Back Bay,Politics,0
+353,Back Bay,Sports,1
+354,Back Bay,Technology,0
+355,Fenway,Violence,10
+356,Fenway,Education,0
+357,Fenway,Politics,0
+358,Fenway,Sports,15
+359,Fenway,Technology,5
+360,Dorchester,Violence,5
+361,Dorchester,Education,0
+362,Dorchester,Politics,0
+363,Dorchester,Sports,0
+364,Dorchester,Technology,1
+365,Back Bay,Violence,4
+366,Back Bay,Education,1
+367,Back Bay,Politics,3
+368,Back Bay,Sports,1
+369,Back Bay,Technology,1
+370,Mattapan,Violence,0
+371,Mattapan,Education,1
+372,Mattapan,Politics,0
+373,Mattapan,Sports,0
+374,Mattapan,Technology,0
+375,Dorchester,Violence,0
+376,Dorchester,Education,0
+377,Dorchester,Politics,1
+378,Dorchester,Sports,0
+379,Dorchester,Technology,0
+380,East Boston,Violence,7
+381,East Boston,Education,30
+382,East Boston,Politics,11
+383,East Boston,Sports,2
+384,East Boston,Technology,1
+385,South Boston,Violence,0
+386,South Boston,Education,1
+387,South Boston,Politics,8
+388,South Boston,Sports,0
+389,South Boston,Technology,0
+390,Back Bay,Violence,0
+391,Back Bay,Education,1
+392,Back Bay,Politics,0
+393,Back Bay,Sports,0
+394,Back Bay,Technology,1
+395,Jamaica Plain,Violence,1
+396,Jamaica Plain,Education,0
+397,Jamaica Plain,Politics,1
+398,Jamaica Plain,Sports,1
+399,Jamaica Plain,Technology,0
+400,Jamaica Plain,Violence,7
+401,Jamaica Plain,Education,1
+402,Jamaica Plain,Politics,0
+403,Jamaica Plain,Sports,0
+404,Jamaica Plain,Technology,0
+405,Dorchester,Violence,7
+406,Dorchester,Education,1
+407,Dorchester,Politics,0
+408,Dorchester,Sports,0
+409,Dorchester,Technology,0
+410,North End,Violence,5
+411,North End,Education,1
+412,North End,Politics,16
+413,North End,Sports,2
+414,North End,Technology,3
+415,Charlestown,Violence,5
+416,Charlestown,Education,1
+417,Charlestown,Politics,16
+418,Charlestown,Sports,2
+419,Charlestown,Technology,3
+420,East Boston,Violence,5
+421,East Boston,Education,1
+422,East Boston,Politics,16
+423,East Boston,Sports,2
+424,East Boston,Technology,3
+425,Dorchester,Violence,0
+426,Dorchester,Education,0
+427,Dorchester,Politics,0
+428,Dorchester,Sports,2
+429,Dorchester,Technology,0
+430,Beacon Hill,Violence,0
+431,Beacon Hill,Education,0
+432,Beacon Hill,Politics,7
+433,Beacon Hill,Sports,0
+434,Beacon Hill,Technology,0
+435,Brighton,Violence,0
+436,Brighton,Education,0
+437,Brighton,Politics,8
+438,Brighton,Sports,1
+439,Brighton,Technology,0
+440,Beacon Hill,Violence,3
+441,Beacon Hill,Education,3
+442,Beacon Hill,Politics,11
+443,Beacon Hill,Sports,2
+444,Beacon Hill,Technology,0
+445,Jamaica Plain,Violence,3
+446,Jamaica Plain,Education,3
+447,Jamaica Plain,Politics,11
+448,Jamaica Plain,Sports,2
+449,Jamaica Plain,Technology,0
+450,Dorchester,Violence,1
+451,Dorchester,Education,2
+452,Dorchester,Politics,18
+453,Dorchester,Sports,0
+454,Dorchester,Technology,0
+455,Dorchester,Violence,4
+456,Dorchester,Education,0
+457,Dorchester,Politics,0
+458,Dorchester,Sports,0
+459,Dorchester,Technology,0
+460,Fenway,Violence,9
+461,Fenway,Education,1
+462,Fenway,Politics,0
+463,Fenway,Sports,12
+464,Fenway,Technology,1
+465,Fenway,Violence,1
+466,Fenway,Education,0
+467,Fenway,Politics,0
+468,Fenway,Sports,2
+469,Fenway,Technology,0
+470,Beacon Hill,Violence,0
+471,Beacon Hill,Education,0
+472,Beacon Hill,Politics,27
+473,Beacon Hill,Sports,2
+474,Beacon Hill,Technology,3
+475,South Boston,Violence,3
+476,South Boston,Education,0
+477,South Boston,Politics,0
+478,South Boston,Sports,0
+479,South Boston,Technology,0
+480,Fenway,Violence,2
+481,Fenway,Education,0
+482,Fenway,Politics,1
+483,Fenway,Sports,20
+484,Fenway,Technology,0
+485,Fenway,Violence,0
+486,Fenway,Education,0
+487,Fenway,Politics,0
+488,Fenway,Sports,0
+489,Fenway,Technology,0
+490,Beacon Hill,Violence,1
+491,Beacon Hill,Education,0
+492,Beacon Hill,Politics,2
+493,Beacon Hill,Sports,0
+494,Beacon Hill,Technology,1
+495,East Boston,Violence,3
+496,East Boston,Education,0
+497,East Boston,Politics,1
+498,East Boston,Sports,1
+499,East Boston,Technology,0
+500,South End,Violence,0
+501,South End,Education,14
+502,South End,Politics,0
+503,South End,Sports,1
+504,South End,Technology,4
+505,Dorchester,Violence,0
+506,Dorchester,Education,0
+507,Dorchester,Politics,0
+508,Dorchester,Sports,0
+509,Dorchester,Technology,1
+510,South Boston,Violence,0
+511,South Boston,Education,0
+512,South Boston,Politics,6
+513,South Boston,Sports,0
+514,South Boston,Technology,0
+515,East Boston,Violence,0
+516,East Boston,Education,0
+517,East Boston,Politics,2
+518,East Boston,Sports,0
+519,East Boston,Technology,0
+520,Mattapan,Violence,0
+521,Mattapan,Education,0
+522,Mattapan,Politics,2
+523,Mattapan,Sports,0
+524,Mattapan,Technology,0
+525,Beacon Hill,Violence,2
+526,Beacon Hill,Education,1
+527,Beacon Hill,Politics,3
+528,Beacon Hill,Sports,1
+529,Beacon Hill,Technology,1
+530,Beacon Hill,Violence,0
+531,Beacon Hill,Education,3
+532,Beacon Hill,Politics,3
+533,Beacon Hill,Sports,0
+534,Beacon Hill,Technology,1
+535,East Boston,Violence,0
+536,East Boston,Education,0
+537,East Boston,Politics,0
+538,East Boston,Sports,0
+539,East Boston,Technology,0
+540,South End,Violence,0
+541,South End,Education,9
+542,South End,Politics,0
+543,South End,Sports,0
+544,South End,Technology,1
+545,Roxbury,Violence,0
+546,Roxbury,Education,9
+547,Roxbury,Politics,0
+548,Roxbury,Sports,0
+549,Roxbury,Technology,1
+550,Dorchester,Violence,0
+551,Dorchester,Education,9
+552,Dorchester,Politics,0
+553,Dorchester,Sports,0
+554,Dorchester,Technology,1
+555,Mattapan,Violence,0
+556,Mattapan,Education,9
+557,Mattapan,Politics,0
+558,Mattapan,Sports,0
+559,Mattapan,Technology,1
+560,Beacon Hill,Violence,0
+561,Beacon Hill,Education,0
+562,Beacon Hill,Politics,9
+563,Beacon Hill,Sports,2
+564,Beacon Hill,Technology,0
+565,Beacon Hill,Violence,1
+566,Beacon Hill,Education,2
+567,Beacon Hill,Politics,22
+568,Beacon Hill,Sports,2
+569,Beacon Hill,Technology,0
+570,Beacon Hill,Violence,0
+571,Beacon Hill,Education,0
+572,Beacon Hill,Politics,0
+573,Beacon Hill,Sports,0
+574,Beacon Hill,Technology,0
+575,Dorchester,Violence,5
+576,Dorchester,Education,9
+577,Dorchester,Politics,3
+578,Dorchester,Sports,10
+579,Dorchester,Technology,0
+580,Roxbury,Violence,0
+581,Roxbury,Education,2
+582,Roxbury,Politics,0
+583,Roxbury,Sports,0
+584,Roxbury,Technology,0
+585,West Roxbury,Violence,0
+586,West Roxbury,Education,2
+587,West Roxbury,Politics,0
+588,West Roxbury,Sports,0
+589,West Roxbury,Technology,0
+590,Beacon Hill,Violence,0
+591,Beacon Hill,Education,0
+592,Beacon Hill,Politics,9
+593,Beacon Hill,Sports,1
+594,Beacon Hill,Technology,0
+595,Charlestown,Violence,5
+596,Charlestown,Education,2
+597,Charlestown,Politics,0
+598,Charlestown,Sports,0
+599,Charlestown,Technology,0
+600,South Boston,Violence,5
+601,South Boston,Education,2
+602,South Boston,Politics,0
+603,South Boston,Sports,0
+604,South Boston,Technology,0
+605,South Boston,Violence,1
+606,South Boston,Education,0
+607,South Boston,Politics,0
+608,South Boston,Sports,0
+609,South Boston,Technology,0
+610,Allston,Violence,0
+611,Allston,Education,1
+612,Allston,Politics,0
+613,Allston,Sports,8
+614,Allston,Technology,0
+615,South Boston,Violence,2
+616,South Boston,Education,4
+617,South Boston,Politics,0
+618,South Boston,Sports,0
+619,South Boston,Technology,8
+620,Jamaica Plain,Violence,4
+621,Jamaica Plain,Education,6
+622,Jamaica Plain,Politics,0
+623,Jamaica Plain,Sports,0
+624,Jamaica Plain,Technology,0
+625,Dorchester,Violence,4
+626,Dorchester,Education,6
+627,Dorchester,Politics,0
+628,Dorchester,Sports,0
+629,Dorchester,Technology,0
+630,South Boston,Violence,1
+631,South Boston,Education,0
+632,South Boston,Politics,11
+633,South Boston,Sports,1
+634,South Boston,Technology,0
+635,Back Bay,Violence,2
+636,Back Bay,Education,3
+637,Back Bay,Politics,0
+638,Back Bay,Sports,0
+639,Back Bay,Technology,0
+640,Brighton,Violence,0
+641,Brighton,Education,0
+642,Brighton,Politics,0
+643,Brighton,Sports,9
+644,Brighton,Technology,0
+645,Roxbury,Violence,0
+646,Roxbury,Education,0
+647,Roxbury,Politics,0
+648,Roxbury,Sports,0
+649,Roxbury,Technology,0
+650,Fenway,Violence,17
+651,Fenway,Education,0
+652,Fenway,Politics,0
+653,Fenway,Sports,11
+654,Fenway,Technology,0
+655,South End,Violence,3
+656,South End,Education,0
+657,South End,Politics,3
+658,South End,Sports,1
+659,South End,Technology,0
+660,South Boston,Violence,13
+661,South Boston,Education,1
+662,South Boston,Politics,8
+663,South Boston,Sports,0
+664,South Boston,Technology,1
+665,Dorchester,Violence,0
+666,Dorchester,Education,0
+667,Dorchester,Politics,0
+668,Dorchester,Sports,0
+669,Dorchester,Technology,0
+670,Mattapan,Violence,0
+671,Mattapan,Education,0
+672,Mattapan,Politics,0
+673,Mattapan,Sports,0
+674,Mattapan,Technology,0
+675,Mattapan,Violence,4
+676,Mattapan,Education,0
+677,Mattapan,Politics,0
+678,Mattapan,Sports,0
+679,Mattapan,Technology,1
+680,Beacon Hill,Violence,0
+681,Beacon Hill,Education,0
+682,Beacon Hill,Politics,5
+683,Beacon Hill,Sports,5
+684,Beacon Hill,Technology,4
+685,Beacon Hill,Violence,1
+686,Beacon Hill,Education,1
+687,Beacon Hill,Politics,12
+688,Beacon Hill,Sports,2
+689,Beacon Hill,Technology,1
+690,East Boston,Violence,7
+691,East Boston,Education,1
+692,East Boston,Politics,0
+693,East Boston,Sports,0
+694,East Boston,Technology,1
+695,Roxbury,Violence,7
+696,Roxbury,Education,1
+697,Roxbury,Politics,0
+698,Roxbury,Sports,0
+699,Roxbury,Technology,1
+700,Jamaica Plain,Violence,7
+701,Jamaica Plain,Education,1
+702,Jamaica Plain,Politics,0
+703,Jamaica Plain,Sports,0
+704,Jamaica Plain,Technology,1
+705,Dorchester,Violence,7
+706,Dorchester,Education,1
+707,Dorchester,Politics,0
+708,Dorchester,Sports,0
+709,Dorchester,Technology,1
+710,South Boston,Violence,9
+711,South Boston,Education,0
+712,South Boston,Politics,0
+713,South Boston,Sports,2
+714,South Boston,Technology,1
+715,Mission Hill,Violence,9
+716,Mission Hill,Education,0
+717,Mission Hill,Politics,0
+718,Mission Hill,Sports,2
+719,Mission Hill,Technology,1
+720,Jamaica Plain,Violence,9
+721,Jamaica Plain,Education,0
+722,Jamaica Plain,Politics,0
+723,Jamaica Plain,Sports,2
+724,Jamaica Plain,Technology,1
+725,Dorchester,Violence,9
+726,Dorchester,Education,0
+727,Dorchester,Politics,0
+728,Dorchester,Sports,2
+729,Dorchester,Technology,1
+730,Beacon Hill,Violence,0
+731,Beacon Hill,Education,0
+732,Beacon Hill,Politics,4
+733,Beacon Hill,Sports,2
+734,Beacon Hill,Technology,0
+735,South End,Violence,0
+736,South End,Education,0
+737,South End,Politics,4
+738,South End,Sports,2
+739,South End,Technology,0
+740,Jamaica Plain,Violence,0
+741,Jamaica Plain,Education,0
+742,Jamaica Plain,Politics,4
+743,Jamaica Plain,Sports,2
+744,Jamaica Plain,Technology,0
+745,Mattapan,Violence,1
+746,Mattapan,Education,3
+747,Mattapan,Politics,1
+748,Mattapan,Sports,3
+749,Mattapan,Technology,0
+750,Hyde Park,Violence,3
+751,Hyde Park,Education,0
+752,Hyde Park,Politics,0
+753,Hyde Park,Sports,0
+754,Hyde Park,Technology,1
+755,Beacon Hill,Violence,3
+756,Beacon Hill,Education,2
+757,Beacon Hill,Politics,33
+758,Beacon Hill,Sports,7
+759,Beacon Hill,Technology,1
+760,Beacon Hill,Violence,3
+761,Beacon Hill,Education,0
+762,Beacon Hill,Politics,8
+763,Beacon Hill,Sports,0
+764,Beacon Hill,Technology,1
+765,South Boston,Violence,0
+766,South Boston,Education,0
+767,South Boston,Politics,1
+768,South Boston,Sports,0
+769,South Boston,Technology,0
+770,Dorchester,Violence,0
+771,Dorchester,Education,0
+772,Dorchester,Politics,1
+773,Dorchester,Sports,0
+774,Dorchester,Technology,0
+775,Mattapan,Violence,0
+776,Mattapan,Education,0
+777,Mattapan,Politics,1
+778,Mattapan,Sports,0
+779,Mattapan,Technology,0
+780,Hyde Park,Violence,0
+781,Hyde Park,Education,0
+782,Hyde Park,Politics,1
+783,Hyde Park,Sports,0
+784,Hyde Park,Technology,0
+785,Jamaica Plain,Violence,0
+786,Jamaica Plain,Education,0
+787,Jamaica Plain,Politics,0
+788,Jamaica Plain,Sports,0
+789,Jamaica Plain,Technology,0
+790,Downtown,Violence,8
+791,Downtown,Education,0
+792,Downtown,Politics,1
+793,Downtown,Sports,0
+794,Downtown,Technology,1
+795,Beacon Hill,Violence,0
+796,Beacon Hill,Education,0
+797,Beacon Hill,Politics,10
+798,Beacon Hill,Sports,1
+799,Beacon Hill,Technology,1
+800,Hyde Park,Violence,0
+801,Hyde Park,Education,0
+802,Hyde Park,Politics,10
+803,Hyde Park,Sports,1
+804,Hyde Park,Technology,1
+805,Jamaica Plain,Violence,1
+806,Jamaica Plain,Education,1
+807,Jamaica Plain,Politics,16
+808,Jamaica Plain,Sports,1
+809,Jamaica Plain,Technology,1
+810,Roxbury,Violence,8
+811,Roxbury,Education,0
+812,Roxbury,Politics,0
+813,Roxbury,Sports,0
+814,Roxbury,Technology,0
+815,Dorchester,Violence,8
+816,Dorchester,Education,0
+817,Dorchester,Politics,0
+818,Dorchester,Sports,0
+819,Dorchester,Technology,0
+820,Allston,Violence,2
+821,Allston,Education,3
+822,Allston,Politics,0
+823,Allston,Sports,2
+824,Allston,Technology,0
+825,Beacon Hill,Violence,7
+826,Beacon Hill,Education,0
+827,Beacon Hill,Politics,1
+828,Beacon Hill,Sports,0
+829,Beacon Hill,Technology,0
+830,Fenway,Violence,4
+831,Fenway,Education,0
+832,Fenway,Politics,0
+833,Fenway,Sports,17
+834,Fenway,Technology,0
+835,East Boston,Violence,0
+836,East Boston,Education,2
+837,East Boston,Politics,7
+838,East Boston,Sports,4
+839,East Boston,Technology,0
+840,South Boston,Violence,2
+841,South Boston,Education,1
+842,South Boston,Politics,4
+843,South Boston,Sports,1
+844,South Boston,Technology,0
+845,Roxbury,Violence,2
+846,Roxbury,Education,1
+847,Roxbury,Politics,4
+848,Roxbury,Sports,1
+849,Roxbury,Technology,0
+850,Fenway,Violence,5
+851,Fenway,Education,0
+852,Fenway,Politics,0
+853,Fenway,Sports,14
+854,Fenway,Technology,2
+855,Roxbury,Violence,4
+856,Roxbury,Education,3
+857,Roxbury,Politics,6
+858,Roxbury,Sports,4
+859,Roxbury,Technology,3
+860,Fenway,Violence,0
+861,Fenway,Education,0
+862,Fenway,Politics,0
+863,Fenway,Sports,1
+864,Fenway,Technology,0
+865,Fenway,Violence,0
+866,Fenway,Education,0
+867,Fenway,Politics,0
+868,Fenway,Sports,1
+869,Fenway,Technology,0
+870,Dorchester,Violence,6
+871,Dorchester,Education,3
+872,Dorchester,Politics,0
+873,Dorchester,Sports,2
+874,Dorchester,Technology,0
+875,South Boston,Violence,16
+876,South Boston,Education,6
+877,South Boston,Politics,12
+878,South Boston,Sports,4
+879,South Boston,Technology,1
+880,Jamaica Plain,Violence,16
+881,Jamaica Plain,Education,6
+882,Jamaica Plain,Politics,12
+883,Jamaica Plain,Sports,4
+884,Jamaica Plain,Technology,1
+885,Back Bay,Violence,0
+886,Back Bay,Education,2
+887,Back Bay,Politics,4
+888,Back Bay,Sports,1
+889,Back Bay,Technology,0
+890,Roxbury,Violence,5
+891,Roxbury,Education,5
+892,Roxbury,Politics,27
+893,Roxbury,Sports,4
+894,Roxbury,Technology,3
+895,Dorchester,Violence,5
+896,Dorchester,Education,5
+897,Dorchester,Politics,27
+898,Dorchester,Sports,4
+899,Dorchester,Technology,3
+900,Mattapan,Violence,5
+901,Mattapan,Education,5
+902,Mattapan,Politics,27
+903,Mattapan,Sports,4
+904,Mattapan,Technology,3
+905,Fenway,Violence,0
+906,Fenway,Education,0
+907,Fenway,Politics,0
+908,Fenway,Sports,2
+909,Fenway,Technology,0
+910,Roxbury,Violence,0
+911,Roxbury,Education,1
+912,Roxbury,Politics,6
+913,Roxbury,Sports,0
+914,Roxbury,Technology,3
+915,Beacon Hill,Violence,3
+916,Beacon Hill,Education,5
+917,Beacon Hill,Politics,13
+918,Beacon Hill,Sports,37
+919,Beacon Hill,Technology,0
+920,South Boston,Violence,3
+921,South Boston,Education,5
+922,South Boston,Politics,13
+923,South Boston,Sports,37
+924,South Boston,Technology,0
+925,Mission Hill,Violence,3
+926,Mission Hill,Education,5
+927,Mission Hill,Politics,13
+928,Mission Hill,Sports,37
+929,Mission Hill,Technology,0
+930,Jamaica Plain,Violence,3
+931,Jamaica Plain,Education,5
+932,Jamaica Plain,Politics,13
+933,Jamaica Plain,Sports,37
+934,Jamaica Plain,Technology,0
+935,East Boston,Violence,0
+936,East Boston,Education,1
+937,East Boston,Politics,2
+938,East Boston,Sports,0
+939,East Boston,Technology,0
+940,Jamaica Plain,Violence,9
+941,Jamaica Plain,Education,8
+942,Jamaica Plain,Politics,1
+943,Jamaica Plain,Sports,0
+944,Jamaica Plain,Technology,1
+945,Fenway,Violence,1
+946,Fenway,Education,0
+947,Fenway,Politics,0
+948,Fenway,Sports,14
+949,Fenway,Technology,3
+950,Roxbury,Violence,1
+951,Roxbury,Education,0
+952,Roxbury,Politics,0
+953,Roxbury,Sports,14
+954,Roxbury,Technology,3
+955,Hyde Park,Violence,1
+956,Hyde Park,Education,0
+957,Hyde Park,Politics,0
+958,Hyde Park,Sports,14
+959,Hyde Park,Technology,3
+960,Jamaica Plain,Violence,2
+961,Jamaica Plain,Education,0
+962,Jamaica Plain,Politics,0
+963,Jamaica Plain,Sports,0
+964,Jamaica Plain,Technology,1
+965,Mattapan,Violence,7
+966,Mattapan,Education,0
+967,Mattapan,Politics,0
+968,Mattapan,Sports,0
+969,Mattapan,Technology,1
+970,Fenway,Violence,0
+971,Fenway,Education,0
+972,Fenway,Politics,0
+973,Fenway,Sports,1
+974,Fenway,Technology,0
+975,North End,Violence,0
+976,North End,Education,0
+977,North End,Politics,0
+978,North End,Sports,0
+979,North End,Technology,4
+980,Dorchester,Violence,0
+981,Dorchester,Education,0
+982,Dorchester,Politics,0
+983,Dorchester,Sports,0
+984,Dorchester,Technology,4
+985,Dorchester,Violence,2
+986,Dorchester,Education,1
+987,Dorchester,Politics,1
+988,Dorchester,Sports,1
+989,Dorchester,Technology,1
+990,Dorchester,Violence,6
+991,Dorchester,Education,0
+992,Dorchester,Politics,1
+993,Dorchester,Sports,0
+994,Dorchester,Technology,0
+995,Brighton,Violence,6
+996,Brighton,Education,0
+997,Brighton,Politics,0
+998,Brighton,Sports,0
+999,Brighton,Technology,0
+1000,Fenway,Violence,0
+1001,Fenway,Education,0
+1002,Fenway,Politics,2
+1003,Fenway,Sports,0
+1004,Fenway,Technology,0
+1005,East Boston,Violence,3
+1006,East Boston,Education,6
+1007,East Boston,Politics,4
+1008,East Boston,Sports,1
+1009,East Boston,Technology,0
+1010,South Boston,Violence,3
+1011,South Boston,Education,6
+1012,South Boston,Politics,4
+1013,South Boston,Sports,1
+1014,South Boston,Technology,0
+1015,Roxbury,Violence,3
+1016,Roxbury,Education,6
+1017,Roxbury,Politics,4
+1018,Roxbury,Sports,1
+1019,Roxbury,Technology,0
+1020,West Roxbury,Violence,3
+1021,West Roxbury,Education,6
+1022,West Roxbury,Politics,4
+1023,West Roxbury,Sports,1
+1024,West Roxbury,Technology,0
+1025,South End,Violence,3
+1026,South End,Education,0
+1027,South End,Politics,0
+1028,South End,Sports,0
+1029,South End,Technology,2
+1030,Fenway,Violence,0
+1031,Fenway,Education,0
+1032,Fenway,Politics,0
+1033,Fenway,Sports,2
+1034,Fenway,Technology,0
+1035,Brighton,Violence,0
+1036,Brighton,Education,3
+1037,Brighton,Politics,16
+1038,Brighton,Sports,1
+1039,Brighton,Technology,0
+1040,East Boston,Violence,0
+1041,East Boston,Education,3
+1042,East Boston,Politics,16
+1043,East Boston,Sports,1
+1044,East Boston,Technology,0
+1045,Dorchester,Violence,0
+1046,Dorchester,Education,3
+1047,Dorchester,Politics,16
+1048,Dorchester,Sports,1
+1049,Dorchester,Technology,0
+1050,Dorchester,Violence,4
+1051,Dorchester,Education,0
+1052,Dorchester,Politics,0
+1053,Dorchester,Sports,2
+1054,Dorchester,Technology,1
+1055,Fenway,Violence,0
+1056,Fenway,Education,0
+1057,Fenway,Politics,1
+1058,Fenway,Sports,2
+1059,Fenway,Technology,0
+1060,Dorchester,Violence,0
+1061,Dorchester,Education,1
+1062,Dorchester,Politics,0
+1063,Dorchester,Sports,0
+1064,Dorchester,Technology,1
+1065,Dorchester,Violence,0
+1066,Dorchester,Education,3
+1067,Dorchester,Politics,2
+1068,Dorchester,Sports,21
+1069,Dorchester,Technology,0
+1070,Beacon Hill,Violence,0
+1071,Beacon Hill,Education,0
+1072,Beacon Hill,Politics,0
+1073,Beacon Hill,Sports,0
+1074,Beacon Hill,Technology,0
+1075,South Boston,Violence,0
+1076,South Boston,Education,0
+1077,South Boston,Politics,0
+1078,South Boston,Sports,0
+1079,South Boston,Technology,0
+1080,Dorchester,Violence,0
+1081,Dorchester,Education,0
+1082,Dorchester,Politics,12
+1083,Dorchester,Sports,2
+1084,Dorchester,Technology,0
+1085,Roxbury,Violence,3
+1086,Roxbury,Education,1
+1087,Roxbury,Politics,2
+1088,Roxbury,Sports,0
+1089,Roxbury,Technology,0
+1090,Dorchester,Violence,3
+1091,Dorchester,Education,1
+1092,Dorchester,Politics,2
+1093,Dorchester,Sports,0
+1094,Dorchester,Technology,0
+1095,Roxbury,Violence,5
+1096,Roxbury,Education,0
+1097,Roxbury,Politics,0
+1098,Roxbury,Sports,0
+1099,Roxbury,Technology,0
+1100,West Roxbury,Violence,5
+1101,West Roxbury,Education,0
+1102,West Roxbury,Politics,0
+1103,West Roxbury,Sports,0
+1104,West Roxbury,Technology,0
+1105,East Boston,Violence,2
+1106,East Boston,Education,9
+1107,East Boston,Politics,2
+1108,East Boston,Sports,0
+1109,East Boston,Technology,1
+1110,South Boston,Violence,0
+1111,South Boston,Education,1
+1112,South Boston,Politics,3
+1113,South Boston,Sports,1
+1114,South Boston,Technology,1
+1115,Dorchester,Violence,0
+1116,Dorchester,Education,1
+1117,Dorchester,Politics,3
+1118,Dorchester,Sports,1
+1119,Dorchester,Technology,1
+1120,Mattapan,Violence,0
+1121,Mattapan,Education,1
+1122,Mattapan,Politics,3
+1123,Mattapan,Sports,1
+1124,Mattapan,Technology,1
+1125,Beacon Hill,Violence,0
+1126,Beacon Hill,Education,3
+1127,Beacon Hill,Politics,24
+1128,Beacon Hill,Sports,5
+1129,Beacon Hill,Technology,3
+1130,South Boston,Violence,0
+1131,South Boston,Education,3
+1132,South Boston,Politics,24
+1133,South Boston,Sports,5
+1134,South Boston,Technology,3
+1135,Jamaica Plain,Violence,0
+1136,Jamaica Plain,Education,3
+1137,Jamaica Plain,Politics,24
+1138,Jamaica Plain,Sports,5
+1139,Jamaica Plain,Technology,3
+1140,Fenway,Violence,14
+1141,Fenway,Education,15
+1142,Fenway,Politics,18
+1143,Fenway,Sports,7
+1144,Fenway,Technology,3
+1145,East Boston,Violence,14
+1146,East Boston,Education,15
+1147,East Boston,Politics,18
+1148,East Boston,Sports,7
+1149,East Boston,Technology,3
+1150,Dorchester,Violence,14
+1151,Dorchester,Education,15
+1152,Dorchester,Politics,18
+1153,Dorchester,Sports,7
+1154,Dorchester,Technology,3
+1155,Beacon Hill,Violence,0
+1156,Beacon Hill,Education,0
+1157,Beacon Hill,Politics,3
+1158,Beacon Hill,Sports,0
+1159,Beacon Hill,Technology,0
+1160,Beacon Hill,Violence,1
+1161,Beacon Hill,Education,9
+1162,Beacon Hill,Politics,4
+1163,Beacon Hill,Sports,0
+1164,Beacon Hill,Technology,2
+1165,South End,Violence,0
+1166,South End,Education,0
+1167,South End,Politics,0
+1168,South End,Sports,1
+1169,South End,Technology,0
+1170,Beacon Hill,Violence,0
+1171,Beacon Hill,Education,0
+1172,Beacon Hill,Politics,1
+1173,Beacon Hill,Sports,0
+1174,Beacon Hill,Technology,0
+1175,Allston,Violence,0
+1176,Allston,Education,0
+1177,Allston,Politics,0
+1178,Allston,Sports,0
+1179,Allston,Technology,0
+1180,Fenway,Violence,4
+1181,Fenway,Education,51
+1182,Fenway,Politics,6
+1183,Fenway,Sports,2
+1184,Fenway,Technology,6
+1185,East Boston,Violence,4
+1186,East Boston,Education,51
+1187,East Boston,Politics,6
+1188,East Boston,Sports,2
+1189,East Boston,Technology,6
+1190,South Boston,Violence,4
+1191,South Boston,Education,51
+1192,South Boston,Politics,6
+1193,South Boston,Sports,2
+1194,South Boston,Technology,6
+1195,South End,Violence,4
+1196,South End,Education,51
+1197,South End,Politics,6
+1198,South End,Sports,2
+1199,South End,Technology,6
+1200,Roxbury,Violence,4
+1201,Roxbury,Education,51
+1202,Roxbury,Politics,6
+1203,Roxbury,Sports,2
+1204,Roxbury,Technology,6
+1205,Jamaica Plain,Violence,4
+1206,Jamaica Plain,Education,51
+1207,Jamaica Plain,Politics,6
+1208,Jamaica Plain,Sports,2
+1209,Jamaica Plain,Technology,6
+1210,Hyde Park,Violence,4
+1211,Hyde Park,Education,51
+1212,Hyde Park,Politics,6
+1213,Hyde Park,Sports,2
+1214,Hyde Park,Technology,6
+1215,South Boston,Violence,0
+1216,South Boston,Education,0
+1217,South Boston,Politics,19
+1218,South Boston,Sports,4
+1219,South Boston,Technology,0
+1220,Fenway,Violence,1
+1221,Fenway,Education,0
+1222,Fenway,Politics,3
+1223,Fenway,Sports,8
+1224,Fenway,Technology,1
+1225,Dorchester,Violence,0
+1226,Dorchester,Education,0
+1227,Dorchester,Politics,0
+1228,Dorchester,Sports,0
+1229,Dorchester,Technology,0
+1230,Mattapan,Violence,0
+1231,Mattapan,Education,0
+1232,Mattapan,Politics,0
+1233,Mattapan,Sports,0
+1234,Mattapan,Technology,0
+1235,Fenway,Violence,0
+1236,Fenway,Education,0
+1237,Fenway,Politics,0
+1238,Fenway,Sports,1
+1239,Fenway,Technology,0
+1240,Dorchester,Violence,1
+1241,Dorchester,Education,2
+1242,Dorchester,Politics,2
+1243,Dorchester,Sports,0
+1244,Dorchester,Technology,0
+1245,East Boston,Violence,0
+1246,East Boston,Education,0
+1247,East Boston,Politics,0
+1248,East Boston,Sports,1
+1249,East Boston,Technology,0
+1250,Roxbury,Violence,4
+1251,Roxbury,Education,0
+1252,Roxbury,Politics,0
+1253,Roxbury,Sports,0
+1254,Roxbury,Technology,0
+1255,Dorchester,Violence,4
+1256,Dorchester,Education,0
+1257,Dorchester,Politics,0
+1258,Dorchester,Sports,0
+1259,Dorchester,Technology,0
+1260,Roxbury,Violence,7
+1261,Roxbury,Education,1
+1262,Roxbury,Politics,1
+1263,Roxbury,Sports,0
+1264,Roxbury,Technology,0
+1265,West Roxbury,Violence,7
+1266,West Roxbury,Education,1
+1267,West Roxbury,Politics,1
+1268,West Roxbury,Sports,0
+1269,West Roxbury,Technology,0
+1270,Beacon Hill,Violence,1
+1271,Beacon Hill,Education,0
+1272,Beacon Hill,Politics,2
+1273,Beacon Hill,Sports,1
+1274,Beacon Hill,Technology,0
+1275,Beacon Hill,Violence,3
+1276,Beacon Hill,Education,3
+1277,Beacon Hill,Politics,17
+1278,Beacon Hill,Sports,3
+1279,Beacon Hill,Technology,2
+1280,Back Bay,Violence,0
+1281,Back Bay,Education,0
+1282,Back Bay,Politics,0
+1283,Back Bay,Sports,1
+1284,Back Bay,Technology,0
+1285,Beacon Hill,Violence,1
+1286,Beacon Hill,Education,1
+1287,Beacon Hill,Politics,9
+1288,Beacon Hill,Sports,0
+1289,Beacon Hill,Technology,0
+1290,East Boston,Violence,21
+1291,East Boston,Education,4
+1292,East Boston,Politics,16
+1293,East Boston,Sports,2
+1294,East Boston,Technology,3
+1295,Fenway,Violence,1
+1296,Fenway,Education,0
+1297,Fenway,Politics,0
+1298,Fenway,Sports,8
+1299,Fenway,Technology,1
+1300,Dorchester,Violence,2
+1301,Dorchester,Education,2
+1302,Dorchester,Politics,7
+1303,Dorchester,Sports,10
+1304,Dorchester,Technology,2
+1305,Roxbury,Violence,0
+1306,Roxbury,Education,0
+1307,Roxbury,Politics,0
+1308,Roxbury,Sports,0
+1309,Roxbury,Technology,0
+1310,West Roxbury,Violence,0
+1311,West Roxbury,Education,0
+1312,West Roxbury,Politics,0
+1313,West Roxbury,Sports,0
+1314,West Roxbury,Technology,0
+1315,Mission Hill,Violence,4
+1316,Mission Hill,Education,5
+1317,Mission Hill,Politics,2
+1318,Mission Hill,Sports,3
+1319,Mission Hill,Technology,0
+1320,Dorchester,Violence,4
+1321,Dorchester,Education,5
+1322,Dorchester,Politics,2
+1323,Dorchester,Sports,3
+1324,Dorchester,Technology,0
+1325,Fenway,Violence,1
+1326,Fenway,Education,0
+1327,Fenway,Politics,0
+1328,Fenway,Sports,0
+1329,Fenway,Technology,0
+1330,Fenway,Violence,0
+1331,Fenway,Education,0
+1332,Fenway,Politics,0
+1333,Fenway,Sports,1
+1334,Fenway,Technology,0
+1335,Brighton,Violence,0
+1336,Brighton,Education,4
+1337,Brighton,Politics,20
+1338,Brighton,Sports,3
+1339,Brighton,Technology,0
+1340,Dorchester,Violence,0
+1341,Dorchester,Education,4
+1342,Dorchester,Politics,20
+1343,Dorchester,Sports,3
+1344,Dorchester,Technology,0
+1345,Mattapan,Violence,0
+1346,Mattapan,Education,4
+1347,Mattapan,Politics,20
+1348,Mattapan,Sports,3
+1349,Mattapan,Technology,0
+1350,Dorchester,Violence,3
+1351,Dorchester,Education,0
+1352,Dorchester,Politics,0
+1353,Dorchester,Sports,6
+1354,Dorchester,Technology,0
+1355,South Boston,Violence,1
+1356,South Boston,Education,0
+1357,South Boston,Politics,0
+1358,South Boston,Sports,2
+1359,South Boston,Technology,0
+1360,Beacon Hill,Violence,1
+1361,Beacon Hill,Education,0
+1362,Beacon Hill,Politics,14
+1363,Beacon Hill,Sports,2
+1364,Beacon Hill,Technology,1
+1365,Brighton,Violence,5
+1366,Brighton,Education,0
+1367,Brighton,Politics,0
+1368,Brighton,Sports,0
+1369,Brighton,Technology,0
+1370,Dorchester,Violence,6
+1371,Dorchester,Education,2
+1372,Dorchester,Politics,0
+1373,Dorchester,Sports,0
+1374,Dorchester,Technology,1
+1375,Brighton,Violence,0
+1376,Brighton,Education,0
+1377,Brighton,Politics,26
+1378,Brighton,Sports,1
+1379,Brighton,Technology,0
+1380,Dorchester,Violence,4
+1381,Dorchester,Education,0
+1382,Dorchester,Politics,0
+1383,Dorchester,Sports,0
+1384,Dorchester,Technology,1
+1385,South Boston,Violence,6
+1386,South Boston,Education,0
+1387,South Boston,Politics,1
+1388,South Boston,Sports,0
+1389,South Boston,Technology,1
+1390,Beacon Hill,Violence,2
+1391,Beacon Hill,Education,3
+1392,Beacon Hill,Politics,36
+1393,Beacon Hill,Sports,6
+1394,Beacon Hill,Technology,0
+1395,Dorchester,Violence,1
+1396,Dorchester,Education,6
+1397,Dorchester,Politics,9
+1398,Dorchester,Sports,1
+1399,Dorchester,Technology,0
+1400,Fenway,Violence,0
+1401,Fenway,Education,0
+1402,Fenway,Politics,0
+1403,Fenway,Sports,9
+1404,Fenway,Technology,0
+1405,East Boston,Violence,2
+1406,East Boston,Education,9
+1407,East Boston,Politics,1
+1408,East Boston,Sports,6
+1409,East Boston,Technology,1
+1410,Fenway,Violence,0
+1411,Fenway,Education,0
+1412,Fenway,Politics,0
+1413,Fenway,Sports,4
+1414,Fenway,Technology,0
+1415,Mattapan,Violence,0
+1416,Mattapan,Education,4
+1417,Mattapan,Politics,0
+1418,Mattapan,Sports,1
+1419,Mattapan,Technology,0
+1420,Fenway,Violence,0
+1421,Fenway,Education,0
+1422,Fenway,Politics,0
+1423,Fenway,Sports,1
+1424,Fenway,Technology,0
+1425,Roxbury,Violence,1
+1426,Roxbury,Education,0
+1427,Roxbury,Politics,0
+1428,Roxbury,Sports,0
+1429,Roxbury,Technology,0
+1430,Roxbury,Violence,41
+1431,Roxbury,Education,12
+1432,Roxbury,Politics,8
+1433,Roxbury,Sports,11
+1434,Roxbury,Technology,3
+1435,Dorchester,Violence,41
+1436,Dorchester,Education,12
+1437,Dorchester,Politics,8
+1438,Dorchester,Sports,11
+1439,Dorchester,Technology,3
+1440,Mattapan,Violence,41
+1441,Mattapan,Education,12
+1442,Mattapan,Politics,8
+1443,Mattapan,Sports,11
+1444,Mattapan,Technology,3
+1445,Fenway,Violence,0
+1446,Fenway,Education,0
+1447,Fenway,Politics,0
+1448,Fenway,Sports,1
+1449,Fenway,Technology,0
+1450,Fenway,Violence,1
+1451,Fenway,Education,0
+1452,Fenway,Politics,0
+1453,Fenway,Sports,17
+1454,Fenway,Technology,1
+1455,Beacon Hill,Violence,0
+1456,Beacon Hill,Education,6
+1457,Beacon Hill,Politics,22
+1458,Beacon Hill,Sports,2
+1459,Beacon Hill,Technology,0
+1460,Dorchester,Violence,3
+1461,Dorchester,Education,0
+1462,Dorchester,Politics,0
+1463,Dorchester,Sports,0
+1464,Dorchester,Technology,0
+1465,South Boston,Violence,8
+1466,South Boston,Education,5
+1467,South Boston,Politics,2
+1468,South Boston,Sports,5
+1469,South Boston,Technology,1
+1470,Dorchester,Violence,8
+1471,Dorchester,Education,5
+1472,Dorchester,Politics,2
+1473,Dorchester,Sports,5
+1474,Dorchester,Technology,1
+1475,Beacon Hill,Violence,0
+1476,Beacon Hill,Education,0
+1477,Beacon Hill,Politics,12
+1478,Beacon Hill,Sports,0
+1479,Beacon Hill,Technology,0
+1480,Harbor Islands,Violence,0
+1481,Harbor Islands,Education,0
+1482,Harbor Islands,Politics,0
+1483,Harbor Islands,Sports,0
+1484,Harbor Islands,Technology,0
+1485,Mattapan,Violence,2
+1486,Mattapan,Education,0
+1487,Mattapan,Politics,0
+1488,Mattapan,Sports,0
+1489,Mattapan,Technology,1
+1490,Beacon Hill,Violence,1
+1491,Beacon Hill,Education,0
+1492,Beacon Hill,Politics,2
+1493,Beacon Hill,Sports,0
+1494,Beacon Hill,Technology,1
+1495,Fenway,Violence,1
+1496,Fenway,Education,0
+1497,Fenway,Politics,0
+1498,Fenway,Sports,17
+1499,Fenway,Technology,0
+1500,Roxbury,Violence,0
+1501,Roxbury,Education,4
+1502,Roxbury,Politics,19
+1503,Roxbury,Sports,1
+1504,Roxbury,Technology,0
+1505,Dorchester,Violence,0
+1506,Dorchester,Education,4
+1507,Dorchester,Politics,19
+1508,Dorchester,Sports,1
+1509,Dorchester,Technology,0
+1510,Brighton,Violence,2
+1511,Brighton,Education,2
+1512,Brighton,Politics,2
+1513,Brighton,Sports,5
+1514,Brighton,Technology,2
+1515,Dorchester,Violence,11
+1516,Dorchester,Education,0
+1517,Dorchester,Politics,1
+1518,Dorchester,Sports,0
+1519,Dorchester,Technology,1
+1520,Mattapan,Violence,11
+1521,Mattapan,Education,0
+1522,Mattapan,Politics,1
+1523,Mattapan,Sports,0
+1524,Mattapan,Technology,1
+1525,Fenway,Violence,0
+1526,Fenway,Education,0
+1527,Fenway,Politics,0
+1528,Fenway,Sports,4
+1529,Fenway,Technology,0
+1530,Fenway,Violence,1
+1531,Fenway,Education,1
+1532,Fenway,Politics,5
+1533,Fenway,Sports,6
+1534,Fenway,Technology,0
+1535,Beacon Hill,Violence,0
+1536,Beacon Hill,Education,0
+1537,Beacon Hill,Politics,2
+1538,Beacon Hill,Sports,0
+1539,Beacon Hill,Technology,0
+1540,Jamaica Plain,Violence,2
+1541,Jamaica Plain,Education,4
+1542,Jamaica Plain,Politics,25
+1543,Jamaica Plain,Sports,3
+1544,Jamaica Plain,Technology,2
+1545,Dorchester,Violence,2
+1546,Dorchester,Education,4
+1547,Dorchester,Politics,25
+1548,Dorchester,Sports,3
+1549,Dorchester,Technology,2
+1550,East Boston,Violence,3
+1551,East Boston,Education,2
+1552,East Boston,Politics,2
+1553,East Boston,Sports,36
+1554,East Boston,Technology,2
+1555,Hyde Park,Violence,3
+1556,Hyde Park,Education,2
+1557,Hyde Park,Politics,2
+1558,Hyde Park,Sports,36
+1559,Hyde Park,Technology,2
+1560,Beacon Hill,Violence,5
+1561,Beacon Hill,Education,6
+1562,Beacon Hill,Politics,4
+1563,Beacon Hill,Sports,3
+1564,Beacon Hill,Technology,0
+1565,Beacon Hill,Violence,1
+1566,Beacon Hill,Education,0
+1567,Beacon Hill,Politics,11
+1568,Beacon Hill,Sports,3
+1569,Beacon Hill,Technology,6
+1570,Dorchester,Violence,2
+1571,Dorchester,Education,0
+1572,Dorchester,Politics,1
+1573,Dorchester,Sports,0
+1574,Dorchester,Technology,0
+1575,Charlestown,Violence,6
+1576,Charlestown,Education,3
+1577,Charlestown,Politics,0
+1578,Charlestown,Sports,1
+1579,Charlestown,Technology,0
+1580,South Boston,Violence,6
+1581,South Boston,Education,3
+1582,South Boston,Politics,0
+1583,South Boston,Sports,1
+1584,South Boston,Technology,0
+1585,Fenway,Violence,2
+1586,Fenway,Education,0
+1587,Fenway,Politics,0
+1588,Fenway,Sports,9
+1589,Fenway,Technology,0
+1590,Roxbury,Violence,2
+1591,Roxbury,Education,2
+1592,Roxbury,Politics,2
+1593,Roxbury,Sports,28
+1594,Roxbury,Technology,3
+1595,West Roxbury,Violence,2
+1596,West Roxbury,Education,2
+1597,West Roxbury,Politics,2
+1598,West Roxbury,Sports,28
+1599,West Roxbury,Technology,3
+1600,East Boston,Violence,0
+1601,East Boston,Education,1
+1602,East Boston,Politics,2
+1603,East Boston,Sports,0
+1604,East Boston,Technology,0
+1605,Dorchester,Violence,0
+1606,Dorchester,Education,1
+1607,Dorchester,Politics,2
+1608,Dorchester,Sports,0
+1609,Dorchester,Technology,0
+1610,Fenway,Violence,1
+1611,Fenway,Education,0
+1612,Fenway,Politics,1
+1613,Fenway,Sports,24
+1614,Fenway,Technology,2
+1615,Beacon Hill,Violence,0
+1616,Beacon Hill,Education,0
+1617,Beacon Hill,Politics,6
+1618,Beacon Hill,Sports,2
+1619,Beacon Hill,Technology,0
+1620,Dorchester,Violence,0
+1621,Dorchester,Education,0
+1622,Dorchester,Politics,6
+1623,Dorchester,Sports,0
+1624,Dorchester,Technology,0
+1625,Roxbury,Violence,1
+1626,Roxbury,Education,1
+1627,Roxbury,Politics,2
+1628,Roxbury,Sports,1
+1629,Roxbury,Technology,0
+1630,Hyde Park,Violence,1
+1631,Hyde Park,Education,1
+1632,Hyde Park,Politics,2
+1633,Hyde Park,Sports,1
+1634,Hyde Park,Technology,0
+1635,Fenway,Violence,0
+1636,Fenway,Education,0
+1637,Fenway,Politics,0
+1638,Fenway,Sports,0
+1639,Fenway,Technology,0
+1640,Brighton,Violence,0
+1641,Brighton,Education,4
+1642,Brighton,Politics,1
+1643,Brighton,Sports,0
+1644,Brighton,Technology,0
+1645,East Boston,Violence,1
+1646,East Boston,Education,6
+1647,East Boston,Politics,9
+1648,East Boston,Sports,4
+1649,East Boston,Technology,0
+1650,Roxbury,Violence,0
+1651,Roxbury,Education,5
+1652,Roxbury,Politics,8
+1653,Roxbury,Sports,0
+1654,Roxbury,Technology,1
+1655,Beacon Hill,Violence,1
+1656,Beacon Hill,Education,1
+1657,Beacon Hill,Politics,11
+1658,Beacon Hill,Sports,4
+1659,Beacon Hill,Technology,0
+1660,Beacon Hill,Violence,0
+1661,Beacon Hill,Education,2
+1662,Beacon Hill,Politics,29
+1663,Beacon Hill,Sports,1
+1664,Beacon Hill,Technology,1
+1665,Beacon Hill,Violence,2
+1666,Beacon Hill,Education,0
+1667,Beacon Hill,Politics,0
+1668,Beacon Hill,Sports,0
+1669,Beacon Hill,Technology,0
+1670,Beacon Hill,Violence,1
+1671,Beacon Hill,Education,1
+1672,Beacon Hill,Politics,6
+1673,Beacon Hill,Sports,0
+1674,Beacon Hill,Technology,2
+1675,Charlestown,Violence,2
+1676,Charlestown,Education,3
+1677,Charlestown,Politics,4
+1678,Charlestown,Sports,2
+1679,Charlestown,Technology,0
+1680,Roxbury,Violence,2
+1681,Roxbury,Education,3
+1682,Roxbury,Politics,4
+1683,Roxbury,Sports,2
+1684,Roxbury,Technology,0
+1685,East Boston,Violence,4
+1686,East Boston,Education,9
+1687,East Boston,Politics,0
+1688,East Boston,Sports,0
+1689,East Boston,Technology,2
+1690,Roxbury,Violence,6
+1691,Roxbury,Education,0
+1692,Roxbury,Politics,0
+1693,Roxbury,Sports,0
+1694,Roxbury,Technology,0
+1695,Dorchester,Violence,1
+1696,Dorchester,Education,1
+1697,Dorchester,Politics,1
+1698,Dorchester,Sports,0
+1699,Dorchester,Technology,0
+1700,Roxbury,Violence,7
+1701,Roxbury,Education,0
+1702,Roxbury,Politics,1
+1703,Roxbury,Sports,0
+1704,Roxbury,Technology,0
+1705,Dorchester,Violence,7
+1706,Dorchester,Education,0
+1707,Dorchester,Politics,1
+1708,Dorchester,Sports,0
+1709,Dorchester,Technology,0
+1710,Mattapan,Violence,7
+1711,Mattapan,Education,0
+1712,Mattapan,Politics,1
+1713,Mattapan,Sports,0
+1714,Mattapan,Technology,0
+1715,Roxbury,Violence,7
+1716,Roxbury,Education,1
+1717,Roxbury,Politics,3
+1718,Roxbury,Sports,2
+1719,Roxbury,Technology,2
+1720,Hyde Park,Violence,7
+1721,Hyde Park,Education,1
+1722,Hyde Park,Politics,3
+1723,Hyde Park,Sports,2
+1724,Hyde Park,Technology,2
+1725,Beacon Hill,Violence,1
+1726,Beacon Hill,Education,0
+1727,Beacon Hill,Politics,3
+1728,Beacon Hill,Sports,3
+1729,Beacon Hill,Technology,0
+1730,Dorchester,Violence,1
+1731,Dorchester,Education,13
+1732,Dorchester,Politics,0
+1733,Dorchester,Sports,4
+1734,Dorchester,Technology,0
+1735,Mattapan,Violence,1
+1736,Mattapan,Education,13
+1737,Mattapan,Politics,0
+1738,Mattapan,Sports,4
+1739,Mattapan,Technology,0
+1740,Roxbury,Violence,1
+1741,Roxbury,Education,0
+1742,Roxbury,Politics,0
+1743,Roxbury,Sports,1
+1744,Roxbury,Technology,0
+1745,Roxbury,Violence,4
+1746,Roxbury,Education,0
+1747,Roxbury,Politics,0
+1748,Roxbury,Sports,0
+1749,Roxbury,Technology,0
+1750,Mattapan,Violence,4
+1751,Mattapan,Education,0
+1752,Mattapan,Politics,0
+1753,Mattapan,Sports,0
+1754,Mattapan,Technology,0
+1755,Dorchester,Violence,5
+1756,Dorchester,Education,1
+1757,Dorchester,Politics,0
+1758,Dorchester,Sports,6
+1759,Dorchester,Technology,1
+1760,South End,Violence,5
+1761,South End,Education,6
+1762,South End,Politics,23
+1763,South End,Sports,1
+1764,South End,Technology,1
+1765,Roxbury,Violence,5
+1766,Roxbury,Education,6
+1767,Roxbury,Politics,23
+1768,Roxbury,Sports,1
+1769,Roxbury,Technology,1
+1770,Dorchester,Violence,5
+1771,Dorchester,Education,6
+1772,Dorchester,Politics,23
+1773,Dorchester,Sports,1
+1774,Dorchester,Technology,1
+1775,Beacon Hill,Violence,4
+1776,Beacon Hill,Education,9
+1777,Beacon Hill,Politics,4
+1778,Beacon Hill,Sports,1
+1779,Beacon Hill,Technology,3
+1780,Dorchester,Violence,7
+1781,Dorchester,Education,0
+1782,Dorchester,Politics,1
+1783,Dorchester,Sports,0
+1784,Dorchester,Technology,0
+1785,Mattapan,Violence,7
+1786,Mattapan,Education,0
+1787,Mattapan,Politics,1
+1788,Mattapan,Sports,0
+1789,Mattapan,Technology,0
+1790,Roslindale,Violence,6
+1791,Roslindale,Education,14
+1792,Roslindale,Politics,0
+1793,Roslindale,Sports,0
+1794,Roslindale,Technology,2
+1795,Beacon Hill,Violence,1
+1796,Beacon Hill,Education,1
+1797,Beacon Hill,Politics,1
+1798,Beacon Hill,Sports,2
+1799,Beacon Hill,Technology,1
+1800,South Boston,Violence,1
+1801,South Boston,Education,1
+1802,South Boston,Politics,10
+1803,South Boston,Sports,1
+1804,South Boston,Technology,0
+1805,Beacon Hill,Violence,3
+1806,Beacon Hill,Education,0
+1807,Beacon Hill,Politics,4
+1808,Beacon Hill,Sports,0
+1809,Beacon Hill,Technology,0
+1810,Brighton,Violence,3
+1811,Brighton,Education,0
+1812,Brighton,Politics,0
+1813,Brighton,Sports,1
+1814,Brighton,Technology,0
+1815,Hyde Park,Violence,0
+1816,Hyde Park,Education,1
+1817,Hyde Park,Politics,6
+1818,Hyde Park,Sports,1
+1819,Hyde Park,Technology,0
+1820,Fenway,Violence,0
+1821,Fenway,Education,0
+1822,Fenway,Politics,0
+1823,Fenway,Sports,0
+1824,Fenway,Technology,0
+1825,Jamaica Plain,Violence,10
+1826,Jamaica Plain,Education,1
+1827,Jamaica Plain,Politics,0
+1828,Jamaica Plain,Sports,1
+1829,Jamaica Plain,Technology,0
+1830,Dorchester,Violence,10
+1831,Dorchester,Education,1
+1832,Dorchester,Politics,0
+1833,Dorchester,Sports,1
+1834,Dorchester,Technology,0
+1835,Roxbury,Violence,4
+1836,Roxbury,Education,2
+1837,Roxbury,Politics,0
+1838,Roxbury,Sports,0
+1839,Roxbury,Technology,0
+1840,Dorchester,Violence,4
+1841,Dorchester,Education,2
+1842,Dorchester,Politics,0
+1843,Dorchester,Sports,0
+1844,Dorchester,Technology,0
+1845,Beacon Hill,Violence,0
+1846,Beacon Hill,Education,0
+1847,Beacon Hill,Politics,0
+1848,Beacon Hill,Sports,0
+1849,Beacon Hill,Technology,1
+1850,Brighton,Violence,0
+1851,Brighton,Education,0
+1852,Brighton,Politics,0
+1853,Brighton,Sports,0
+1854,Brighton,Technology,0
+1855,Fenway,Violence,0
+1856,Fenway,Education,1
+1857,Fenway,Politics,0
+1858,Fenway,Sports,0
+1859,Fenway,Technology,0
+1860,Fenway,Violence,6
+1861,Fenway,Education,0
+1862,Fenway,Politics,1
+1863,Fenway,Sports,19
+1864,Fenway,Technology,1
+1865,South Boston,Violence,0
+1866,South Boston,Education,0
+1867,South Boston,Politics,0
+1868,South Boston,Sports,0
+1869,South Boston,Technology,0
+1870,Roxbury,Violence,4
+1871,Roxbury,Education,3
+1872,Roxbury,Politics,3
+1873,Roxbury,Sports,2
+1874,Roxbury,Technology,0
+1875,West Roxbury,Violence,4
+1876,West Roxbury,Education,3
+1877,West Roxbury,Politics,3
+1878,West Roxbury,Sports,2
+1879,West Roxbury,Technology,0
+1880,Dorchester,Violence,2
+1881,Dorchester,Education,0
+1882,Dorchester,Politics,6
+1883,Dorchester,Sports,2
+1884,Dorchester,Technology,2
+1885,Roxbury,Violence,3
+1886,Roxbury,Education,0
+1887,Roxbury,Politics,0
+1888,Roxbury,Sports,1
+1889,Roxbury,Technology,0
+1890,East Boston,Violence,1
+1891,East Boston,Education,5
+1892,East Boston,Politics,1
+1893,East Boston,Sports,1
+1894,East Boston,Technology,0
+1895,South Boston,Violence,1
+1896,South Boston,Education,5
+1897,South Boston,Politics,1
+1898,South Boston,Sports,1
+1899,South Boston,Technology,0
+1900,South Boston Waterfront,Violence,1
+1901,South Boston Waterfront,Education,5
+1902,South Boston Waterfront,Politics,1
+1903,South Boston Waterfront,Sports,1
+1904,South Boston Waterfront,Technology,0
+1905,Charlestown,Violence,0
+1906,Charlestown,Education,0
+1907,Charlestown,Politics,1
+1908,Charlestown,Sports,1
+1909,Charlestown,Technology,1
+1910,Dorchester,Violence,5
+1911,Dorchester,Education,0
+1912,Dorchester,Politics,0
+1913,Dorchester,Sports,0
+1914,Dorchester,Technology,0
+1915,Beacon Hill,Violence,0
+1916,Beacon Hill,Education,3
+1917,Beacon Hill,Politics,0
+1918,Beacon Hill,Sports,1
+1919,Beacon Hill,Technology,0
+1920,Beacon Hill,Violence,2
+1921,Beacon Hill,Education,0
+1922,Beacon Hill,Politics,4
+1923,Beacon Hill,Sports,1
+1924,Beacon Hill,Technology,0
