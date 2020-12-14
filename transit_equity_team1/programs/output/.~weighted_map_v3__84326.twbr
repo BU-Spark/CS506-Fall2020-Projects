@@ -2261,357 +2261,39 @@
   <actions>
     <action caption='Highlight1' name='[Action1]'>
       <activation auto-clear='true' type='on-select' />
-      <source type='sheet' worksheet='Sheet 2' />
+      <source type='sheet' worksheet='Stops/Districts' />
       <command command='tsc:brush'>
         <param name='field-captions' value='Rep Dist' />
-        <param name='target' value='Sheet 2' />
+        <param name='target' value='Stops/Districts' />
       </command>
     </action>
     <action caption='Highlight2' name='[Action2]'>
       <activation auto-clear='true' type='on-select' />
-      <source type='sheet' worksheet='Sheet 1' />
+      <source type='sheet' worksheet='Stops/Routes' />
       <command command='tsc:brush'>
         <param name='field-captions' value='ATTR(Income Lev)' />
-        <param name='target' value='Sheet 1' />
+        <param name='target' value='Stops/Routes' />
+      </command>
+    </action>
+    <action caption='Highlight2 1' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Stops/Routes (Top 5)' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='ATTR(Income Lev)' />
+        <param name='target' value='Stops/Routes (Top 5)' />
+      </command>
+    </action>
+    <action caption='Highlight1 1' name='[Action4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Stops/Districts (Top 5)' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Rep Dist' />
+        <param name='target' value='Stops/Districts (Top 5)' />
       </command>
     </action>
   </actions>
   <worksheets>
-    <worksheet name='Sheet 1'>
-      <repository-location id='Sheet1' path='/workbooks/weighted_map_v2' revision='' />
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='stops_routes' name='federated.1pbvr9601qfvzc1cc5r6o1gfj6eo' />
-          </datasources>
-          <mapsources>
-            <mapsource name='Tableau' />
-          </mapsources>
-          <datasource-dependencies datasource='federated.1pbvr9601qfvzc1cc5r6o1gfj6eo'>
-            <column caption='Geometry (MBTABUSROUTES ARC.shp)' datatype='spatial' name='[Geometry (MBTABUSROUTES_ARC.shp)]' role='measure' type='nominal' />
-            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
-            <column caption='Mbta Route' datatype='string' name='[MBTA_ROUTE]' role='dimension' type='nominal' />
-            <column caption='Rep Dist' datatype='string' name='[REP_DIST]' role='dimension' type='nominal' />
-            <column caption='Stop Id' datatype='integer' name='[STOP_ID]' role='dimension' type='ordinal' />
-            <column-instance column='[impacted_p]' derivation='Attribute' name='[attr:impacted_p:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[income_lev]' derivation='Attribute' name='[attr:income_lev:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Geometry (MBTABUSROUTES_ARC.shp)]' derivation='Collect' name='[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' pivot='key' type='nominal' />
-            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
-            <column caption='Impacted P' datatype='integer' name='[impacted_p]' role='measure' type='quantitative' />
-            <column caption='Income Lev' datatype='integer' name='[income_lev]' role='measure' type='quantitative' />
-            <column-instance column='[MBTA_ROUTE]' derivation='None' name='[none:MBTA_ROUTE:nk]' pivot='key' type='nominal' />
-            <column-instance column='[REP_DIST]' derivation='None' name='[none:REP_DIST:nk]' pivot='key' type='nominal' />
-            <column-instance column='[STOP_ID]' derivation='None' name='[none:STOP_ID:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[route_ids]' derivation='None' name='[none:route_ids:nk]' pivot='key' type='nominal' />
-            <column caption='Route Ids' datatype='string' name='[route_ids]' role='dimension' type='nominal' />
-          </datasource-dependencies>
-          <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' included-values='in-range-or-null'>
-            <min>20</min>
-          </filter>
-          <slices>
-            <column>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]</column>
-            <column>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Latitude (generated)]' field-type='quantitative' max='5235702.2997545199' min='5189414.0745699788' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-            <encoding attr='space' class='0' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' field-type='quantitative' max='-7876830.7598046772' min='-7940091.3327152953' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='1' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' field-type='quantitative' fold='true' max='-7876830.7598046772' min='-7940091.3327152953' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-          </style-rule>
-          <style-rule element='mark'>
-            <encoding attr='size' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' field-type='quantitative' max='10000' max-size='1' min-size='0' type='quantsize' />
-          </style-rule>
-          <style-rule element='pane'>
-            <format attr='band-color' scope='rows' value='#f5f5f5' />
-          </style-rule>
-          <style-rule element='table'>
-            <format attr='band-size' scope='rows' value='1' />
-          </style-rule>
-          <style-rule element='legend-title'>
-            <format attr='text-align' value='left' />
-            <format attr='font-size' value='15' />
-            <format attr='font-weight' value='normal' />
-          </style-rule>
-          <style-rule element='legend-title-text'>
-            <format attr='size' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' value='Impacted Population' />
-            <format attr='color' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' value='Income Level' />
-          </style-rule>
-          <style-rule element='map-layer'>
-            <format attr='enabled' id='place-village' value='true' />
-            <format attr='enabled' id='place-town' value='true' />
-            <format attr='enabled' id='place-islands' value='true' />
-            <format attr='enabled' id='place-city-sm' value='true' />
-            <format attr='enabled' id='place-city-md-s' value='true' />
-            <format attr='enabled' id='place-city-md-n' value='true' />
-            <format attr='enabled' id='place-city-lg-s' value='true' />
-            <format attr='enabled' id='place-city-lg-n' value='true' />
-            <format attr='enabled' id='place-capital-s' value='true' />
-            <format attr='enabled' id='place-capital-n' value='true' />
-            <format attr='enabled' id='US Metro Labels CBSA' value='true' />
-            <format attr='enabled' id='b01002_001e' value='false' />
-            <format attr='enabled' id='b01002_002e' value='false' />
-            <format attr='enabled' id='b01002_003e' value='false' />
-            <format attr='enabled' id='dp02_0001e' value='false' />
-            <format attr='enabled' id='dp02_0015e' value='false' />
-            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
-            <format attr='enabled' id='dp03_0028e' value='false' />
-            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
-            <format attr='enabled' id='dp03_0062e' value='false' />
-            <format attr='enabled' id='dp03_0088e' value='false' />
-            <format attr='enabled' id='dp04_0001e' value='false' />
-            <format attr='enabled' id='dp04_0046e' value='false' />
-            <format attr='enabled' id='dp04_0047e' value='false' />
-            <format attr='enabled' id='dp04_0089e' value='false' />
-            <format attr='enabled' id='dp05_0001e' value='false' />
-            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
-            <format attr='enabled' id='dp05_0032e' value='false' />
-            <format attr='enabled' id='dp05_0033e' value='false' />
-            <format attr='enabled' id='dp05_0034e' value='false' />
-            <format attr='enabled' id='dp05_0039e' value='false' />
-            <format attr='enabled' id='dp05_0047e' value='false' />
-            <format attr='enabled' id='dp05_0053e' value='false' />
-            <format attr='enabled' id='dp05_0066e' value='false' />
-            <format attr='enabled' id='dp05_0077e' value='false' />
-            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
-            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
-            <format attr='enabled' id='tunnel-street-case' value='true' />
-            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
-            <format attr='enabled' id='tunnel-primary-case' value='true' />
-            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
-            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
-            <format attr='enabled' id='tunnel-trunk-case' value='true' />
-            <format attr='enabled' id='tunnel-motorway-case' value='true' />
-            <format attr='enabled' id='tunnel-trunk_link' value='true' />
-            <format attr='enabled' id='tunnel-motorway_link' value='true' />
-            <format attr='enabled' id='tunnel-service-link-track' value='true' />
-            <format attr='enabled' id='tunnel-street_limited' value='true' />
-            <format attr='enabled' id='tunnel-street' value='true' />
-            <format attr='enabled' id='tunnel-tertiary' value='true' />
-            <format attr='enabled' id='tunnel-secondary' value='true' />
-            <format attr='enabled' id='tunnel-primary' value='true' />
-            <format attr='enabled' id='tunnel-trunk' value='true' />
-            <format attr='enabled' id='tunnel-motorway' value='true' />
-            <format attr='enabled' id='road-street-low' value='true' />
-            <format attr='enabled' id='road-street_limited-low' value='true' />
-            <format attr='enabled' id='road-pedestrian-case' value='true' />
-            <format attr='enabled' id='road-service-link-track-case' value='true' />
-            <format attr='enabled' id='road-street_limited-case' value='true' />
-            <format attr='enabled' id='road-street-case' value='true' />
-            <format attr='enabled' id='road-tertiary-case' value='true' />
-            <format attr='enabled' id='road-secondary-case' value='true' />
-            <format attr='enabled' id='road-primary-case' value='true' />
-            <format attr='enabled' id='road-motorway_link-case' value='true' />
-            <format attr='enabled' id='road-trunk_link-case' value='true' />
-            <format attr='enabled' id='road-trunk-case' value='true' />
-            <format attr='enabled' id='road-motorway-case' value='true' />
-            <format attr='enabled' id='road-trunk_link' value='true' />
-            <format attr='enabled' id='road-motorway_link' value='true' />
-            <format attr='enabled' id='road-path' value='true' />
-            <format attr='enabled' id='road-pedestrian' value='true' />
-            <format attr='enabled' id='road-polygon' value='true' />
-            <format attr='enabled' id='road-service-link-track' value='true' />
-            <format attr='enabled' id='road-street_limited' value='true' />
-            <format attr='enabled' id='road-street' value='true' />
-            <format attr='enabled' id='road-tertiary' value='true' />
-            <format attr='enabled' id='road-secondary' value='true' />
-            <format attr='enabled' id='road-primary' value='true' />
-            <format attr='enabled' id='road-trunk' value='true' />
-            <format attr='enabled' id='road-motorway' value='true' />
-            <format attr='enabled' id='road-rail' value='true' />
-            <format attr='enabled' id='road-rail-tracks' value='true' />
-            <format attr='enabled' id='bridge-street-low' value='true' />
-            <format attr='enabled' id='bridge-street_limited-low' value='true' />
-            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
-            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
-            <format attr='enabled' id='bridge-street_limited-case' value='true' />
-            <format attr='enabled' id='bridge-street-case' value='true' />
-            <format attr='enabled' id='bridge-tertiary-case' value='true' />
-            <format attr='enabled' id='bridge-secondary-case' value='true' />
-            <format attr='enabled' id='bridge-primary-case' value='true' />
-            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
-            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
-            <format attr='enabled' id='bridge-trunk-case' value='true' />
-            <format attr='enabled' id='bridge-motorway-case' value='true' />
-            <format attr='enabled' id='bridge-trunk_link' value='true' />
-            <format attr='enabled' id='bridge-motorway_link' value='true' />
-            <format attr='enabled' id='bridge-path' value='true' />
-            <format attr='enabled' id='bridge-pedestrian' value='true' />
-            <format attr='enabled' id='bridge-service-link-track' value='true' />
-            <format attr='enabled' id='bridge-street_limited' value='true' />
-            <format attr='enabled' id='bridge-street' value='true' />
-            <format attr='enabled' id='bridge-tertiary' value='true' />
-            <format attr='enabled' id='bridge-secondary' value='true' />
-            <format attr='enabled' id='bridge-primary' value='true' />
-            <format attr='enabled' id='bridge-trunk' value='true' />
-            <format attr='enabled' id='bridge-motorway' value='true' />
-            <format attr='enabled' id='bridge-rail' value='true' />
-            <format attr='enabled' id='bridge-rail-tracks' value='true' />
-            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
-            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
-            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
-            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
-            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
-            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
-            <format attr='enabled' id='bridge-trunk-2' value='true' />
-            <format attr='enabled' id='bridge-motorway-2' value='true' />
-            <format attr='enabled' id='road-shields-2-white' value='true' />
-            <format attr='enabled' id='road-shields-2-black' value='true' />
-            <format attr='enabled' id='road-shields-1-white' value='true' />
-            <format attr='enabled' id='road-shields-1-black' value='true' />
-            <format attr='enabled' id='road-label-small' value='true' />
-            <format attr='enabled' id='road-label-big' value='true' />
-          </style-rule>
-          <style-rule element='map'>
-            <format attr='washout' value='0' />
-            <format attr='map-style' value='normal' />
-            <format attr='wrap' value='false' />
-          </style-rule>
-          <style-rule element='map-data-layer'>
-            <format attr='palette' value='area-red-green-light' />
-            <format attr='geo-area-type' value='Tract' />
-          </style-rule>
-          <style-rule element='quick-filter'>
-            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' value='Minimum Impacted Pop to Display' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor='#787878'>Route #:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Stop ID:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Income Lvl:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>District Name: </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Route #s:            </run>
-                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
-              </formatted-text>
-            </customized-tooltip>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-show' value='false' />
-                <format attr='size' value='1' />
-                <format attr='mark-transparency' value='193' />
-                <format attr='has-halo' value='false' />
-                <format attr='has-stroke' value='false' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Multipolygon' />
-            <mark-sizing mark-sizing-setting='marks-scaling-off' />
-            <encodings>
-              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' />
-              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' />
-              <geometry column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' />
-            </encodings>
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor='#787878'>Route #:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Stop ID:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Income Lvl:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>District Name: </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Route #s:            </run>
-                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
-              </formatted-text>
-            </customized-tooltip>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-show' value='false' />
-                <format attr='size' value='0.64767956733703613' />
-                <format attr='mark-transparency' value='193' />
-                <format attr='has-halo' value='false' />
-                <format attr='mark-color' value='#727f8c' />
-                <format attr='has-stroke' value='false' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' x-index='1'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <mark-sizing mark-sizing-setting='marks-scaling-off' />
-            <encodings>
-              <color column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' />
-              <size column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' />
-              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]' />
-              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry:nk]' />
-              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' />
-              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]' />
-            </encodings>
-            <customized-tooltip>
-              <formatted-text>
-                <run fontcolor='#787878'>Route #:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Stop ID:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Income Lvl:&#9; </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>District Name: </run>
-                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
-                <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Route #s:            </run>
-                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
-              </formatted-text>
-            </customized-tooltip>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-show' value='false' />
-                <format attr='size' value='0.75762432813644409' />
-                <format attr='mark-transparency' value='193' />
-                <format attr='has-halo' value='false' />
-                <format attr='has-stroke' value='false' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Latitude (generated)]</rows>
-        <cols>([federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)] + [federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)])</cols>
-      </table>
-      <simple-id uuid='{CA432314-C474-48DB-A2DC-17CF8D80A8C6}' />
-    </worksheet>
-    <worksheet name='Sheet 2'>
+    <worksheet name='Stops/Districts'>
       <repository-location id='Sheet2' path='/workbooks/weighted_map_v2' revision='' />
       <table>
         <view>
@@ -2944,9 +2626,1032 @@
       </table>
       <simple-id uuid='{EE1AC162-E154-4B1D-AE07-1E3A63430E45}' />
     </worksheet>
+    <worksheet name='Stops/Districts (Top 5)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='stops_districts' name='federated.160doxr1cwpu0u1gp5dis0fxi1mk' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.160doxr1cwpu0u1gp5dis0fxi1mk'>
+            <column caption='Full Name' datatype='string' name='[Calculation_1350657731562160129]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[REP_LAST] + &apos;, &apos; + [REP_FIRST]' />
+            </column>
+            <column caption='Geometry (HOUSE2012 POLY.shp)' datatype='spatial' name='[Geometry (HOUSE2012_POLY.shp)]' role='measure' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='REP1' datatype='string' name='[REP]' role='dimension' type='nominal' />
+            <column caption='Rep Dist' datatype='string' name='[REP_DIST]' role='dimension' type='nominal' />
+            <column caption='Rep First' datatype='string' name='[REP_FIRST]' role='dimension' type='nominal' />
+            <column caption='Rep Last' datatype='string' name='[REP_LAST]' role='dimension' type='nominal' />
+            <column caption='Stop Id' datatype='integer' name='[STOP_ID]' role='dimension' type='ordinal' />
+            <column-instance column='[impacted_p]' derivation='Attribute' name='[attr:impacted_p:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[income_lev]' derivation='Attribute' name='[attr:income_lev:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Geometry (HOUSE2012_POLY.shp)]' derivation='Collect' name='[clct:Geometry (HOUSE2012_POLY.shp):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Impacted P' datatype='integer' name='[impacted_p]' role='measure' type='quantitative' />
+            <column caption='Income Lev' datatype='integer' name='[income_lev]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1350657731562160129]' derivation='None' name='[none:Calculation_1350657731562160129:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REP]' derivation='None' name='[none:REP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REP_DIST]' derivation='None' name='[none:REP_DIST:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STOP_ID]' derivation='None' name='[none:STOP_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[route_ids]' derivation='None' name='[none:route_ids:nk]' pivot='key' type='nominal' />
+            <column caption='Route Ids' datatype='string' name='[route_ids]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]'>
+            <groupfilter expression='COUNT([STOP_ID]) &lt;&gt; 0' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:REP_DIST:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Latitude (generated)]' field-type='quantitative' max='5232031.7344194241' min='5189866.8155543758' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' field-type='quantitative' max='-7885066.2273560064' min='-7944331.3643564414' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' field-type='quantitative' fold='true' max='-7885066.2273560064' min='-7944331.3643564414' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]' field-type='quantitative' max='10000' max-size='1' min='20' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]' value='Income Level'>
+              <formatted-text>
+                <run>Income Level</run>
+              </formatted-text>
+            </format>
+            <format attr='size' field='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]' value='Impacted Population'>
+              <formatted-text>
+                <run>Impacted Population</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+            <format attr='enabled' id='US Metro Labels CBSA' value='true' />
+            <format attr='enabled' id='admin-2-boundaries-bg' value='true' />
+            <format attr='enabled' id='admin-2-boundaries' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Stop ID:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:  </run>
+                <run bold='true' fontcolor='#787878'>Æ      </run>
+                <run bold='true'><![CDATA[    <[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:route_ids:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#656565'>District Rep:&#9;     </run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='24' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]' />
+              <size column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[clct:Geometry:nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:STOP_ID:ok]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:route_ids:nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Stop ID:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:  </run>
+                <run bold='true' fontcolor='#787878'>Æ      </run>
+                <run bold='true'><![CDATA[    <[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:route_ids:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#656565'>District Rep:&#9;     </run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='193' />
+                <format attr='size' value='0.97219592332839966' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[clct:Geometry (HOUSE2012_POLY.shp):nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:Calculation_1350657731562160129:nk]' />
+              <lod column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP:nk]' />
+              <geometry column='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[clct:Geometry (HOUSE2012_POLY.shp):nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Stop ID:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:  </run>
+                <run bold='true' fontcolor='#787878'>Æ      </run>
+                <run bold='true'><![CDATA[    <[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:route_ids:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#656565'>District Rep:&#9;     </run>
+                <run bold='true'><![CDATA[<[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-transparency' value='27' />
+                <format attr='size' value='0.73563534021377563' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Latitude (generated)]</rows>
+        <cols>([federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)] + [federated.160doxr1cwpu0u1gp5dis0fxi1mk].[Longitude (generated)])</cols>
+      </table>
+      <simple-id uuid='{4254DEA5-A5E9-40DA-8D72-1212FD99EC53}' />
+    </worksheet>
+    <worksheet name='Stops/Routes'>
+      <repository-location id='Sheet1' path='/workbooks/weighted_map_v2' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='stops_routes' name='federated.1pbvr9601qfvzc1cc5r6o1gfj6eo' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pbvr9601qfvzc1cc5r6o1gfj6eo'>
+            <column caption='Geometry (MBTABUSROUTES ARC.shp)' datatype='spatial' name='[Geometry (MBTABUSROUTES_ARC.shp)]' role='measure' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Mbta Route' datatype='string' name='[MBTA_ROUTE]' role='dimension' type='nominal' />
+            <column caption='Rep Dist' datatype='string' name='[REP_DIST]' role='dimension' type='nominal' />
+            <column caption='Stop Id' datatype='integer' name='[STOP_ID]' role='dimension' type='ordinal' />
+            <column-instance column='[impacted_p]' derivation='Attribute' name='[attr:impacted_p:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[income_lev]' derivation='Attribute' name='[attr:income_lev:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Geometry (MBTABUSROUTES_ARC.shp)]' derivation='Collect' name='[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Impacted P' datatype='integer' name='[impacted_p]' role='measure' type='quantitative' />
+            <column caption='Income Lev' datatype='integer' name='[income_lev]' role='measure' type='quantitative' />
+            <column-instance column='[MBTA_ROUTE]' derivation='None' name='[none:MBTA_ROUTE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REP_DIST]' derivation='None' name='[none:REP_DIST:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STOP_ID]' derivation='None' name='[none:STOP_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[route_ids]' derivation='None' name='[none:route_ids:nk]' pivot='key' type='nominal' />
+            <column caption='Route Ids' datatype='string' name='[route_ids]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' included-values='in-range-or-null'>
+            <min>20</min>
+          </filter>
+          <slices>
+            <column>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]</column>
+            <column>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Latitude (generated)]' field-type='quantitative' max='5225573.7405104376' min='5199923.2343229624' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' field-type='quantitative' max='-7891708.326191294' min='-7926764.0171450479' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' field-type='quantitative' fold='true' max='-7891708.326191294' min='-7926764.0171450479' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' field-type='quantitative' max='10000' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+            <format attr='font-size' value='15' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' value='Impacted Population' />
+            <format attr='color' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' value='Income Level' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+            <format attr='enabled' id='US Metro Labels CBSA' value='true' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+            <format attr='wrap' value='false' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='area-red-green-light' />
+            <format attr='geo-area-type' value='Tract' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' value='Minimum Impacted Pop to Display' />
+          </style-rule>
+          <style-rule element='data-highlighter-title'>
+            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' value='Highlight District'>
+              <formatted-text>
+                <run>Highlight District</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' value='Highlight Route #'>
+              <formatted-text>
+                <run>Highlight Route #</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route #:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Stop ID:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:            </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-halo' value='false' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' />
+              <geometry column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route #:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Stop ID:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:            </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.64767956733703613' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-halo' value='false' />
+                <format attr='mark-color' value='#727f8c' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' />
+              <size column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry:nk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route #:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Stop ID:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:            </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.75762432813644409' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-halo' value='false' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Latitude (generated)]</rows>
+        <cols>([federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)] + [federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)])</cols>
+      </table>
+      <simple-id uuid='{CA432314-C474-48DB-A2DC-17CF8D80A8C6}' />
+    </worksheet>
+    <worksheet name='Stops/Routes (Top 5)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='stops_routes' name='federated.1pbvr9601qfvzc1cc5r6o1gfj6eo' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pbvr9601qfvzc1cc5r6o1gfj6eo'>
+            <column caption='Geometry (MBTABUSROUTES ARC.shp)' datatype='spatial' name='[Geometry (MBTABUSROUTES_ARC.shp)]' role='measure' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Mbta Route' datatype='string' name='[MBTA_ROUTE]' role='dimension' type='nominal' />
+            <column caption='Rep Dist' datatype='string' name='[REP_DIST]' role='dimension' type='nominal' />
+            <column caption='Stop Id' datatype='integer' name='[STOP_ID]' role='dimension' type='ordinal' />
+            <column-instance column='[impacted_p]' derivation='Attribute' name='[attr:impacted_p:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[income_lev]' derivation='Attribute' name='[attr:income_lev:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Geometry (MBTABUSROUTES_ARC.shp)]' derivation='Collect' name='[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Impacted P' datatype='integer' name='[impacted_p]' role='measure' type='quantitative' />
+            <column caption='Income Lev' datatype='integer' name='[income_lev]' role='measure' type='quantitative' />
+            <column-instance column='[MBTA_ROUTE]' derivation='None' name='[none:MBTA_ROUTE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REP_DIST]' derivation='None' name='[none:REP_DIST:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STOP_ID]' derivation='None' name='[none:STOP_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[route_ids]' derivation='None' name='[none:route_ids:nk]' pivot='key' type='nominal' />
+            <column caption='Route Ids' datatype='string' name='[route_ids]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' included-values='in-range-or-null'>
+            <min>20</min>
+          </filter>
+          <slices>
+            <column>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]</column>
+            <column>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Latitude (generated)]' field-type='quantitative' max='5238398.9936041757' min='5187097.9812292252' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' field-type='quantitative' max='-7874180.4807144171' min='-7944291.8626219248' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' field-type='quantitative' fold='true' max='-7874180.4807144171' min='-7944291.8626219248' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' field-type='quantitative' max='10000' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+            <format attr='font-size' value='15' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' value='Impacted Population' />
+            <format attr='color' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' value='Income Level' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+            <format attr='enabled' id='US Metro Labels CBSA' value='true' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+            <format attr='wrap' value='false' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='area-red-green-light' />
+            <format attr='geo-area-type' value='Tract' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' value='Minimum Impacted Pop to Display' />
+          </style-rule>
+          <style-rule element='data-highlighter-title'>
+            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' value='Highlight District'>
+              <formatted-text>
+                <run>Highlight District</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' value='Highlight Route #'>
+              <formatted-text>
+                <run>Highlight Route #</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route #:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Stop ID:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:            </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-halo' value='false' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' />
+              <geometry column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry (MBTABUSROUTES_ARC.shp):nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route #:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Stop ID:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:            </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.64767956733703613' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-halo' value='false' />
+                <format attr='mark-color' value='#727f8c' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' />
+              <size column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[clct:Geometry:nk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' />
+              <lod column='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route #:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Stop ID:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:STOP_ID:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Impacted Pop:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Income Lvl:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>District Name: </run>
+                <run bold='true'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Route #s:            </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:route_ids:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.75762432813644409' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-halo' value='false' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Latitude (generated)]</rows>
+        <cols>([federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)] + [federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[Longitude (generated)])</cols>
+      </table>
+      <simple-id uuid='{9E2B2F6B-DA42-4A7C-9C40-B732D7A88F57}' />
+    </worksheet>
   </worksheets>
   <windows source-height='51'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' name='Stops/Routes'>
       <cards>
         <edge name='left'>
           <strip size='282'>
@@ -2971,6 +3676,8 @@
             <card param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
             <card pane-specification-id='4' param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' type='size' />
             <card pane-specification-id='4' param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' type='color' />
+            <card param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' type='highlighter' />
+            <card param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' type='highlighter' />
           </strip>
         </edge>
       </cards>
@@ -2980,7 +3687,43 @@
       </viewpoint>
       <simple-id uuid='{F74778D1-97DA-4AA0-90F3-C2DFC1AFE61E}' />
     </window>
-    <window class='worksheet' name='Sheet 2'>
+    <window class='worksheet' maximized='true' name='Stops/Routes (Top 5)'>
+      <cards>
+        <edge name='left'>
+          <strip size='282'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='4' param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:impacted_p:qk]' type='size' />
+            <card pane-specification-id='4' param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[attr:income_lev:ok]' type='color' />
+            <card param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:REP_DIST:nk]' type='highlighter' />
+            <card param='[federated.1pbvr9601qfvzc1cc5r6o1gfj6eo].[none:MBTA_ROUTE:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <map-scale-visibility value='0' />
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{91697F44-8AB1-47B6-B9F3-B0D11B267AC4}' />
+    </window>
+    <window class='worksheet' name='Stops/Districts'>
       <cards>
         <edge name='left'>
           <strip size='261'>
@@ -3002,9 +3745,9 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' type='highlighter' />
             <card pane-specification-id='1' param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]' type='color' />
             <card pane-specification-id='1' param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]' type='size' />
+            <card param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' type='highlighter' />
           </strip>
         </edge>
       </cards>
@@ -3012,6 +3755,39 @@
         <default-map-tool-selection tool='1' />
       </viewpoint>
       <simple-id uuid='{2A2C835A-FD76-4370-BA39-4D1372111300}' />
+    </window>
+    <window class='worksheet' name='Stops/Districts (Top 5)'>
+      <cards>
+        <edge name='left'>
+          <strip size='261'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:income_lev:ok]' type='color' />
+            <card pane-specification-id='1' param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[attr:impacted_p:qk]' type='size' />
+            <card param='[federated.160doxr1cwpu0u1gp5dis0fxi1mk].[none:REP_DIST:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{4718C509-F7AD-4D05-A7AE-0E434EDFE0DD}' />
     </window>
   </windows>
 </workbook>
