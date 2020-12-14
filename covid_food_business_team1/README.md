@@ -7,6 +7,11 @@ Project Description: [see here](https://github.com/ec506-Spark-Team/Fetch-Data-a
 
 [Summary](https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/deliverable_3.pdf)
 
+<object data="IRSpectra.pdf" width="750px" height="750px">
+    <embed src="https://github.com/ec506-Spark-Team/CS506-Fall2020-Projects/blob/master/covid_food_business_team1/deliverable_3.pdf">
+    </embed>
+</object>
+
 # Past Stage: Deliverable 1
 ## Main Progress in Deliverable 1 stage:
 
