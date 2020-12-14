@@ -262,9 +262,8 @@ class CollateralLoader(object):
             return self._loadAsDataFrame(bonds)
 
     def _loadAsDict(self, bonds):
-
-  
         crossRef=pd.read_excel(PATH+"/traceissuances.xlsx")
+  
 
         collateralDict: dict = {}
         for bond in bonds:
@@ -413,6 +412,27 @@ class ConstructYieldCurve(object):
 
         return df   
 
+class ConstructForwardCurve(object):
+    def __init__(self):
+        self.FRED_Codes = ['THREEFF1', 'THREEFF2', 'THREEFF3', 'THREEFF4', 'THREEFF5', 'THREEFF6', 'THREEFF7', 'THREEFF8', 'THREEFF9', 'THREEFF10']
+
+    def load(self, start_date='01-01-2000', end_date='2020-10-30', to_months=True):
+        rates: dict = {}
+
+        for i in self.FRED_Codes:
+            rates[i] = pdr.get_data_fred(i, start_date, end_date)
+
+        df = rates[self.FRED_Codes[0]]
+        for i in self.FRED_Codes[1:]:
+            df = pd.merge(df, rates[i], left_index=True, right_index=True)
+
+        if to_months:
+            df=df.resample("m").mean()
+            df=df.sort_values("DATE", ascending=False)
+            df.index=sorted(df.index.to_period("M"), reverse=True)
+
+        return df   
+
 class FannieFreddieLoader(object):
     def __init__(self):
         pass
@@ -423,48 +443,47 @@ class FannieFreddieLoader(object):
 
 
 if __name__=="__main__":
+    # loader = SecurityLoader()
+    # # securityDescriptive = loader.load(pickle_name="fromTRACEELIGIBLE.p")
+    # securities = loader.load()
+    # print(securities['LLEND 2019-1A B'])
+
+    # loader = TRACEEligibleLoader()
+    # securityDescriptive = loader.load(pickle_name="fromABSTRACEISSUANCES.p")
+    
     loader = CollateralLoader()
-    # securityDescriptive = loader.load(pickle_name="fromTRACEELIGIBLE.p")
-    securities = loader.load()
-    print(pd.DataFrame(securities['GMCAR 2019-4 A4'].dtypes).to_latex())
+    securities=loader.load()
+    
+    print(securities)
 
-    # import zipfile
-    # archive = zipfile.ZipFile(PATH+"/fannie_freddie.zip", "r")
+    loader = SecurityLoader()
+    securities=loader.load()
+    
+    print(len(securities))
+
+    # loader = SecurityLoader()
+    # securities = loader.load()
+
+    # cardDFs = {}
+    # autoDFs = {}
+    # consumerDFs = {}
+
+    
+    # for j in securities:
+    #     if securityDescriptive[securityDescriptive["Security Name"]==j]['Category'].values == "CARD":
+    #         cardDFs[j] = securities[j]
+    #         securities[j].to_excel(PATH+f"/individual_securities/card/{j}.xlsx")
+    #     elif securityDescriptive[securityDescriptive["Security Name"]==j]['Category'].values == "AUTO":
+    #         autoDFs[j] = securities[j]
+    #         securities[j].to_excel(PATH+f"/individual_securities/auto/{j}.xlsx")
+
+    #     else:
+    #         consumerDFs[j] = securities[j]
+    #         securities[j].to_excel(PATH+f"/individual_securities/consumer/{j}.xlsx")
 
 
 
-    # test = pd.read_csv(archive.open("2020Q2.csv"), sep="|", header=None)
-    # test.columns = ["POOL_ID", "LOAN_ID", "ACT_PERIOD", "CHANNEL", "SELLER", "SERVICER",
-    #                     "MASTER_SERVICER", "ORIG_RATE", "CURR_RATE", "ORIG_UPB", "ISSUANCE_UPB",
-    #                     "CURRENT_UPB", "ORIG_TERM", "ORIG_DATE", "FIRST_PAY", "LOAN_AGE",
-    #                     "REM_MONTHS", "ADJ_REM_MONTHS", "MATR_DT", "OLTV", "OCLTV",
-    #                     "NUM_BO", "DTI", "CSCORE_B", "CSCORE_C", "FIRST_FLAG", "PURPOSE",
-    #                     "PROP", "NO_UNITS", "OCC_STAT", "STATE", "MSA", "ZIP", "MI_PCT",
-    #                     "PRODUCT", "PPMT_FLG", "IO", "FIRST_PAY_IO", "MNTHS_TO_AMTZ_IO",
-    #                     "DLQ_STATUS", "PMT_HISTORY", "MOD_FLAG", "MI_CANCEL_FLAG", "Zero_Bal_Code",
-    #                     "ZB_DTE", "LAST_UPB", "RPRCH_DTE", "CURR_SCHD_PRNCPL", "TOT_SCHD_PRNCPL",
-    #                     "UNSCHD_PRNCPL_CURR", "LAST_PAID_INSTALLMENT_DATE", "FORECLOSURE_DATE",
-    #                     "DISPOSITION_DATE", "FORECLOSURE_COSTS", "PROPERTY_PRESERVATION_AND_REPAIR_COSTS",
-    #                     "ASSET_RECOVERY_COSTS", "MISCELLANEOUS_HOLDING_EXPENSES_AND_CREDITS",
-    #                     "ASSOCIATED_TAXES_FOR_HOLDING_PROPERTY", "NET_SALES_PROCEEDS",
-    #                     "CREDIT_ENHANCEMENT_PROCEEDS", "REPURCHASES_MAKE_WHOLE_PROCEEDS",
-    #                     "OTHER_FORECLOSURE_PROCEEDS", "NON_INTEREST_BEARING_UPB", "PRINCIPAL_FORGIVENESS_AMOUNT",
-    #                     "ORIGINAL_LIST_START_DATE", "ORIGINAL_LIST_PRICE", "CURRENT_LIST_START_DATE",
-    #                     "CURRENT_LIST_PRICE", "ISSUE_SCOREB", "ISSUE_SCOREC", "CURR_SCOREB",
-    #                     "CURR_SCOREC", "MI_TYPE", "SERV_IND", "CURRENT_PERIOD_MODIFICATION_LOSS_AMOUNT",
-    #                     "CUMULATIVE_MODIFICATION_LOSS_AMOUNT", "CURRENT_PERIOD_CREDIT_EVENT_NET_GAIN_OR_LOSS",
-    #                     "CUMULATIVE_CREDIT_EVENT_NET_GAIN_OR_LOSS", "HOMEREADY_PROGRAM_INDICATOR",
-    #                     "FORECLOSURE_PRINCIPAL_WRITE_OFF_AMOUNT", "RELOCATION_MORTGAGE_INDICATOR",
-    #                     "ZERO_BALANCE_CODE_CHANGE_DATE", "LOAN_HOLDBACK_INDICATOR", "LOAN_HOLDBACK_EFFECTIVE_DATE",
-    #                     "DELINQUENT_ACCRUED_INTEREST", "PROPERTY_INSPECTION_WAIVER_INDICATOR",
-    #                     "HIGH_BALANCE_LOAN_INDICATOR", "ARM_5_YR_INDICATOR", "ARM_PRODUCT_TYPE",
-    #                     "MONTHS_UNTIL_FIRST_PAYMENT_RESET", "MONTHS_BETWEEN_SUBSEQUENT_PAYMENT_RESET",
-    #                     "INTEREST_RATE_CHANGE_DATE", "PAYMENT_CHANGE_DATE", "ARM_INDEX",
-    #                     "ARM_CAP_STRUCTURE", "INITIAL_INTEREST_RATE_CAP", "PERIODIC_INTEREST_RATE_CAP",
-    #                     "LIFETIME_INTEREST_RATE_CAP", "MARGIN", "BALLOON_INDICATOR",
-    #                     "PLAN_NUMBER", "FORBEARANCE_INDICATOR", "HIGH_LOAN_TO_VALUE_HLTV_REFINANCE_OPTION_INDICATOR",
-    #                     "DEAL_NAME", "RE_PROCS_FLAG", "ADR_TYPE", "ADR_COUNT", "ADR_UPB"]
-    # print(np.unique(test["Zero_Bal_Code"]))
-    # print(test["ZERO_BALANCE_CODE_CHANGE_DATE"].dropna().head())
+
+
  
 
