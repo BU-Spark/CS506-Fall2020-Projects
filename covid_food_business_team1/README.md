@@ -89,9 +89,9 @@ September.
 
 By CITY
 
-![img](https://lh6.googleusercontent.com/WLR-huBwCrfOD8wIXqGPQvOsZNdEeee160fYCEmL6P6ThAobf5fa-sD2tGxonKITUTJxTnb_P4OHE-gnDTJTQbAW_340Oncx7rDyHUoZoVr2KXN4dTIlr2HOHipEYd_gzCPbxg9f)
+![img](https://lh6.googleusercontent.com/WLR-huBwCrfOD8wIXqGPQvOsZNdEeee160fYCEmL6P6ThAobf5fa-sD2tGxonKITUTJxTnb_P4OHE-gnDTJTQbAW_340Oncx7rDyHUoZoVr2KXN4dTIlr2HOHipEYd_gzCPbxg9f)   
 
-![img](https://lh6.googleusercontent.com/op3XIRB3k8GlA8dWro1JRBiO4KyrCZm_9B272xZQTs9-GNK25jJbXjery1Olg7ahO63aw1mCObKA79bOXLDqn6j4rm_-JSiowGaCJkK1eoogCTnwltPwlpqSK0xfUjsJx22PPMKG)
+![img](https://lh6.googleusercontent.com/op3XIRB3k8GlA8dWro1JRBiO4KyrCZm_9B272xZQTs9-GNK25jJbXjery1Olg7ahO63aw1mCObKA79bOXLDqn6j4rm_-JSiowGaCJkK1eoogCTnwltPwlpqSK0xfUjsJx22PPMKG)    
 
 Above 2 graphs show each postal code group's visits in January and April..
 - Change of numbers of visits to different postal code/CITY
