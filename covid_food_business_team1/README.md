@@ -114,9 +114,9 @@ By CITY - Allston
 
 It proves that although the general trend reduced sharply and then increased slowly, but actually different location,different brand, the visits trend is not always the same as the general trend. Some of them will increase relatively more from April to September, and some will decrease in August while others still keep 
 rising.
-- Restaurants’ visits with Governments Support Policies
+- Restaurants’ visits with Governments Support Policies      
 
-![img](https://lh4.googleusercontent.com/LMk1TwDyqeSgg-jJf8-aHDwX3ORWAgmsm-HGCx7WLnY7t2wTT2qKIKW9G-gui9ta49bpPxq_Tyy7wbMkoP4g_eTThQrkdepB_4cmnBmYWWcVw6CNC9asUM__6jgclEOnV9j56Emk)
+![img](https://lh4.googleusercontent.com/LMk1TwDyqeSgg-jJf8-aHDwX3ORWAgmsm-HGCx7WLnY7t2wTT2qKIKW9G-gui9ta49bpPxq_Tyy7wbMkoP4g_eTThQrkdepB_4cmnBmYWWcVw6CNC9asUM__6jgclEOnV9j56Emk)      
 This image shows the restaurants which receive the government support policies. We can see that in April, the visits reduce to the lowest at less than 40 visits / day. After these restaurants receive the support, their visits start to rise at stable speed.
 
 
