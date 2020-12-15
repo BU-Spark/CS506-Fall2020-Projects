@@ -1,0 +1,242 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order,route_fare_class,line_id,listed_route,fare,reduced_fare
+0,Red,1,,Red Line,Rapid Transit,1,https://www.mbta.com/schedules/Red,DA291C,FFFFFF,10010,Rapid Transit,line-Red,,,
+1,Mattapan,1,,Mattapan Trolley,Rapid Transit,0,https://www.mbta.com/schedules/Mattapan,DA291C,FFFFFF,10011,Rapid Transit,line-Mattapan,,,
+2,Orange,1,,Orange Line,Rapid Transit,1,https://www.mbta.com/schedules/Orange,ED8B00,FFFFFF,10020,Rapid Transit,line-Orange,,,
+3,Green-B,1,B,Green Line B,Rapid Transit,0,https://www.mbta.com/schedules/Green-B,00843D,FFFFFF,10032,Rapid Transit,line-Green,,,
+4,Green-C,1,C,Green Line C,Rapid Transit,0,https://www.mbta.com/schedules/Green-C,00843D,FFFFFF,10033,Rapid Transit,line-Green,,,
+5,Green-D,1,D,Green Line D,Rapid Transit,0,https://www.mbta.com/schedules/Green-D,00843D,FFFFFF,10034,Rapid Transit,line-Green,,,
+6,Green-E,1,E,Green Line E,Rapid Transit,0,https://www.mbta.com/schedules/Green-E,00843D,FFFFFF,10035,Rapid Transit,line-Green,,,
+7,Blue,1,,Blue Line,Rapid Transit,1,https://www.mbta.com/schedules/Blue,003DA5,FFFFFF,10040,Rapid Transit,line-Blue,,,
+8,741,1,SL1,Logan Airport Terminals - South Station,Key Bus,3,https://www.mbta.com/schedules/741,7C878E,FFFFFF,10051,Rapid Transit,line-SLWaterfront,,,
+9,742,1,SL2,Drydock Avenue - South Station,Key Bus,3,https://www.mbta.com/schedules/742,7C878E,FFFFFF,10052,Rapid Transit,line-SLWaterfront,,,
+10,743,1,SL3,Chelsea Station - South Station,Key Bus,3,https://www.mbta.com/schedules/743,7C878E,FFFFFF,10053,Rapid Transit,line-SLWaterfront,,,
+11,751,1,SL4,Nubian Station - South Station,Key Bus,3,https://www.mbta.com/schedules/751,7C878E,FFFFFF,10055,Local Bus,line-SLWashington,,1.7,0.85
+12,749,1,SL5,Nubian Station - Temple Place,Key Bus,3,https://www.mbta.com/schedules/749,7C878E,FFFFFF,10056,Local Bus,line-SLWashington,,1.7,0.85
+13,746,1,SLW,Silver Line Way - South Station,Key Bus,3,,7C878E,FFFFFF,10057,Rapid Transit,line-SLWaterfront,1.0,,
+14,CR-Fairmount,1,,Fairmount Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Fairmount,80276C,FFFFFF,20001,Commuter Rail,line-Fairmount,,,
+15,CR-Fitchburg,1,,Fitchburg Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Fitchburg,80276C,FFFFFF,20002,Commuter Rail,line-Fitchburg,,,
+16,CR-Worcester,1,,Framingham/Worcester Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Worcester,80276C,FFFFFF,20003,Commuter Rail,line-Worcester,,,
+17,CR-Franklin,1,,Franklin Line/Foxboro Pilot,Commuter Rail,2,https://www.mbta.com/schedules/CR-Franklin,80276C,FFFFFF,20004,Commuter Rail,line-Franklin,,,
+18,CR-Greenbush,1,,Greenbush Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Greenbush,80276C,FFFFFF,20005,Commuter Rail,line-Greenbush,,,
+19,CR-Haverhill,1,,Haverhill Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Haverhill,80276C,FFFFFF,20006,Commuter Rail,line-Haverhill,,,
+20,CR-Kingston,1,,Kingston/Plymouth Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Kingston,80276C,FFFFFF,20007,Commuter Rail,line-Kingston,,,
+21,CR-Lowell,1,,Lowell Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Lowell,80276C,FFFFFF,20008,Commuter Rail,line-Lowell,,,
+22,CR-Middleborough,1,,Middleborough/Lakeville Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Middleborough,80276C,FFFFFF,20009,Commuter Rail,line-Middleborough,,,
+23,CR-Needham,1,,Needham Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Needham,80276C,FFFFFF,20010,Commuter Rail,line-Needham,,,
+24,CR-Newburyport,1,,Newburyport/Rockport Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Newburyport,80276C,FFFFFF,20011,Commuter Rail,line-Newburyport,,,
+25,CR-Providence,1,,Providence/Stoughton Line,Commuter Rail,2,https://www.mbta.com/schedules/CR-Providence,80276C,FFFFFF,20012,Commuter Rail,line-Providence,,,
+26,CR-Foxboro,1,,Foxboro Event Service,Commuter Rail,2,https://www.mbta.com/schedules/CR-Foxboro,80276C,FFFFFF,20013,Commuter Rail,line-Foxboro,,,
+27,Boat-F4,1,,Charlestown Ferry,Ferry,4,https://www.mbta.com/schedules/Boat-F4,008EAA,FFFFFF,30001,Ferry,line-Boat-F4,,,
+28,Boat-F1,1,,Hingham/Hull Ferry,Ferry,4,https://www.mbta.com/schedules/Boat-F1,008EAA,FFFFFF,30002,Ferry,line-Boat-F1,,,
+29,747,1,CT2,Sullivan Square Station - Ruggles Station,Local Bus,3,https://www.mbta.com/schedules/747,FFC72C,0,40020,Local Bus,line-747,,1.7,0.85
+30,708,1,CT3,Beth Israel Deaconess Hospital - Andrew Station,Local Bus,3,https://www.mbta.com/schedules/708,FFC72C,0,40030,Local Bus,line-171708,,1.7,0.85
+31,1,1,1,Harvard Square - Nubian Station,Key Bus,3,https://www.mbta.com/schedules/1,FFC72C,0,50010,Local Bus,line-1,,1.7,0.85
+32,4,1,4,North Station - Tide Street,Commuter Bus,3,https://www.mbta.com/schedules/4,FFC72C,0,50040,Local Bus,line-4,,1.7,0.85
+33,7,1,7,City Point - Otis Street & Summer Street,Local Bus,3,https://www.mbta.com/schedules/7,FFC72C,0,50070,Local Bus,line-7,,1.7,0.85
+34,8,1,8,Harbor Point - Kenmore Station,Local Bus,3,https://www.mbta.com/schedules/8,FFC72C,0,50080,Local Bus,line-8,,1.7,0.85
+35,9,1,9,City Point - Copley Station,Local Bus,3,https://www.mbta.com/schedules/9,FFC72C,0,50090,Local Bus,line-9,,1.7,0.85
+36,10,1,10,City Point - Copley Square,Local Bus,3,https://www.mbta.com/schedules/10,FFC72C,0,50100,Local Bus,line-10,,1.7,0.85
+37,11,1,11,City Point - Chauncy Street & Summer Street,Local Bus,3,https://www.mbta.com/schedules/11,FFC72C,0,50110,Local Bus,line-11,,1.7,0.85
+38,14,1,14,Roslindale Square - Heath Street,Local Bus,3,https://www.mbta.com/schedules/14,FFC72C,0,50140,Local Bus,line-14,,1.7,0.85
+39,15,1,15,Fields Corner Station or Kane Square - Ruggles Station,Key Bus,3,https://www.mbta.com/schedules/15,FFC72C,0,50150,Local Bus,line-15,,1.7,0.85
+40,16,1,16,Forest Hills Station - Andrew Station or Harbor Point,Local Bus,3,https://www.mbta.com/schedules/16,FFC72C,0,50160,Local Bus,line-16,,1.7,0.85
+41,17,1,17,Fields Corner Station - Andrew Station,Local Bus,3,https://www.mbta.com/schedules/17,FFC72C,0,50170,Local Bus,line-1719,,1.7,0.85
+42,18,1,18,Ashmont Station - Andrew Station,Local Bus,3,https://www.mbta.com/schedules/18,FFC72C,0,50180,Local Bus,line-18,,1.7,0.85
+43,19,1,19,Fields Corner Station - Kenmore or Ruggles Station,Local Bus,3,https://www.mbta.com/schedules/19,FFC72C,0,50190,Local Bus,line-1719,,1.7,0.85
+44,21,1,21,Ashmont Station - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/21,FFC72C,0,50210,Local Bus,line-21,,1.7,0.85
+45,22,1,22,Ashmont Station - Ruggles Station via Talbot Ave,Key Bus,3,https://www.mbta.com/schedules/22,FFC72C,0,50220,Local Bus,line-22,,1.7,0.85
+46,23,1,23,Ashmont Station - Ruggles Station via Washington Street,Key Bus,3,https://www.mbta.com/schedules/23,FFC72C,0,50230,Local Bus,line-23,,1.7,0.85
+47,24,1,24,Wakefield Avenue & Truman Parkway - Mattapan Station,Local Bus,3,https://www.mbta.com/schedules/24,FFC72C,0,50240,Local Bus,line-242733,,1.7,0.85
+48,2427,1,24/27,Wakefield Avenue & Truman Parkway - Mattapan Station,Local Bus,3,,FFC72C,0,50241,Local Bus,line-242733,1.0,1.7,0.85
+49,26,1,26,Ashmont Station - Norfolk Street Loop,Local Bus,3,https://www.mbta.com/schedules/26,FFC72C,0,50260,Local Bus,line-26,,1.7,0.85
+50,27,1,27,Mattapan Station - Ashmont Station,Local Bus,3,https://www.mbta.com/schedules/27,FFC72C,0,50270,Local Bus,line-242733,,1.7,0.85
+51,28,1,28,Mattapan Station - Ruggles Station,Key Bus,3,https://www.mbta.com/schedules/28,FFC72C,0,50280,Local Bus,line-28,,1.7,0.85
+52,29,1,29,Mattapan Station - Jackson Square Station,Local Bus,3,https://www.mbta.com/schedules/29,FFC72C,0,50290,Local Bus,line-29,,1.7,0.85
+53,30,1,30,Mattapan Station - Forest Hills Station via Cummins Highway and Roslindale Square,Local Bus,3,https://www.mbta.com/schedules/30,FFC72C,0,50300,Local Bus,line-30,,1.7,0.85
+54,31,1,31,Mattapan Station - Forest Hills Station via Morton Street,Local Bus,3,https://www.mbta.com/schedules/31,FFC72C,0,50310,Local Bus,line-31,,1.7,0.85
+55,32,1,32,Wolcott or Cleary Square - Forest Hills Station,Key Bus,3,https://www.mbta.com/schedules/32,FFC72C,0,50320,Local Bus,line-32,,1.7,0.85
+56,3233,1,32/33,River Street & Milton Street - Mattapan Station,Supplemental Bus,3,,FFC72C,0,50321,Local Bus,line-242733,1.0,1.7,0.85
+57,33,1,33,River Street & Milton Street - Mattapan Station,Local Bus,3,https://www.mbta.com/schedules/33,FFC72C,0,50330,Local Bus,line-242733,,1.7,0.85
+58,34,1,34,Dedham Mall or Dedham Line - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/34,FFC72C,0,50340,Local Bus,line-3434E,,1.7,0.85
+59,34E,1,34E,Walpole Center - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/34E,FFC72C,0,50341,Local Bus,line-3434E,,1.7,0.85
+60,35,1,35,Dedham Mall or Stimson Street - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/35,FFC72C,0,50350,Local Bus,line-35,,1.7,0.85
+61,36,1,36,Millennium Park or VA Hospital - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/36,FFC72C,0,50360,Local Bus,line-36,,1.7,0.85
+62,37,1,37,Baker Street & Vermont Street - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/37,FFC72C,0,50370,Local Bus,line-37,,1.7,0.85
+63,38,1,38,Wren Street - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/38,FFC72C,0,50380,Local Bus,line-38,,1.7,0.85
+64,39,1,39,Forest Hills Station - Back Bay Station,Key Bus,3,https://www.mbta.com/schedules/39,FFC72C,0,50390,Local Bus,line-39,,1.7,0.85
+65,40,1,40,Georgetowne - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/40,FFC72C,0,50400,Local Bus,line-4050,,1.7,0.85
+66,4050,1,40/50,Georgetowne - Forest Hills Station,Local Bus,3,,FFC72C,0,50401,Local Bus,line-4050,1.0,1.7,0.85
+67,41,1,41,Centre Street & Eliot Street - JFK/UMass Station,Local Bus,3,https://www.mbta.com/schedules/41,FFC72C,0,50410,Local Bus,line-41,,1.7,0.85
+68,42,1,42,Forest Hills Station - Nubian Station,Local Bus,3,https://www.mbta.com/schedules/42,FFC72C,0,50420,Local Bus,line-42,,1.7,0.85
+69,43,1,43,Ruggles  Station - Park Street Station,Local Bus,3,https://www.mbta.com/schedules/43,FFC72C,0,50430,Local Bus,line-43,,1.7,0.85
+70,44,1,44,Jackson Square Station - Ruggles Station,Local Bus,3,https://www.mbta.com/schedules/44,FFC72C,0,50440,Local Bus,line-44,,1.7,0.85
+71,45,1,45,Franklin Park - Ruggles Station,Local Bus,3,https://www.mbta.com/schedules/45,FFC72C,0,50450,Local Bus,line-45,,1.7,0.85
+72,47,1,47,"Central Square, Cambridge - Broadway Station",Local Bus,3,https://www.mbta.com/schedules/47,FFC72C,0,50470,Local Bus,line-47,,1.7,0.85
+73,50,1,50,Cleary Square - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/50,FFC72C,0,50500,Local Bus,line-4050,,1.7,0.85
+74,51,1,51,Reservoir Station - Forest Hills Station,Local Bus,3,https://www.mbta.com/schedules/51,FFC72C,0,50510,Local Bus,line-51,,1.7,0.85
+75,52,1,52,Dedham Mall - Watertown Yard,Local Bus,3,https://www.mbta.com/schedules/52,FFC72C,0,50520,Local Bus,line-5259,,1.7,0.85
+76,55,1,55,Jersey Street & Queensberry Street - Copley Station,Local Bus,3,https://www.mbta.com/schedules/55,FFC72C,0,50550,Local Bus,line-55,,1.7,0.85
+77,57,1,57,Watertown Yard - Kenmore Station,Key Bus,3,https://www.mbta.com/schedules/57,FFC72C,0,50570,Local Bus,line-5757A,,1.7,0.85
+78,57A,1,57A,Oak Square - Kenmore Station,Local Bus,3,https://www.mbta.com/schedules/57A,FFC72C,0,50571,Local Bus,line-5757A,,1.7,0.85
+79,59,1,59,Needham Junction - Watertown Square,Local Bus,3,https://www.mbta.com/schedules/59,FFC72C,0,50590,Local Bus,line-5259,,1.7,0.85
+80,60,1,60,Chestnut Hill - Kenmore Station,Local Bus,3,https://www.mbta.com/schedules/60,FFC72C,0,50600,Local Bus,line-6065,,1.7,0.85
+81,61,1,61,North Waltham - Waltham Center,Local Bus,3,https://www.mbta.com/schedules/61,FFC72C,0,50610,Local Bus,line-6170170,,1.7,0.85
+82,62,1,62,Bedford VA Hospital - Alewife Station,Local Bus,3,https://www.mbta.com/schedules/62,FFC72C,0,50620,Local Bus,line-6276,,1.7,0.85
+83,627,1,62/76,Bedford VA Hospital - Alewife Station via Hanscom Airport,Local Bus,3,,FFC72C,0,50621,Local Bus,line-6276,1.0,1.7,0.85
+84,64,1,64,Oak Square - University Park or Kendall/MIT Station,Local Bus,3,https://www.mbta.com/schedules/64,FFC72C,0,50640,Local Bus,line-6468,,1.7,0.85
+85,65,1,65,Brighton Center - Kenmore Station,Local Bus,3,https://www.mbta.com/schedules/65,FFC72C,0,50650,Local Bus,line-6065,,1.7,0.85
+86,66,1,66,Harvard Square - Nubian Station,Key Bus,3,https://www.mbta.com/schedules/66,FFC72C,0,50660,Local Bus,line-66,,1.7,0.85
+87,67,1,67,Turkey Hill - Alewife Station,Local Bus,3,https://www.mbta.com/schedules/67,FFC72C,0,50670,Local Bus,line-6779,,1.7,0.85
+88,68,1,68,Harvard Square - Kendall/MIT Station,Local Bus,3,https://www.mbta.com/schedules/68,FFC72C,0,50680,Local Bus,line-6468,,1.7,0.85
+89,69,1,69,Harvard Square - Lechmere Station,Local Bus,3,https://www.mbta.com/schedules/69,FFC72C,0,50690,Local Bus,line-69,,1.7,0.85
+90,70,1,70,Market Place Drive or Waltham Center - University Park,Local Bus,3,https://www.mbta.com/schedules/70,FFC72C,0,50700,Local Bus,line-6170170,,1.7,0.85
+91,71,1,71,Watertown Square - Harvard Station,Key Bus,3,https://www.mbta.com/schedules/71,FFC72C,0,50710,Local Bus,line-71,,1.7,0.85
+92,72,1,72,Aberdeen Avenue - Harvard Station,Local Bus,3,https://www.mbta.com/schedules/72,FFC72C,0,50720,Local Bus,line-727475,,1.7,0.85
+93,73,1,73,Waverley Square - Harvard Station,Key Bus,3,https://www.mbta.com/schedules/73,FFC72C,0,50730,Local Bus,line-73,,1.7,0.85
+94,74,1,74,Belmont Center - Harvard via Concord Avenue,Local Bus,3,https://www.mbta.com/schedules/74,FFC72C,0,50740,Local Bus,line-727475,,1.7,0.85
+95,75,1,75,Belmont Center - Harvard via Huron Avenue,Local Bus,3,https://www.mbta.com/schedules/75,FFC72C,0,50750,Local Bus,line-727475,,1.7,0.85
+96,76,1,76,Lincoln Lab - Alewife Station,Local Bus,3,https://www.mbta.com/schedules/76,FFC72C,0,50760,Local Bus,line-6276,,1.7,0.85
+97,77,1,77,Arlington Heights - Harvard Station,Key Bus,3,https://www.mbta.com/schedules/77,FFC72C,0,50770,Local Bus,line-77,,1.7,0.85
+98,78,1,78,Arlmont Village - Harvard Station,Local Bus,3,https://www.mbta.com/schedules/78,FFC72C,0,50780,Local Bus,line-7884,,1.7,0.85
+99,79,1,79,Arlington Heights - Alewife Station,Local Bus,3,https://www.mbta.com/schedules/79,FFC72C,0,50790,Local Bus,line-6779,,1.7,0.85
+100,80,1,80,Arlington Center - Lechmere Station,Local Bus,3,https://www.mbta.com/schedules/80,FFC72C,0,50800,Local Bus,line-80,,1.7,0.85
+101,83,1,83,"Rindge Avenue - Central Square, Cambridge",Local Bus,3,https://www.mbta.com/schedules/83,FFC72C,0,50830,Local Bus,line-83,,1.7,0.85
+102,84,1,84,Arlmont Village - Alewife Station,Commuter Bus,3,https://www.mbta.com/schedules/84,FFC72C,0,50840,Local Bus,line-7884,,1.7,0.85
+103,85,1,85,Spring Hill - Kendall/MIT Station,Local Bus,3,https://www.mbta.com/schedules/85,FFC72C,0,50850,Local Bus,line-85,,1.7,0.85
+104,86,1,86,Sullivan Square Station - Reservoir Station,Local Bus,3,https://www.mbta.com/schedules/86,FFC72C,0,50860,Local Bus,line-86,,1.7,0.85
+105,87,1,87,Clarendon Hill or Arlington Center - Lechmere Station,Local Bus,3,https://www.mbta.com/schedules/87,FFC72C,0,50870,Local Bus,line-87,,1.7,0.85
+106,88,1,88,Clarendon Hill - Lechmere Station,Local Bus,3,https://www.mbta.com/schedules/88,FFC72C,0,50880,Local Bus,line-88,,1.7,0.85
+107,89,1,89,Clarendon Hill or Davis Station - Sullivan Square Station,Local Bus,3,https://www.mbta.com/schedules/89,FFC72C,0,50890,Local Bus,line-89,,1.7,0.85
+108,8993,1,89/93,Clarendon Hill - Haymarket Station,Supplemental Bus,3,,FFC72C,0,50891,Local Bus,line-89,1.0,1.7,0.85
+109,90,1,90,Davis Station - Assembly Row,Local Bus,3,https://www.mbta.com/schedules/90,FFC72C,0,50900,Local Bus,line-90,,1.7,0.85
+110,91,1,91,"Sullivan Square Station - Central Square, Cambridge",Local Bus,3,https://www.mbta.com/schedules/91,FFC72C,0,50910,Local Bus,line-91,,1.7,0.85
+111,92,1,92,Sullivan Square Station - Downtown via Main Street,Local Bus,3,https://www.mbta.com/schedules/92,FFC72C,0,50920,Local Bus,line-92,,1.7,0.85
+112,93,1,93,Sullivan Square Station - Downtown via Bunker Hill Street,Local Bus,3,https://www.mbta.com/schedules/93,FFC72C,0,50930,Local Bus,line-93,,1.7,0.85
+113,94,1,94,Medford Square - Davis Station,Local Bus,3,https://www.mbta.com/schedules/94,FFC72C,0,50940,Local Bus,line-94,,1.7,0.85
+114,95,1,95,West Medford or Arlington Center - Sullivan Square Station,Local Bus,3,https://www.mbta.com/schedules/95,FFC72C,0,50950,Local Bus,line-95,,1.7,0.85
+115,96,1,96,Medford Square - Harvard Station,Local Bus,3,https://www.mbta.com/schedules/96,FFC72C,0,50960,Local Bus,line-96,,1.7,0.85
+116,97,1,97,Malden Center Station - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/97,FFC72C,0,50970,Local Bus,line-97,,1.7,0.85
+117,99,1,99,Woodland Road - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/99,FFC72C,0,50990,Local Bus,line-99,,1.7,0.85
+118,100,1,100,Elm Street - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/100,FFC72C,0,51000,Local Bus,line-100,,1.7,0.85
+119,101,1,101,Malden Center Station - Sullivan Square Station via Winter Hill,Local Bus,3,https://www.mbta.com/schedules/101,FFC72C,0,51010,Local Bus,line-101,,1.7,0.85
+120,104,1,104,Malden Center Station - Sullivan Square Station via Ferry Street,Local Bus,3,https://www.mbta.com/schedules/104,FFC72C,0,51040,Local Bus,line-104109,,1.7,0.85
+121,105,1,105,Malden Center Station - Sullivan Square Station via Newland Street Housing,Local Bus,3,https://www.mbta.com/schedules/105,FFC72C,0,51050,Local Bus,line-105,,1.7,0.85
+122,106,1,106,Lebanon Loop - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/106,FFC72C,0,51060,Local Bus,line-106,,1.7,0.85
+123,108,1,108,Linden Square - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/108,FFC72C,0,51080,Local Bus,line-108,,1.7,0.85
+124,109,1,109,Linden Square - Sullivan Square Station,Local Bus,3,https://www.mbta.com/schedules/109,FFC72C,0,51090,Local Bus,line-104109,,1.7,0.85
+125,110,1,110,Wonderland Station - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/110,FFC72C,0,51100,Local Bus,line-110,,1.7,0.85
+126,111,1,111,Woodlawn - Haymarket Station,Key Bus,3,https://www.mbta.com/schedules/111,FFC72C,0,51110,Local Bus,line-111,,1.7,0.85
+127,112,1,112,Wellington Station - Wood Island Station,Local Bus,3,https://www.mbta.com/schedules/112,FFC72C,0,51120,Local Bus,line-112,,1.7,0.85
+128,114,1,114,Market Basket - Maverick Station,Community Bus,3,https://www.mbta.com/schedules/114,FFC72C,0,51140,Local Bus,line-114116117,,1.7,0.85
+129,116,1,116,Wonderland Station - Maverick Station via Revere Street,Key Bus,3,https://www.mbta.com/schedules/116,FFC72C,0,51160,Local Bus,line-114116117,,1.7,0.85
+130,116117,1,116/117,Wonderland Station - Maverick Station,Supplemental Bus,3,,FFC72C,0,51161,Local Bus,line-114116117,1.0,1.7,0.85
+131,117,1,117,Wonderland Station - Maverick Station via Beach Street,Key Bus,3,https://www.mbta.com/schedules/117,FFC72C,0,51170,Local Bus,line-114116117,,1.7,0.85
+132,119,1,119,Northgate Shopping Center - Beachmont Station,Local Bus,3,https://www.mbta.com/schedules/119,FFC72C,0,51190,Local Bus,line-119,,1.7,0.85
+133,120,1,120,Orient Heights Station - Jeffries Point,Local Bus,3,https://www.mbta.com/schedules/120,FFC72C,0,51200,Local Bus,line-120121,,1.7,0.85
+134,121,1,121,Wood Island Station - Maverick Station,Commuter Bus,3,https://www.mbta.com/schedules/121,FFC72C,0,51210,Local Bus,line-120121,,1.7,0.85
+135,131,1,131,Melrose Highlands - Oak Grove or Malden Center Station,Commuter Bus,3,https://www.mbta.com/schedules/131,FFC72C,0,51310,Local Bus,line-131132,,1.7,0.85
+136,132,1,132,Redstone Shopping Center - Malden Center Station,Local Bus,3,https://www.mbta.com/schedules/132,FFC72C,0,51320,Local Bus,line-131132,,1.7,0.85
+137,134,1,134,North Woburn - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/134,FFC72C,0,51340,Local Bus,line-134,,1.7,0.85
+138,136,1,136,Reading Depot - Malden Center Station via Lowell Street,Local Bus,3,https://www.mbta.com/schedules/136,FFC72C,0,51360,Local Bus,line-136137,,1.7,0.85
+139,137,1,137,Reading Depot - Malden Center Station via North Avenue,Local Bus,3,https://www.mbta.com/schedules/137,FFC72C,0,51370,Local Bus,line-136137,,1.7,0.85
+140,170,1,170,Waltham Center - Nubian Station,Commuter Bus,3,https://www.mbta.com/schedules/170,FFC72C,0,51700,Inner Express,line-6170170,,4.25,2.1
+141,171,1,171,Logan Airport Terminals - Nubian Station,Supplemental Bus,3,https://www.mbta.com/schedules/171,FFC72C,0,51710,Local Bus,line-171708,,1.7,0.85
+142,195,1,195,Lemuel Shattuck Hospital - Park Street & Tremont Street,Supplemental Bus,3,https://www.mbta.com/schedules/195,FFC72C,0,51950,Local Bus,line-195,1.0,1.7,0.85
+143,201,1,201,Fields Corner Loop via Neponset Ave,Local Bus,3,https://www.mbta.com/schedules/201,FFC72C,0,52010,Local Bus,line-201202,,1.7,0.85
+144,202,1,202,Fields Corner Loop via Adams Street,Local Bus,3,https://www.mbta.com/schedules/202,FFC72C,0,52020,Local Bus,line-201202,,1.7,0.85
+145,210,1,210,Quincy Center Station - Fields Corner Station,Local Bus,3,https://www.mbta.com/schedules/210,FFC72C,0,52100,Local Bus,line-210211212,,1.7,0.85
+146,211,1,211,Quincy Center Station - Squantum,Local Bus,3,https://www.mbta.com/schedules/211,FFC72C,0,52110,Local Bus,line-210211212,,1.7,0.85
+147,212,1,212,Quincy Center Station - North Quincy Station,Commuter Bus,3,https://www.mbta.com/schedules/212,FFC72C,0,52120,Local Bus,line-210211212,,1.7,0.85
+148,214,1,214,Germantown - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/214,FFC72C,0,52140,Local Bus,line-214216,,1.7,0.85
+149,214216,1,214/216,Houghs Neck - Quincy Center Station,Local Bus,3,,FFC72C,0,52141,Local Bus,line-214216,1.0,1.7,0.85
+150,215,1,215,Quincy Center Station - Ashmont Station via West Quincy,Local Bus,3,https://www.mbta.com/schedules/215,FFC72C,0,52150,Local Bus,line-215,,1.7,0.85
+151,216,1,216,Houghs Neck - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/216,FFC72C,0,52160,Local Bus,line-214216,,1.7,0.85
+152,217,1,217,Quincy Center Station - Ashmont Station via Wollaston Station,Commuter Bus,3,https://www.mbta.com/schedules/217,FFC72C,0,52170,Local Bus,line-217245,,1.7,0.85
+153,220,1,220,Hingham Depot - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/220,FFC72C,0,52200,Local Bus,line-220221222,,1.7,0.85
+154,221,1,221,Fort Point - Quincy Center Station,Commuter Bus,3,https://www.mbta.com/schedules/221,FFC72C,0,52210,Local Bus,line-220221222,,1.7,0.85
+155,222,1,222,East Weymouth - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/222,FFC72C,0,52220,Local Bus,line-220221222,,1.7,0.85
+156,225,1,225,Weymouth Landing - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/225,FFC72C,0,52250,Local Bus,line-225226,,1.7,0.85
+157,226,1,226,Columbian Square - Braintree Station,Local Bus,3,https://www.mbta.com/schedules/226,FFC72C,0,52260,Local Bus,line-225226,,1.7,0.85
+158,230,1,230,Montello Station - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/230,FFC72C,0,52300,Local Bus,line-230,,1.7,0.85
+159,236,1,236,South Shore Plaza - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/236,FFC72C,0,52360,Local Bus,line-236,,1.7,0.85
+160,238,1,238,Holbrook/Randolph Station - Quincy Center Station,Local Bus,3,https://www.mbta.com/schedules/238,FFC72C,0,52380,Local Bus,line-238,,1.7,0.85
+161,240,1,240,Avon Square - Ashmont Station,Local Bus,3,https://www.mbta.com/schedules/240,FFC72C,0,52400,Local Bus,line-240,,1.7,0.85
+162,245,1,245,Quincy Center Station - Mattapan Station,Local Bus,3,https://www.mbta.com/schedules/245,FFC72C,0,52450,Local Bus,line-217245,,1.7,0.85
+163,325,1,325,"Elm Street, Medford - Haymarket Station",Commuter Bus,3,https://www.mbta.com/schedules/325,FFC72C,0,53250,Inner Express,line-325326,,4.25,2.1
+164,326,1,326,West Medford - Haymarket Station,Commuter Bus,3,https://www.mbta.com/schedules/326,FFC72C,0,53260,Inner Express,line-325326,,4.25,2.1
+165,350,1,350,North Burlington - Alewife Station,Local Bus,3,https://www.mbta.com/schedules/350,FFC72C,0,53500,Local Bus,line-350351,,1.7,0.85
+166,351,1,351,Bedford Woods Drive - Alewife Station,Commuter Bus,3,https://www.mbta.com/schedules/351,FFC72C,0,53510,Inner Express,line-350351,,4.25,2.1
+167,352,1,352,"North Burlington - State Street, Boston",Commuter Bus,3,https://www.mbta.com/schedules/352,FFC72C,0,53520,Outer Express,line-352,,5.25,2.6
+168,354,1,354,"North Burlington - State Street, Boston",Commuter Bus,3,https://www.mbta.com/schedules/354,FFC72C,0,53540,Outer Express,line-354,,5.25,2.6
+169,411,1,411,Kennedy Drive or Jack Satter House - Malden Center Station,Local Bus,3,https://www.mbta.com/schedules/411,FFC72C,0,54110,Local Bus,line-411430,,1.7,0.85
+170,424,1,424,Eastern Avenue & Essex Street - Wonderland Station,Commuter Bus,3,https://www.mbta.com/schedules/424,FFC72C,0,54240,Local Bus,line-424450456,,1.7,0.85
+171,426,1,426,"Central Square, Lynn - Haymarket or Wonderland Station",Local Bus,3,https://www.mbta.com/schedules/426,FFC72C,0,54260,Inner Express,line-426428,,4.25,2.1
+172,428,1,428,Oaklandvale - Haymarket Station,Commuter Bus,3,https://www.mbta.com/schedules/428,FFC72C,0,54280,Inner Express,line-426428,,4.25,2.1
+173,429,1,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,https://www.mbta.com/schedules/429,FFC72C,0,54290,Local Bus,line-429,,1.7,0.85
+174,430,1,430,Saugus Center - Malden Center Station,Local Bus,3,https://www.mbta.com/schedules/430,FFC72C,0,54300,Local Bus,line-411430,,1.7,0.85
+175,434,1,434,"Main Street, Peabody - Haymarket Station",Commuter Bus,3,https://www.mbta.com/schedules/434,FFC72C,0,54340,Inner Express,line-434435436,,4.25,2.1
+176,435,1,435,"Liberty Tree Mall - Central Square, Lynn via Peabody Square",Local Bus,3,https://www.mbta.com/schedules/435,FFC72C,0,54350,Local Bus,line-434435436,,1.7,0.85
+177,436,1,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,https://www.mbta.com/schedules/436,FFC72C,0,54360,Local Bus,line-434435436,,1.7,0.85
+178,439,1,439,Nahant - Wonderland Station,Commuter Bus,3,https://www.mbta.com/schedules/439,FFC72C,0,54390,Local Bus,line-439441442,,1.7,0.85
+179,441,1,441,Marblehead - Wonderland Station via Paradise Road,Local Bus,3,https://www.mbta.com/schedules/441,FFC72C,0,54410,Local Bus,line-439441442,,1.7,0.85
+180,441442,1,441/442,Marblehead - Wonderland Station,Local Bus,3,,FFC72C,0,54411,Local Bus,line-439441442,1.0,1.7,0.85
+181,442,1,442,Marblehead - Wonderland Station via Humphrey Street,Local Bus,3,https://www.mbta.com/schedules/442,FFC72C,0,54420,Local Bus,line-439441442,,1.7,0.85
+182,450,1,450,Salem Depot - Wonderland or Haymarket Station,Local Bus,3,https://www.mbta.com/schedules/450,FFC72C,0,54500,Inner Express,line-424450456,,4.25,2.1
+183,451,1,451,North Beverly Station - Salem Depot,Commuter Bus,3,https://www.mbta.com/schedules/451,FFC72C,0,54510,Local Bus,line-451465,,1.7,0.85
+184,455,1,455,Salem Depot - Wonderland Station,Local Bus,3,https://www.mbta.com/schedules/455,FFC72C,0,54550,Local Bus,line-455,,1.7,0.85
+185,456,1,456,"Salem Depot - Central Square, Lynn",Local Bus,3,https://www.mbta.com/schedules/456,FFC72C,0,54560,Local Bus,line-424450456,,1.7,0.85
+186,465,1,465,Danvers Square - Salem Depot,Local Bus,3,https://www.mbta.com/schedules/465,FFC72C,0,54650,Local Bus,line-451465,,1.7,0.85
+187,501,1,501,Brighton Center - Federal Street & Franklin Street,Commuter Bus,3,https://www.mbta.com/schedules/501,FFC72C,0,55010,Inner Express,line-501503,,4.25,2.1
+188,502,1,502,Watertown Yard - Copley Station,Commuter Bus,3,https://www.mbta.com/schedules/502,FFC72C,0,55020,Inner Express,line-502504,,4.25,2.1
+189,503,1,503,Brighton Center - Copley Square,Commuter Bus,3,https://www.mbta.com/schedules/503,FFC72C,0,55030,Inner Express,line-501503,,4.25,2.1
+190,504,1,504,Watertown Yard - Federal Street & Franklin Street,Commuter Bus,3,https://www.mbta.com/schedules/504,FFC72C,0,55040,Inner Express,line-502504,,4.25,2.1
+191,505,1,505,Waltham Center - Federal Street & Franklin Street,Commuter Bus,3,https://www.mbta.com/schedules/505,FFC72C,0,55050,Outer Express,line-505553554,,5.25,2.6
+192,553,1,553,Roberts - Newton Corner,Local Bus,3,https://www.mbta.com/schedules/553,FFC72C,0,55530,Local Bus,line-505553554,,1.7,0.85
+193,554,1,554,Waverley Square - Newton Corner,Local Bus,3,https://www.mbta.com/schedules/554,FFC72C,0,55540,Local Bus,line-505553554,,1.7,0.85
+194,556,1,556,Waltham Highlands - Newton Corner,Commuter Bus,3,https://www.mbta.com/schedules/556,FFC72C,0,55560,Local Bus,line-556558,,1.7,0.85
+195,558,1,558,Riverside Station - Newton Corner,Commuter Bus,3,https://www.mbta.com/schedules/558,FFC72C,0,55580,Local Bus,line-556558,,1.7,0.85
+196,710,1,710,North Medford - Wellington Station,Local Bus,3,https://www.mbta.com/schedules/710,FFC72C,0,57100,Local Bus,line-710,,1.7,0.85
+197,712,1,712,Point Shirley - Orient Heights Station via Revere Street,Local Bus,3,https://www.mbta.com/schedules/712,FFC72C,0,57120,Local Bus,line-712713,,1.7,0.85
+198,713,1,713,Point Shirley - Orient Heights Station via Winthrop Center,Local Bus,3,https://www.mbta.com/schedules/713,FFC72C,0,57130,Local Bus,line-712713,,1.7,0.85
+199,714,1,714,"Pemberton Point, Hull - Station Street, Hingham",Local Bus,3,https://www.mbta.com/schedules/714,FFC72C,0,57140,Local Bus,line-714,,1.7,0.85
+200,716,1,716,Cobbs Corner - Mattapan Station,Local Bus,3,https://www.mbta.com/schedules/716,FFC72C,0,57160,Local Bus,line-716,,1.7,0.85
+201,602,1,Green Line Shuttle,Lechmere Station - North Station,Rail Replacement Bus,3,,FFC72C,0,60200,Free,line-Green,1.0,0.0,0.0
+202,Shuttle-BraintreeQuincyCenter,1,Red Line Shuttle,Braintree - Quincy Center,Rail Replacement Bus,3,,FFC72C,0,61000,Free,line-Red,1.0,0.0,0.0
+203,Shuttle-BrooklineHillsKenmore,1,Green Line D Shuttle,Brookline Hills - Kenmore,Rail Replacement Bus,3,,FFC72C,0,61100,Free,line-Green,1.0,0.0,0.0
+204,Shuttle-FenwayNewtonHighlands,1,Green Line D Shuttle,Newton Highlands - Fenway,Rail Replacement Bus,3,,FFC72C,0,61490,Free,line-Green,1.0,0.0,0.0
+205,Shuttle-ForgeParkWalpole,1,Franklin Line Shuttle,Forge Park/495 - Walpole,Rail Replacement Bus,3,,FFC72C,0,61770,Free,line-Franklin,1.0,0.0,0.0
+206,Shuttle-Generic,1,Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61910,Free,,1.0,0.0,0.0
+207,Shuttle-Generic-Blue,1,Blue Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61911,Free,line-Blue,1.0,0.0,0.0
+208,Shuttle-Generic-CommuterRail,1,Commuter Rail Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61912,Free,,1.0,0.0,0.0
+209,Shuttle-Generic-CommuterRail-North,1,North Side Commuter Rail Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61913,Free,,1.0,0.0,0.0
+210,Shuttle-Generic-CommuterRail-South,1,South Side Commuter Rail Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61914,Free,,1.0,0.0,0.0
+211,Shuttle-Generic-Elevator,1,Elevator Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61915,Free,,1.0,0.0,0.0
+212,Shuttle-Generic-Fairmount,1,Fairmount Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61916,Free,line-Fairmount,1.0,0.0,0.0
+213,Shuttle-Generic-Fitchburg,1,Fitchburg Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61917,Free,line-Fitchburg,1.0,0.0,0.0
+214,Shuttle-Generic-Franklin,1,Franklin Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61918,Free,line-Franklin,1.0,0.0,0.0
+215,Shuttle-Generic-Green,1,Green Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61919,Free,line-Green,1.0,0.0,0.0
+216,Shuttle-Generic-Green-B,1,Green Line B Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61920,Free,line-Green,1.0,0.0,0.0
+217,Shuttle-Generic-Greenbush,1,Greenbush Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61921,Free,line-Greenbush,1.0,0.0,0.0
+218,Shuttle-Generic-Green-C,1,Green Line C Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61922,Free,line-Green,1.0,0.0,0.0
+219,Shuttle-Generic-Green-D,1,Green Line D Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61923,Free,line-Green,1.0,0.0,0.0
+220,Shuttle-Generic-Green-E,1,Green Line E Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61924,Free,line-Green,1.0,0.0,0.0
+221,Shuttle-Generic-Green-Trunk,1,Green Line Subway Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61925,Free,line-Green,1.0,0.0,0.0
+222,Shuttle-Generic-Haverhill,1,Haverhill Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61926,Free,line-Haverhill,1.0,0.0,0.0
+223,Shuttle-Generic-Kingston,1,Kingston/Plymouth Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61927,Free,line-Kingston,1.0,0.0,0.0
+224,Shuttle-Generic-Lowell,1,Lowell Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61928,Free,line-Lowell,1.0,0.0,0.0
+225,Shuttle-Generic-Mattapan,1,Mattapan Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61929,Free,line-Mattapan,1.0,0.0,0.0
+226,Shuttle-Generic-Middleborough,1,Middleborough/Lakeville Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61930,Free,line-Middleborough,1.0,0.0,0.0
+227,Shuttle-Generic-Needham,1,Needham Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61931,Free,line-Needham,1.0,0.0,0.0
+228,Shuttle-Generic-Newburyport,1,Newburyport/Rockport Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61932,Free,line-Newburyport,1.0,0.0,0.0
+229,Shuttle-Generic-Orange,1,Orange Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61933,Free,line-Orange,1.0,0.0,0.0
+230,Shuttle-Generic-Providence,1,Providence/Stoughton Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61934,Free,line-Providence,1.0,0.0,0.0
+231,Shuttle-Generic-Red,1,Red Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61935,Free,line-Red,1.0,0.0,0.0
+232,Shuttle-Generic-Red-Ashmont,1,Red Line Ashmont Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61936,Free,line-Red,1.0,0.0,0.0
+233,Shuttle-Generic-Red-Braintree,1,Red Line Braintree Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61937,Free,line-Red,1.0,0.0,0.0
+234,Shuttle-Generic-Red-Trunk,1,Red Line Trunk Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61938,Free,line-Red,1.0,0.0,0.0
+235,Shuttle-Generic-Worcester,1,Framingham/Worcester Line Shuttle,,Rail Replacement Bus,3,,FFC72C,0,61939,Free,line-Worcester,1.0,0.0,0.0
+236,Shuttle-KenmoreReservoir,1,Green Line D Shuttle,Reservoir - Kenmore,Rail Replacement Bus,3,,FFC72C,0,62010,Free,line-Green,1.0,0.0,0.0
+237,Shuttle-NewtonHighlandsKenmore,1,Green Line D Shuttle,Newton Highlands - Kenmore,Rail Replacement Bus,3,,FFC72C,0,62090,Free,line-Green,1.0,0.0,0.0
+238,Shuttle-NewtonHighlandsRiverside,1,Green Line D Shuttle,Riverside - Newton Highlands,Rail Replacement Bus,3,,FFC72C,0,62100,Free,line-Green,1.0,0.0,0.0
+239,Shuttle-OakGroveWellington,1,Orange Line Shuttle,Oak Grove - Wellington,Rail Replacement Bus,3,,FFC72C,0,62300,Free,line-Orange,1.0,0.0,0.0
+240,Shuttle-ReservoirRiverside,1,Green Line D Shuttle,Riverside - Reservoir,Rail Replacement Bus,3,,FFC72C,0,62400,Free,line-Green,1.0,0.0,0.0
