@@ -14,7 +14,7 @@ The file [t-visas_processing_pdfs.py](https://github.com/hvarelaf/CS506-Fall2020
 **is_family** - True if it contains “Supplement A, Application for Qualifying Family Member of a T-1 Nonimmigrant” in status.\
 **description** - contains the first paragraph of the application under the Opinion or Analysis section.\
 **LEXIS Citation** - contains the LEXIS citation listed in the application.\
-**counsel** - contains 'no' if the application does not contain a Counsel section, 'yes' otherwise.
+**counsel** - contains 'no' if the application does not contain a Counsel section, 'yes' otherwise.\
 **contents** - contains the text under the Analysis section, or the Opinion section if Analysis section not included.\
 
 The file [t-visas_motions_analysis.ipynb](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/master/t_visa_trends_team2/final_deliverable/t-visas_analysis.ipynb) is the Jupyter Notebook containing the code used for the analysis of the Motions data. Necessary imports are included at the beginning of the Notebook, along with the results of each step of the analysis. This analysis was used for the results presented in [t-visas_report.pdf](https://github.com/hvarelaf/CS506-Fall2020-Projects/blob/master/t_visa_trends_team2/final_deliverable/t-visas_report.pdf), which details our findings.
