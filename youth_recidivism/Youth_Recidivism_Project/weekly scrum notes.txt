@@ -1,0 +1,20 @@
+10/2: Meet with partners and get to know the dataset.
+
+10/16: Get familiar with the dataset and understand the tasks for this semester, and also previous work of last group.(Submit Project Deliverable 0)
+
+10/23: This week, I digged through last groups' code about Topic Modeling and do some researches about functionality of Topic Modeling. I reproduced the code and use our partners' manual grouping: Youth only, Staffing, Collaterals, and Youth with others present. I label each group and make another column to the dataset, which is train.pickle. Finding is that with topic modeling of 4 groups, the only difference is between youth only and youth with other people.
+
+10/30: This week, I used the column WHO_WAS_CONTACTED, and tries to find the relationship between this column and the grouping result of topic modeling, it turns out that there is no obvious relationship between them by just using groupby method in pandas. Next step will be using a decision tree model to predict relationship.
+
+11/6: this week: not able to meet because of midterm.
+
+11/13: I used decision tree algorithm to predict relationship between these two, and find out no obvious trend. Then I used other combinations of columns and it turns out that no obvious trend either. The four most relevant columns are commit days, WHO_WAS_CONTACTED, HOW_WAS_CONTACT_MADE and WHY. But the partner only wants to find out relationship between notes and YES. so next will be a decision tree model on notes and YES.
+
+11/24: this week, I used decision tree and produce results between groupings of topic modeling and YES. As it turns out that no relationship is found and my partners are desperate about finding relationships, therefore, I digged a little deeper and tries to better the decision tree model that I currently used. By changing max_depth and find out the best alpha and other methods, none of the methods will improve the model nor find general trends. So I think topic modeling failed in this case.
+
+11/30: this week as Topic modeling failed, I reverse the idea to do a statistic analysis rather than accommodate Topic modeling's result to YES rate. So statistical analysis is done, and I just found why Topic modeling failed: because case note follows a specific format and word choices are similar. Also this week, I used flair and nltk package to analyze the data, while nothing is found. 
+
+12/4: I showed to partners why sentiment analysis will not work and also topic modeling, and they agreed on what I concluded. So we move to the next step: Future Planning analysis. And Rajat will do his own pertained model on sentiment analysis while I will do word2vec model on this dataset. So far I know that future planning analysis will not be an easy job because we have to build something from scratch other than taking advantage of models to train the dataset and see which model is more accurate. 
+
+12/11: Need to prepare for final, word2vec will be done before Final Project deliverable. 
+
