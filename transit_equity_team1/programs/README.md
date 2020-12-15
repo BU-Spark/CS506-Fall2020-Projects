@@ -1,30 +1,40 @@
 ### Output description
 
-1. `./output/stops.csv`
+1. `./output/stops/stops.shp`
+   `./output/stops.csv` is the same file saved as a csv
 
-| Column Name    | Description                                                  |
-| -------------- | ------------------------------------------------------------ |
-| STOP_ID        | ID for this stop                                             |
-| STOP_NAME      | Name for this stop                                           |
-| TOWN           | Name of the town this stop is located in                     |
-| TRACT_ID       | ID for the tract this stop is located in                     |
-| income         | Median income for this tract                                 |
-| income_level   | income level for this tract, from 0-4, and -1 means missing value |
-| route_ids      | IDs for the routes that go through this stop                 |
-| ridership      | Average ridership for this stop for routes, in the order of `route_ids` |
-| revenues       | Annual revenues for this stop for routes, in the order of `route_ids` |
-| revenue_annual | Total annual revenue for this stop (sum of values in `revenues`) |
+| Column Name    | Description                                                                                |
+| -------------- | ------------------------------------------------------------------------------------------ |
+| STOP_ID        | ID for each stop                                             							  |
+| STOP_NAME      | Name for each stop                                           							  |
+| TOWN           | Name of the town each stop is located in                     							  |
+| impacted_g     | Geo IDs of all tracts that intersect with each stop's radius 							  |
+| income         | Weighted average median household income for each stop      							  	  |
+| income_level   | Income level assigned to each stop, from 0-4                 							  |
+| impacted_p     | Weighted average impacted population for each stop           							  |
+| route_ids      | IDs for the routes that each stop corresponds to             							  |
+| geometry       | Coordinates for each stop using the EPSG:26986 CRS                                         |
+| proportion     | Proportions of tracts that intersect with each stop's "circle", divided by area of tract   |
+| proporti_1     | Proportions of tracts that intersect with each stop's "circle", divided by area of circle  |
 
-2. `./output/stops_weighed.csv` (`./output/shapefile/stops.shp` is the shapefile version of it)
+2. `./output/weighted_route_info_FINAL.csv`
 
 | Column Name      | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
-| STOP_ID          | ID for this stop                                             |
-| location         | geometry Point of this stop                                  |
-| geometry         | geometry Polygon of the 0.5 mile radius circle               |
-| impacted_tractid | ID for tracts that intercept the circle                      |
-| proportion       | proportion of area/population of the impacted tracts         |
-| income           | weighed income based on proportion                           |
-| income_level     | income level for this tract, from 0-4, and -1 means missing value |
-| impacted_pop     | weighted population impacted based on proportion             |
+| route_id         | ID for each route                                            |
+| level_0          | Count of income_level 0 stops along each route               |
+| level_1          | Count of income_level 1 stops along each route               |
+| total            | Sum of level_0 and level_1                                   |
+| impacted_p       | Sum of impacted_p of all stops along each route              |
 
+3. `./output/all_rep_data_FINAL.csv` - table is an outer join on the geometries of `./output/stops/stops.shp` and `./data/house2012/HOUSES2012_POLY.shp`
+
+4. `./output/impacted_districts.csv`
+
+| Column Name      | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| district         | Name for each district                                       |
+| level_0          | Count of income_level 0 stops in each district               |
+| level_1          | Count of income_level 1 stops in each district               |
+| total            | Sum of level_0 and level_1                                   |
+| rep              | The MA state representative for each district                |
