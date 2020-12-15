@@ -1,0 +1,197 @@
+This text file contains notes from our weekly meetings.
+All weekly meetings have, as attendees, some subset of:
+Liz and Danielle, Rajat and Savannah, and Suzy, Haoran, Yang, and Chengyang.
+
+-------
+
+Meeting: 10/6
+Datasets: 
+ - Google Places: all massage businesses (already collected, approx 500k rows)
+ - Rubmaps.ch: illicit massage businesses (already collected, approx 30k rows)
+ - Yelp: massage businesses (still to be scraped, use API)
+
+We want to fuzzy match between Rubmaps and Google Places.
+The phone numbers should be an exact match.
+Names and addresses will be fuzzier, based on formatting and level of detail.
+Address is a high priority match. It takes precedence over other matches, as you cannot fake your address.
+
+Outputs: 
+ - matching criterion: want a confidence breakdown for each (phone, address, and name), and what confidence score qualifies as a match.
+ - dynamic scalable script: want a script that can be applied to any dataset. 
+ - ideally, all Rubmaps businesses will be matched to the Google Places set.
+
+Miscellaneous:
+ - phone numbers can be tied to more than one business
+ - can have two locations with the same address (if they have different suite numbers)
+ - names can have duplicates all over the country.
+ - want to err on the side of caution for our matching criteria.
+
+
+-------
+
+Meeting: 10/7 (team only)
+Create own private project repo for our code.
+Each of us will have ownership and can do our own work on our own branch.
+See deliverable 0 for sprint breakdown and goals, etc.
+
+-------
+
+Meeting: 10/13
+Next step: gather and collect Yelp data
+ - use API
+ - look for email from Liz with details
+
+When standardizing phone numbers, keep the country code.
+When working with Google Places data, keep the ID.
+When working with Rubmaps data, keep the location hash.
+
+We don't necessarily need a map visual. The primary goal for our project is the scalable script that they can apply to any dataset.
+
+Task: work some with the Yelp API for next time. Get familiar with it.
+
+
+-------
+
+Meeting: 10/20
+Task: use API to gather Yelp data for at least Missouri and Massachusetts.
+
+Found a script sample.py that can be modified and used for our purposes.
+Everyone can get a set of zip codes; we shouldn't have to worry about the daily limit.
+We will need to figure out what to do with the missing entries.
+Don't worry about the format for the scraping. Just get the data for now.
+Try for having the data by the end of the week.
+
+
+-------
+
+Meeting: 10/23 (team only)
+Yang shared her work with the API. It has been posted to our private repo.
+The code saves the data into a json file, which can easily be converted to csv.
+Start with just MO and MA.
+Cleaning: merge the separate csv files, remove duplicates, and standardize phone numbers.
+
+
+-------
+
+Meeting: 10/27
+
+We have gathered data from MA, MO, and RI. (Script on our private repo.)
+
+Data cleaning:
+ - E164 format for phone numbers.
+ - Missing entries:
+    - phone: NaN / null
+    - address: drop from df [A question: if the address is missing, can you still get a match?]
+
+There is not much in the way of intermediate steps.
+We can, however, try matching phone numbers for one state: Rubmaps <-> Google Places
+
+Liz will be adding data files (to our Google Drive) with a state column so we can filter the other datasets by state.
+
+Looking ahead:
+ - address matching:
+    - many ways to do this.
+    - can split into first and second line
+    - can match coordinates first
+    - the suite number will be the hardest to deal with. Not all data points have a suite number (even if they 'technically' should). Also, (as previously stated) you can have more than one business with the same address up to (but not including) suite number.
+ - can look at accuracy with Yelp vs. with Google Places vs. with both
+ - can look into spaCy rule matchers and NER matchers. (We don't have to reinvent the wheel for this one.)
+
+-------
+
+Meeting: 11/3
+
+Next up: address matching
+ - start with state
+ - then zip/city
+ - then street
+
+Have preliminary results for next week.
+
+-------
+
+Meeting: 11/10
+
+Need to split addresses still. Then we can use spaCy for matching.
+(Also need to phone number and name match.)
+
+For spaCy, jupyter is easier than scripts, but either is fine.
+(And either is fine for end of project submission.)
+
+Presentation: Give what we've done and preview what's ahead:
+Similar to deliverable 1.
+
+For next week:
+ - Research spaCy
+ - Figure out what to use and start building a script
+
+-------
+
+Meeting: 11/17
+
+Report: 
+ - Mostly research and theorizing on technique done, not much solidified in code yet
+ - We as a team will be meeting tomorrow night (Wed 11/18) [to accommodate time zones]
+
+General comments on timeline:
+ - Deliverable 2 is due 11/23
+ - Deliverable 3 is due 11/30
+ - Deliverable 3 needs to be reviewed by Liz and Danielle (who don't work on 11/26-27). We will get that to them by the end of the weekend (by end of 11/29), so that they can review it on Monday.
+
+Libraries to Try: (before next meeting)
+ - fuzzywuzzy library for string matching
+ - phrase matcher (spaCy)
+Things to learn from these implementations:
+ - Where do these go wrong? (assuming they do)
+ - We can use these discoveries to improve our methodology.
+
+Note: We can still do more tweaks and refinements post deliverable 3, but the bulk of it should be done by deliverable 3.
+
+-------
+
+Meeting: 11/24
+
+Request from Liz to add city and state column to our results. (Can also add a zip codes column.)
+
+Look into distance metric and edit distance. (At least for our presentation if not also our report.) See paper:
+https://ieeexplore.ieee.org/abstract/document/5767865?casa_token=EhRW1wi8vOkAAAAA:74kwuyW3jMpt_OH49oBoe5Btm_nze8kGzlMjK0tO0rjJe_VkZx2ockN5KORtCSxqPJwDVuV_
+
+We can look at other score metrics for a verification. Then our tiers and match criteria can be based on a combination of the score metrics.
+
+Something to look at and report: what percentage of rubmaps data has a match (from Google Places, Yelp, and combined).
+
+
+-------
+
+Meeting: 12/1/2020
+
+Requests from Liz and Danielle have been sent via email. They are as follows:
+1. Can you turn each of the scripts into a class and consolidate them into one script? It’s a bit busy with all of the separate standardizing and matching scripts. Also, can you add comments?
+2. Can you send us the collection script for Yelp?
+3. We noticed that the number of matched locations is much lower than the number of RM locations sent. So, we were wondering if, for tier 5, you had tested a lower threshold for matching (less than 90). If you did, what were the results? It might be worthwhile to play around with this a bit more, because it might be too strict of criteria as it stands, since so many of the locations aren’t coming through at all. Maybe consider adding a few more tiers with varying confidence levels. 
+4. We noticed a few of the state fields aren’t clean after being standardized. If there’s time, just take a look at it and see if there’s a clear solution.
+5. Is it possible to get a national file of matches (of GP and RM, not necessarily Yelp)?
+
+The priority order for them: 1, 5, 4, 3. (Just send it to them for #2.)
+If we run into troubles combining our scripts, let Rajat know, and he can see what he can do to help.
+
+Additional request: please save the full match sheet (with all match scores between Rubmaps and Google Places) for each state.
+Clarification on 5: the states can be in separate sheets. (Please send both full score sheets and high_chance for each state.)
+
+(My clarification for #3 given in the meeting was that we could lower the threshold, but that doesn't mean we'll get more true matches. I explained that we set the criteria based on what actually were matches and the scores they had.)
+
+Regarding the presentation, be sure to discuss the context.
+
+-------
+
+Meeting: 12/8
+
+In regards to consolidating into one script, at the very least, consolidate standardization scripts.
+
+Both python script and Jupyter notebook are okay formats.
+
+At least run matching script on all 50 states. If we have time to consolidate all 50 state files, great. But only if time.
+
+Remember to send all files and final report to Liz and Danielle.
+
+Last meeting on 12/15.
