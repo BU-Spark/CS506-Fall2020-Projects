@@ -1,0 +1,1403 @@
+,Neighborhood,Topic,Frequency
+0,Fenway,Crime,0
+1,Downtown,Crime,0
+2,Dorchester,Crime,0
+3,Roslindale,Crime,3
+4,Jamaica Plain,Crime,0
+5,Dorchester,Crime,0
+6,Mattapan,Crime,0
+7,Roslindale,Crime,0
+8,Harbor Islands,Crime,0
+9,Downtown,Crime,1
+10,Roxbury,Crime,2
+11,Dorchester,Crime,2
+12,Mattapan,Crime,2
+13,Dorchester,Crime,7
+14,Roxbury,Crime,0
+15,Dorchester,Crime,0
+16,Mattapan,Crime,0
+17,Roxbury,Crime,0
+18,Jamaica Plain,Crime,0
+19,Downtown,Crime,1
+20,Roxbury,Crime,0
+21,Dorchester,Crime,0
+22,Mattapan,Crime,0
+23,Hyde Park,Crime,0
+24,Fenway,Crime,2
+25,Downtown,Crime,0
+26,Beacon Hill,Crime,0
+27,East Boston,Crime,0
+28,Beacon Hill,Crime,0
+29,Roxbury,Crime,0
+30,Dorchester,Crime,0
+31,Mattapan,Crime,0
+32,Roxbury,Crime,14
+33,Dorchester,Crime,14
+34,Mattapan,Crime,14
+35,Back Bay,Crime,2
+36,Roxbury,Crime,2
+37,Dorchester,Crime,2
+38,Mattapan,Crime,2
+39,West Roxbury,Crime,2
+40,Dorchester,Crime,0
+41,North End,Crime,0
+42,Beacon Hill,Crime,0
+43,Roxbury,Crime,0
+44,Downtown,Crime,0
+45,Downtown,Crime,0
+46,Beacon Hill,Crime,0
+47,Dorchester,Crime,0
+48,Mattapan,Crime,0
+49,South End,Crime,0
+50,South End,Crime,0
+51,Dorchester,Crime,0
+52,Roxbury,Crime,0
+53,Dorchester,Crime,0
+54,Mattapan,Crime,0
+55,Downtown,Crime,0
+56,Roxbury,Crime,0
+57,Roxbury,Crime,0
+58,Fenway,Crime,0
+59,Dorchester,Crime,0
+60,Roxbury,Crime,0
+61,Jamaica Plain,Crime,0
+62,South Boston,Crime,1
+63,Fenway,Crime,0
+64,South Boston,Crime,7
+65,South Boston,Crime,3
+66,Fenway,Crime,0
+67,Charlestown,Crime,0
+68,Brighton,Crime,0
+69,Fenway,Crime,0
+70,South Boston,Crime,0
+71,Mattapan,Crime,0
+72,Harbor Islands,Crime,0
+73,Fenway,Crime,0
+74,Downtown,Crime,1
+75,Beacon Hill,Crime,1
+76,South Boston,Crime,1
+77,Fenway,Crime,0
+78,Roxbury,Crime,0
+79,Dorchester,Crime,0
+80,Mattapan,Crime,0
+81,Downtown,Crime,0
+82,Dorchester,Crime,0
+83,Back Bay,Crime,0
+84,East Boston,Crime,0
+85,South Boston,Crime,0
+86,South End,Crime,0
+87,Dorchester,Crime,0
+88,South Boston,Crime,0
+89,South End,Crime,0
+90,South Boston,Crime,0
+91,Roxbury,Crime,0
+92,Dorchester,Crime,0
+93,Mattapan,Crime,0
+94,Fenway,Crime,0
+95,Beacon Hill,Crime,8
+96,Roxbury,Crime,1
+97,Dorchester,Crime,1
+98,Mattapan,Crime,1
+99,South End,Crime,0
+100,Mattapan,Crime,0
+101,Charlestown,Crime,0
+102,Roxbury,Crime,0
+103,Jamaica Plain,Crime,0
+104,Dorchester,Crime,0
+105,Back Bay,Crime,3
+106,Mattapan,Crime,3
+107,Brighton,Crime,0
+108,Roxbury,Crime,0
+109,Mattapan,Crime,0
+110,Downtown,Crime,2
+111,South End,Crime,6
+112,Roslindale,Crime,2
+113,Roxbury,Crime,0
+114,East Boston,Crime,0
+115,South Boston,Crime,0
+116,Roxbury,Crime,0
+117,Jamaica Plain,Crime,0
+118,Roxbury,Crime,0
+119,Jamaica Plain,Crime,0
+120,Downtown,Crime,0
+121,Roxbury,Crime,2
+122,Dorchester,Crime,2
+123,Mattapan,Crime,2
+124,Roxbury,Crime,1
+125,Dorchester,Crime,1
+126,Mattapan,Crime,1
+127,Jamaica Plain,Crime,0
+128,Dorchester,Crime,0
+129,Fenway,Crime,0
+130,Downtown,Crime,1
+131,Dorchester,Crime,1
+132,Fenway,Crime,1
+133,Back Bay,Crime,1
+134,Dorchester,Crime,0
+135,Roxbury,Crime,0
+136,Roxbury,Crime,2
+137,Downtown,Crime,0
+138,Roxbury,Crime,0
+139,Dorchester,Crime,0
+140,Mattapan,Crime,0
+141,Brighton,Crime,0
+142,Roxbury,Crime,27
+143,Dorchester,Crime,27
+144,Mattapan,Crime,27
+145,Beacon Hill,Crime,0
+146,Downtown,Crime,0
+147,South Boston,Crime,17
+148,Roxbury,Crime,17
+149,Mission Hill,Crime,17
+150,Jamaica Plain,Crime,17
+151,Jamaica Plain,Crime,6
+152,Beacon Hill,Crime,1
+153,Roxbury,Crime,0
+154,Dorchester,Crime,0
+155,Mattapan,Crime,0
+156,Roxbury,Crime,1
+157,Dorchester,Crime,1
+158,Brighton,Crime,3
+159,Charlestown,Crime,0
+160,East Boston,Crime,0
+161,Beacon Hill,Crime,0
+162,Beacon Hill,Crime,1
+163,South Boston,Crime,1
+164,South Boston,Crime,3
+165,Beacon Hill,Crime,0
+166,Beacon Hill,Crime,0
+167,Brighton,Crime,2
+168,Roxbury,Crime,2
+169,Dorchester,Crime,2
+170,Mattapan,Crime,2
+171,Hyde Park,Crime,2
+172,North End,Crime,0
+173,Charlestown,Crime,0
+174,East Boston,Crime,0
+175,Allston,Crime,0
+176,Longwood Medical Area,Crime,0
+177,Downtown,Crime,0
+178,South Boston,Crime,0
+179,South Boston Waterfront,Crime,0
+180,Roxbury,Crime,0
+181,Dorchester,Crime,0
+182,Mattapan,Crime,0
+183,Roslindale,Crime,0
+184,Beacon Hill,Crime,2
+185,Beacon Hill,Crime,0
+186,Roxbury,Crime,0
+187,Dorchester,Crime,0
+188,Mattapan,Crime,0
+189,Downtown,Crime,0
+190,Dorchester,Crime,0
+191,Mattapan,Crime,1
+192,Beacon Hill,Crime,0
+193,Roxbury,Crime,7
+194,Downtown,Crime,0
+195,Roxbury,Crime,0
+196,Dorchester,Crime,0
+197,Mattapan,Crime,0
+198,Fenway,Crime,0
+199,Roxbury,Crime,0
+200,Allston,Crime,0
+201,Mattapan,Crime,0
+202,North End,Crime,0
+203,Allston,Crime,0
+204,Beacon Hill,Crime,0
+205,Charlestown,Crime,0
+206,Roxbury,Crime,0
+207,Dorchester,Crime,0
+208,Mattapan,Crime,0
+209,Beacon Hill,Crime,2
+210,Beacon Hill,Crime,0
+211,South End,Crime,0
+212,North End,Crime,0
+213,Beacon Hill,Crime,0
+214,Hyde Park,Crime,0
+215,Downtown,Crime,8
+216,Roxbury,Crime,8
+217,Jamaica Plain,Crime,8
+218,Roslindale,Crime,8
+219,West Roxbury,Crime,8
+220,Jamaica Plain,Crime,0
+221,Dorchester,Crime,0
+222,Beacon Hill,Crime,6
+223,Roxbury,Crime,0
+224,Dorchester,Crime,0
+225,Mattapan,Crime,0
+226,West Roxbury,Crime,0
+227,Brighton,Crime,0
+228,Roxbury,Crime,0
+229,West Roxbury,Crime,0
+230,Downtown,Crime,0
+231,Roxbury,Crime,7
+232,Beacon Hill,Crime,0
+233,Charlestown,Crime,0
+234,Back Bay,Crime,0
+235,North End,Crime,0
+236,South End,Crime,0
+237,Roxbury,Crime,0
+238,Dorchester,Crime,0
+239,Mattapan,Crime,0
+240,Dorchester,Crime,1
+241,East Boston,Crime,0
+242,Beacon Hill,Crime,0
+243,South Boston,Crime,2
+244,Beacon Hill,Crime,1
+245,Beacon Hill,Crime,0
+246,Brighton,Crime,3
+247,East Boston,Crime,0
+248,Allston,Crime,0
+249,Downtown,Crime,0
+250,Dorchester,Crime,0
+251,Downtown,Crime,0
+252,Back Bay,Crime,0
+253,Beacon Hill,Crime,0
+254,Roxbury,Crime,0
+255,Dorchester,Crime,0
+256,West Roxbury,Crime,0
+257,Jamaica Plain,Crime,11
+258,Roxbury,Crime,0
+259,Roslindale,Crime,0
+260,Dorchester,Crime,0
+261,Mattapan,Crime,0
+262,South Boston,Crime,7
+263,Downtown,Crime,0
+264,East Boston,Crime,0
+265,Dorchester,Crime,0
+266,Mattapan,Crime,0
+267,North End,Crime,0
+268,Dorchester,Crime,0
+269,Mattapan,Crime,0
+270,Roslindale,Crime,0
+271,Downtown,Crime,0
+272,Charlestown,Crime,0
+273,East Boston,Crime,0
+274,South Boston,Crime,0
+275,Downtown,Crime,1
+276,South Boston,Crime,0
+277,Roslindale,Crime,0
+278,South End,Crime,0
+279,Dorchester,Crime,0
+280,Dorchester,Crime,0
+281,Dorchester,Crime,0
+282,Brighton,Crime,0
+283,Jamaica Plain,Crime,5
+284,Roxbury,Crime,13
+285,Jamaica Plain,Crime,13
+286,Jamaica Plain,Crime,5
+287,Dorchester,Crime,0
+288,Roxbury,Crime,10
+289,Jamaica Plain,Crime,0
+290,Dorchester,Crime,0
+291,Roxbury,Crime,0
+292,Fenway,Crime,0
+293,Downtown,Crime,0
+294,Downtown,Crime,0
+295,Jamaica Plain,Crime,27
+296,Beacon Hill,Crime,0
+297,East Boston,Crime,0
+298,Mission Hill,Crime,5
+299,Fenway,Crime,0
+300,Fenway,Crime,1
+301,Dorchester,Crime,2
+302,Beacon Hill,Crime,5
+303,Dorchester,Crime,22
+304,Downtown,Crime,0
+305,Roxbury,Crime,0
+306,Brighton,Crime,1
+307,Mattapan,Crime,1
+308,Roxbury,Crime,0
+309,Fenway,Crime,0
+310,Back Bay,Crime,1
+311,Charlestown,Crime,0
+312,South Boston,Crime,0
+313,Roxbury,Crime,0
+314,Jamaica Plain,Crime,0
+315,Dorchester,Crime,0
+316,Mattapan,Crime,0
+317,West Roxbury,Crime,0
+318,Hyde Park,Crime,0
+319,Hyde Park,Crime,0
+320,Fenway,Crime,0
+321,Beacon Hill,Crime,2
+322,Roxbury,Crime,3
+323,Charlestown,Crime,0
+324,Roxbury,Crime,0
+325,Downtown,Crime,0
+326,South End,Crime,0
+327,Downtown,Crime,0
+328,Downtown,Crime,0
+329,Fenway,Crime,0
+330,Beacon Hill,Crime,0
+331,Beacon Hill,Crime,0
+332,Roxbury,Crime,3
+333,Roxbury,Crime,22
+334,Dorchester,Crime,22
+335,Mattapan,Crime,22
+336,Roxbury,Crime,31
+337,Roxbury,Crime,21
+338,Beacon Hill,Crime,0
+339,Fenway,Crime,0
+340,Beacon Hill,Crime,4
+341,South Boston,Crime,0
+342,Charlestown,Crime,0
+343,East Boston,Crime,0
+344,Back Bay,Crime,0
+345,Beacon Hill,Crime,4
+346,Charlestown,Crime,0
+347,South Boston,Crime,6
+348,Dorchester,Crime,6
+349,Mattapan,Crime,6
+350,Hyde Park,Crime,6
+351,Beacon Hill,Crime,0
+352,South Boston,Crime,0
+353,Dorchester,Crime,0
+354,Mattapan,Crime,0
+355,Hyde Park,Crime,0
+356,South Boston,Crime,0
+357,Dorchester,Crime,0
+358,Charlestown,Crime,0
+359,East Boston,Crime,0
+360,Roxbury,Crime,0
+361,Jamaica Plain,Crime,0
+362,West Roxbury,Crime,0
+363,East Boston,Crime,1
+364,Downtown,Crime,0
+365,Beacon Hill,Crime,0
+366,South Boston,Crime,0
+367,Dorchester,Crime,0
+368,Downtown,Crime,0
+369,East Boston,Crime,0
+370,South Boston,Crime,0
+371,South End,Crime,0
+372,Roxbury,Crime,0
+373,Downtown,Crime,0
+374,East Boston,Crime,0
+375,Hyde Park,Crime,0
+376,South Boston,Crime,3
+377,Beacon Hill,Crime,0
+378,Beacon Hill,Crime,0
+379,Downtown,Crime,0
+380,Beacon Hill,Crime,0
+381,Beacon Hill,Crime,0
+382,South Boston,Crime,0
+383,Beacon Hill,Crime,0
+384,Dorchester,Crime,0
+385,North End,Crime,0
+386,Beacon Hill,Crime,0
+387,Hyde Park,Crime,1
+388,Hyde Park,Crime,0
+389,Beacon Hill,Crime,0
+390,Downtown,Crime,0
+391,Downtown,Crime,0
+392,East Boston,Crime,0
+393,Mattapan,Crime,0
+394,Downtown,Crime,0
+395,Downtown,Crime,0
+396,East Boston,Crime,0
+397,Back Bay,Crime,0
+398,South End,Crime,0
+399,East Boston,Crime,0
+400,Beacon Hill,Crime,8
+401,Roxbury,Crime,0
+402,Dorchester,Crime,1
+403,Downtown,Crime,0
+404,Mattapan,Crime,0
+405,Roxbury,Crime,0
+406,Roxbury,Crime,0
+407,Dorchester,Crime,0
+408,Downtown,Crime,0
+409,North End,Crime,0
+410,Charlestown,Crime,0
+411,East Boston,Crime,0
+412,Dorchester,Crime,0
+413,North End,Crime,1
+414,Downtown,Crime,1
+415,South Boston,Crime,1
+416,Hyde Park,Crime,1
+417,North End,Crime,0
+418,Dorchester,Crime,0
+419,Beacon Hill,Crime,2
+420,Roxbury,Crime,0
+421,East Boston,Crime,0
+422,Dorchester,Crime,0
+423,Mattapan,Crime,0
+424,Beacon Hill,Crime,0
+425,Beacon Hill,Crime,0
+426,Hyde Park,Crime,0
+427,Roslindale,Crime,0
+428,Roxbury,Crime,0
+429,West Roxbury,Crime,0
+430,Roxbury,Crime,0
+431,Brighton,Crime,0
+432,Charlestown,Crime,0
+433,East Boston,Crime,0
+434,Jamaica Plain,Crime,0
+435,Dorchester,Crime,0
+436,Hyde Park,Crime,0
+437,Dorchester,Crime,0
+438,Beacon Hill,Crime,0
+439,Downtown,Crime,0
+440,Fenway,Crime,0
+441,Dorchester,Crime,1
+442,South Boston,Crime,0
+443,Fenway,Crime,0
+444,North End,Crime,0
+445,Fenway,Crime,1
+446,East Boston,Crime,3
+447,South Boston,Crime,0
+448,Downtown,Crime,3
+449,East Boston,Crime,3
+450,Fenway,Crime,0
+451,Downtown,Crime,1
+452,Fenway,Crime,0
+453,South End,Crime,0
+454,Roxbury,Crime,0
+455,Dorchester,Crime,0
+456,Fenway,Crime,0
+457,Downtown,Crime,0
+458,Downtown,Crime,0
+459,Back Bay,Crime,0
+460,Roxbury,Crime,0
+461,Fenway,Crime,0
+462,Roxbury,Crime,0
+463,Dorchester,Crime,0
+464,Back Bay,Crime,2
+465,Beacon Hill,Crime,1
+466,Beacon Hill,Crime,0
+467,Downtown,Crime,0
+468,Roxbury,Crime,1
+469,West Roxbury,Crime,1
+470,Back Bay,Crime,0
+471,Beacon Hill,Crime,3
+472,Beacon Hill,Crime,2
+473,Jamaica Plain,Crime,1
+474,Dorchester,Crime,4
+475,Downtown,Crime,0
+476,Fenway,Crime,0
+477,Dorchester,Crime,0
+478,Fenway,Crime,0
+479,Roxbury,Crime,0
+480,Beacon Hill,Crime,0
+481,Roxbury,Crime,0
+482,Dorchester,Crime,0
+483,Beacon Hill,Crime,0
+484,Brighton,Crime,0
+485,Fenway,Crime,0
+486,Back Bay,Crime,0
+487,North End,Crime,0
+488,South End,Crime,0
+489,Beacon Hill,Crime,0
+490,Downtown,Crime,0
+491,Beacon Hill,Crime,1
+492,Dorchester,Crime,0
+493,Beacon Hill,Crime,0
+494,Roxbury,Crime,6
+495,Fenway,Crime,0
+496,Roxbury,Crime,0
+497,Roxbury,Crime,0
+498,Beacon Hill,Crime,2
+499,Downtown,Crime,0
+500,Brighton,Crime,3
+501,Fenway,Crime,0
+502,Brighton,Crime,0
+503,Allston,Crime,0
+504,North End,Crime,0
+505,East Boston,Crime,0
+506,South Boston,Crime,0
+507,Dorchester,Crime,0
+508,Dorchester,Crime,0
+509,Dorchester,Crime,0
+510,Dorchester,Crime,0
+511,Roxbury,Crime,0
+512,Dorchester,Crime,0
+513,West Roxbury,Crime,0
+514,East Boston,Crime,0
+515,Jamaica Plain,Crime,0
+516,Roslindale,Crime,0
+517,Hyde Park,Crime,0
+518,Mattapan,Crime,0
+519,Jamaica Plain,Crime,0
+520,Roxbury,Crime,0
+521,Roxbury,Crime,0
+522,Fenway,Crime,0
+523,Back Bay,Crime,0
+524,Downtown,Crime,0
+525,Charlestown,Crime,0
+526,Beacon Hill,Crime,0
+527,Fenway,Crime,0
+528,South End,Crime,0
+529,Roxbury,Crime,0
+530,Dorchester,Crime,0
+531,Brighton,Crime,0
+532,Jamaica Plain,Crime,0
+533,Allston,Crime,0
+534,Back Bay,Crime,0
+535,Charlestown,Crime,1
+536,Charlestown,Crime,0
+537,Roxbury,Crime,0
+538,Beacon Hill,Crime,0
+539,Beacon Hill,Crime,0
+540,Mission Hill,Crime,3
+541,Mission Hill,Crime,7
+542,South Boston,Crime,6
+543,Roxbury,Crime,6
+544,Dorchester,Crime,6
+545,East Boston,Crime,0
+546,Dorchester,Crime,0
+547,Beacon Hill,Crime,0
+548,Beacon Hill,Crime,0
+549,Fenway,Crime,0
+550,North End,Crime,1
+551,Roxbury,Crime,0
+552,Back Bay,Crime,0
+553,Dorchester,Crime,1
+554,Dorchester,Crime,0
+555,Back Bay,Crime,0
+556,Beacon Hill,Crime,0
+557,Fenway,Crime,0
+558,Roxbury,Crime,2
+559,South Boston,Crime,0
+560,Fenway,Crime,0
+561,Roxbury,Crime,0
+562,Dorchester,Crime,0
+563,Hyde Park,Crime,0
+564,Beacon Hill,Crime,1
+565,Beacon Hill,Crime,0
+566,Roxbury,Crime,1
+567,East Boston,Crime,4
+568,South Boston,Crime,4
+569,Beacon Hill,Crime,0
+570,Beacon Hill,Crime,0
+571,Jamaica Plain,Crime,1
+572,Roxbury,Crime,0
+573,Downtown,Crime,0
+574,Roxbury,Crime,1
+575,West Roxbury,Crime,1
+576,Roslindale,Crime,0
+577,Roxbury,Crime,0
+578,Jamaica Plain,Crime,0
+579,Roslindale,Crime,1
+580,Brighton,Crime,0
+581,Allston,Crime,0
+582,East Boston,Crime,1
+583,South Boston,Crime,0
+584,Fenway,Crime,0
+585,South Boston,Crime,10
+586,Dorchester,Crime,0
+587,Back Bay,Crime,0
+588,Downtown,Crime,1
+589,Beacon Hill,Crime,0
+590,Beacon Hill,Crime,0
+591,Fenway,Crime,0
+592,Fenway,Crime,0
+593,Fenway,Crime,0
+594,Fenway,Crime,0
+595,Fenway,Crime,0
+596,Fenway,Crime,0
+597,Back Bay,Crime,2
+598,Back Bay,Crime,1
+599,Dorchester,Crime,0
+600,Dorchester,Crime,3
+601,Downtown,Crime,0
+602,Downtown,Crime,0
+603,Allston,Crime,0
+604,East Boston,Crime,0
+605,Roxbury,Crime,0
+606,Jamaica Plain,Crime,0
+607,Dorchester,Crime,0
+608,Mattapan,Crime,0
+609,Roslindale,Crime,0
+610,Hyde Park,Crime,0
+611,Downtown,Crime,0
+612,South End,Crime,13
+613,Hyde Park,Crime,0
+614,Fenway,Crime,0
+615,Dorchester,Crime,0
+616,Hyde Park,Crime,0
+617,East Boston,Crime,0
+618,Roxbury,Crime,0
+619,Jamaica Plain,Crime,0
+620,Dorchester,Crime,0
+621,Dorchester,Crime,1
+622,Downtown,Crime,1
+623,Dorchester,Crime,0
+624,Roxbury,Crime,4
+625,Roxbury,Crime,4
+626,Roxbury,Crime,0
+627,Roxbury,Crime,1
+628,Mattapan,Crime,1
+629,Fenway,Crime,0
+630,South Boston,Crime,0
+631,Downtown,Crime,0
+632,Fenway,Crime,0
+633,Fenway,Crime,0
+634,Downtown,Crime,0
+635,South Boston,Crime,0
+636,Beacon Hill,Crime,2
+637,Beacon Hill,Crime,0
+638,Downtown,Crime,0
+639,Fenway,Crime,0
+640,Mattapan,Crime,0
+641,South Boston,Crime,0
+642,Roxbury,Crime,1
+643,Beacon Hill,Crime,0
+644,Beacon Hill,Crime,0
+645,Beacon Hill,Crime,1
+646,Beacon Hill,Crime,1
+647,East Boston,Crime,1
+648,Downtown,Crime,0
+649,East Boston,Crime,0
+650,Roxbury,Crime,0
+651,Jamaica Plain,Crime,0
+652,Dorchester,Crime,0
+653,Mattapan,Crime,0
+654,Downtown,Crime,0
+655,Beacon Hill,Crime,0
+656,Downtown,Crime,0
+657,Roxbury,Crime,0
+658,Jamaica Plain,Crime,0
+659,Roxbury,Crime,0
+660,Jamaica Plain,Crime,0
+661,South Boston,Crime,0
+662,Jamaica Plain,Crime,0
+663,Beacon Hill,Crime,0
+664,Mattapan,Crime,1
+665,Brighton,Crime,2
+666,Beacon Hill,Crime,0
+667,Beacon Hill,Crime,0
+668,Roslindale,Crime,0
+669,Dorchester,Crime,0
+670,Dorchester,Crime,0
+671,Back Bay,Crime,0
+672,Beacon Hill,Crime,0
+673,Downtown,Crime,0
+674,Dorchester,Crime,0
+675,Jamaica Plain,Crime,0
+676,Fenway,Crime,0
+677,Roxbury,Crime,0
+678,Roxbury,Crime,0
+679,Dorchester,Crime,0
+680,Mattapan,Crime,0
+681,Dorchester,Crime,4
+682,Mattapan,Crime,4
+683,Back Bay,Crime,0
+684,South Boston,Crime,1
+685,South Boston,Crime,0
+686,Beacon Hill,Crime,0
+687,Beacon Hill,Crime,0
+688,Dorchester,Crime,1
+689,Dorchester,Crime,1
+690,Roxbury,Crime,0
+691,Downtown,Crime,1
+692,Jamaica Plain,Crime,0
+693,Back Bay,Crime,0
+694,North End,Crime,0
+695,Charlestown,Crime,0
+696,South End,Crime,0
+697,Roxbury,Crime,2
+698,South End,Crime,0
+699,Roxbury,Crime,0
+700,Downtown,Crime,1
+701,Charlestown,Crime,0
+702,Roxbury,Crime,0
+703,West Roxbury,Crime,0
+704,Roxbury,Crime,0
+705,West Roxbury,Crime,0
+706,Roxbury,Crime,0
+707,Jamaica Plain,Crime,0
+708,West Roxbury,Crime,0
+709,Roxbury,Crime,0
+710,Brighton,Crime,0
+711,Downtown,Crime,0
+712,Charlestown,Crime,0
+713,East Boston,Crime,0
+714,South End,Crime,0
+715,Dorchester,Crime,0
+716,Roxbury,Crime,0
+717,West Roxbury,Crime,0
+718,Brighton,Crime,0
+719,Allston,Crime,0
+720,Roxbury,Crime,0
+721,Beacon Hill,Crime,0
+722,Jamaica Plain,Crime,0
+723,Allston,Crime,0
+724,North End,Crime,0
+725,East Boston,Crime,0
+726,Downtown,Crime,3
+727,Jamaica Plain,Crime,1
+728,Jamaica Plain,Crime,1
+729,Roxbury,Crime,1
+730,Dorchester,Crime,1
+731,Roxbury,Crime,0
+732,Dorchester,Crime,0
+733,Downtown,Crime,0
+734,Charlestown,Crime,0
+735,Downtown,Crime,1
+736,Back Bay,Crime,0
+737,North End,Crime,0
+738,Downtown,Crime,0
+739,Charlestown,Crime,0
+740,Roxbury,Crime,0
+741,West Roxbury,Crime,0
+742,Beacon Hill,Crime,1
+743,North End,Crime,1
+744,South End,Crime,4
+745,South End,Crime,2
+746,Roslindale,Crime,2
+747,South End,Crime,0
+748,Roslindale,Crime,0
+749,Roxbury,Crime,0
+750,Jamaica Plain,Crime,0
+751,Brighton,Crime,0
+752,East Boston,Crime,1
+753,South End,Crime,0
+754,Dorchester,Crime,1
+755,Roxbury,Crime,0
+756,East Boston,Crime,10
+757,Downtown,Crime,0
+758,East Boston,Crime,53
+759,Roxbury,Crime,0
+760,Fenway,Crime,0
+761,Roxbury,Crime,0
+762,Hyde Park,Crime,0
+763,Charlestown,Crime,0
+764,Mattapan,Crime,0
+765,Roslindale,Crime,1
+766,Fenway,Crime,2
+767,Fenway,Crime,0
+768,Beacon Hill,Crime,0
+769,Brighton,Crime,4
+770,Dorchester,Crime,4
+771,Roslindale,Crime,4
+772,Charlestown,Crime,0
+773,Dorchester,Crime,6
+774,Roxbury,Crime,0
+775,Downtown,Crime,0
+776,Jamaica Plain,Crime,0
+777,Dorchester,Crime,0
+778,Mattapan,Crime,0
+779,Downtown,Crime,0
+780,Downtown,Crime,3
+781,Charlestown,Crime,0
+782,East Boston,Crime,0
+783,Brighton,Crime,0
+784,Allston,Crime,0
+785,Allston,Crime,0
+786,Brighton,Crime,0
+787,East Boston,Crime,0
+788,Dorchester,Crime,0
+789,South End,Crime,1
+790,Beacon Hill,Crime,0
+791,North End,Crime,0
+792,South Boston,Crime,0
+793,South Boston Waterfront,Crime,0
+794,Brighton,Crime,0
+795,Allston,Crime,0
+796,Dorchester,Crime,0
+797,Downtown,Crime,0
+798,South Boston,Crime,0
+799,East Boston,Crime,0
+800,Fenway,Crime,0
+801,Beacon Hill,Crime,0
+802,Beacon Hill,Crime,0
+803,Mattapan,Crime,0
+804,North End,Crime,0
+805,Downtown,Crime,0
+806,South Boston,Crime,0
+807,Beacon Hill,Crime,0
+808,Beacon Hill,Crime,0
+809,Beacon Hill,Crime,0
+810,Beacon Hill,Crime,0
+811,Downtown,Crime,1
+812,Beacon Hill,Crime,0
+813,Dorchester,Crime,0
+814,Back Bay,Crime,0
+815,Beacon Hill,Crime,0
+816,Beacon Hill,Crime,0
+817,Roxbury,Crime,7
+818,Mattapan,Crime,7
+819,North End,Crime,0
+820,Downtown,Crime,0
+821,South End,Crime,0
+822,Roxbury,Crime,0
+823,Fenway,Crime,0
+824,Brighton,Crime,0
+825,Charlestown,Crime,0
+826,Fenway,Crime,0
+827,Back Bay,Crime,3
+828,South End,Crime,0
+829,Dorchester,Crime,0
+830,Beacon Hill,Crime,0
+831,Dorchester,Crime,0
+832,Allston,Crime,1
+833,Allston,Crime,1
+834,North End,Crime,0
+835,North End,Crime,0
+836,Beacon Hill,Crime,0
+837,Downtown,Crime,0
+838,Beacon Hill,Crime,0
+839,Fenway,Crime,0
+840,Brighton,Crime,0
+841,Beacon Hill,Crime,0
+842,Dorchester,Crime,6
+843,Roxbury,Crime,0
+844,Roxbury,Crime,0
+845,Jamaica Plain,Crime,2
+846,Back Bay,Crime,0
+847,Downtown,Crime,1
+848,Jamaica Plain,Crime,0
+849,Jamaica Plain,Crime,0
+850,East Boston,Crime,1
+851,Downtown,Crime,1
+852,Harbor Islands,Crime,1
+853,Fenway,Crime,4
+854,Fenway,Crime,2
+855,Fenway,Crime,1
+856,Fenway,Crime,4
+857,Downtown,Crime,4
+858,South End,Crime,4
+859,East Boston,Crime,38
+860,South Boston,Crime,38
+861,Dorchester,Crime,38
+862,Charlestown,Crime,5
+863,Roxbury,Crime,8
+864,Roxbury,Crime,8
+865,East Boston,Crime,4
+866,Dorchester,Crime,23
+867,Dorchester,Crime,9
+868,Allston,Crime,0
+869,Dorchester,Crime,0
+870,Mattapan,Crime,1
+871,Allston,Crime,1
+872,Downtown,Crime,0
+873,Downtown,Crime,1
+874,Beacon Hill,Crime,0
+875,South Boston,Crime,1
+876,South End,Crime,1
+877,Dorchester,Crime,0
+878,East Boston,Crime,0
+879,South Boston,Crime,0
+880,South Boston Waterfront,Crime,0
+881,Back Bay,Crime,0
+882,North End,Crime,0
+883,Downtown,Crime,0
+884,South End,Crime,0
+885,Brighton,Crime,0
+886,Allston,Crime,0
+887,Fenway,Crime,0
+888,Downtown,Crime,0
+889,Charlestown,Crime,0
+890,East Boston,Crime,0
+891,Roxbury,Crime,0
+892,Jamaica Plain,Crime,0
+893,Dorchester,Crime,0
+894,Mattapan,Crime,0
+895,Roslindale,Crime,0
+896,Hyde Park,Crime,0
+897,Downtown,Crime,0
+898,Dorchester,Crime,2
+899,Mattapan,Crime,0
+900,Mattapan,Crime,0
+901,Downtown,Crime,0
+902,Roxbury,Crime,0
+903,East Boston,Crime,0
+904,Downtown,Crime,1
+905,Back Bay,Crime,0
+906,Downtown,Crime,0
+907,North End,Crime,0
+908,Fenway,Crime,0
+909,Back Bay,Crime,0
+910,Beacon Hill,Crime,0
+911,Downtown,Crime,0
+912,East Boston,Crime,0
+913,South Boston,Crime,0
+914,South End,Crime,0
+915,Roxbury,Crime,0
+916,Dorchester,Crime,0
+917,Mattapan,Crime,0
+918,Brighton,Crime,0
+919,Allston,Crime,0
+920,Jamaica Plain,Crime,1
+921,Jamaica Plain,Crime,0
+922,Allston,Crime,0
+923,South End,Crime,0
+924,Dorchester,Crime,0
+925,Beacon Hill,Crime,0
+926,Fenway,Crime,0
+927,Beacon Hill,Crime,0
+928,Roslindale,Crime,4
+929,Downtown,Crime,2
+930,Charlestown,Crime,1
+931,Dorchester,Crime,1
+932,Roslindale,Crime,1
+933,Fenway,Crime,1
+934,South Boston,Crime,1
+935,South End,Crime,5
+936,South Boston,Crime,0
+937,Roxbury,Crime,0
+938,Brighton,Crime,0
+939,Fenway,Crime,0
+940,South Boston,Crime,0
+941,South Boston,Crime,0
+942,Roxbury,Crime,1
+943,West Roxbury,Crime,1
+944,Roxbury,Crime,1
+945,West Roxbury,Crime,1
+946,Roxbury,Crime,1
+947,West Roxbury,Crime,1
+948,Roxbury,Crime,1
+949,West Roxbury,Crime,1
+950,Downtown,Crime,0
+951,Back Bay,Crime,1
+952,Charlestown,Crime,0
+953,Beacon Hill,Crime,0
+954,Dorchester,Crime,1
+955,Fenway,Crime,0
+956,Fenway,Crime,0
+957,Roxbury,Crime,0
+958,Beacon Hill,Crime,1
+959,Jamaica Plain,Crime,0
+960,South Boston,Crime,0
+961,Roxbury,Crime,0
+962,Roxbury,Crime,0
+963,Beacon Hill,Crime,0
+964,Beacon Hill,Crime,0
+965,Dorchester,Crime,22
+966,Fenway,Crime,0
+967,Brighton,Crime,0
+968,Dorchester,Crime,2
+969,Dorchester,Crime,0
+970,Dorchester,Crime,0
+971,Fenway,Crime,0
+972,Hyde Park,Crime,0
+973,Hyde Park,Crime,0
+974,Downtown,Crime,1
+975,Downtown,Crime,0
+976,Charlestown,Crime,2
+977,East Boston,Crime,2
+978,Charlestown,Crime,2
+979,East Boston,Crime,0
+980,Back Bay,Crime,1
+981,East Boston,Crime,6
+982,Downtown,Crime,0
+983,West End,Crime,3
+984,Beacon Hill,Crime,2
+985,Roslindale,Crime,2
+986,East Boston,Crime,0
+987,Mattapan,Crime,0
+988,Downtown,Crime,0
+989,Jamaica Plain,Crime,0
+990,Brighton,Crime,0
+991,Beacon Hill,Crime,0
+992,Dorchester,Crime,0
+993,Beacon Hill,Crime,0
+994,Downtown,Crime,0
+995,Downtown,Crime,0
+996,Dorchester,Crime,0
+997,Charlestown,Crime,11
+998,Beacon Hill,Crime,0
+999,Charlestown,Crime,0
+1000,Dorchester,Crime,0
+1001,Roxbury,Crime,5
+1002,Dorchester,Crime,0
+1003,Beacon Hill,Crime,0
+1004,Downtown,Crime,0
+1005,Roxbury,Crime,0
+1006,Fenway,Crime,0
+1007,Back Bay,Crime,0
+1008,South End,Crime,0
+1009,Dorchester,Crime,5
+1010,South Boston,Crime,0
+1011,North End,Crime,0
+1012,Downtown,Crime,0
+1013,Brighton,Crime,0
+1014,Beacon Hill,Crime,0
+1015,Roxbury,Crime,5
+1016,Roxbury,Crime,0
+1017,West Roxbury,Crime,0
+1018,Roxbury,Crime,5
+1019,Roslindale,Crime,2
+1020,Jamaica Plain,Crime,0
+1021,Jamaica Plain,Crime,0
+1022,Dorchester,Crime,0
+1023,North End,Crime,6
+1024,Charlestown,Crime,6
+1025,Beacon Hill,Crime,1
+1026,Dorchester,Crime,1
+1027,Downtown,Crime,0
+1028,South Boston,Crime,0
+1029,Brighton,Crime,9
+1030,Roxbury,Crime,9
+1031,Jamaica Plain,Crime,9
+1032,Dorchester,Crime,9
+1033,Beacon Hill,Crime,0
+1034,Brighton,Crime,0
+1035,Downtown,Crime,1
+1036,South End,Crime,2
+1037,Fenway,Crime,2
+1038,Back Bay,Crime,2
+1039,East Boston,Crime,0
+1040,Downtown,Crime,1
+1041,Roxbury,Crime,1
+1042,Dorchester,Crime,1
+1043,Mattapan,Crime,1
+1044,Beacon Hill,Crime,0
+1045,Beacon Hill,Crime,0
+1046,South Boston,Crime,0
+1047,Beacon Hill,Crime,0
+1048,Charlestown,Crime,0
+1049,North End,Crime,1
+1050,Back Bay,Crime,0
+1051,Fenway,Crime,0
+1052,Downtown,Crime,0
+1053,Brighton,Crime,0
+1054,Dorchester,Crime,0
+1055,Hyde Park,Crime,0
+1056,Brighton,Crime,0
+1057,South Boston,Crime,3
+1058,Dorchester,Crime,1
+1059,Downtown,Crime,0
+1060,South End,Crime,0
+1061,Roxbury,Crime,0
+1062,Dorchester,Crime,0
+1063,Mattapan,Crime,0
+1064,Dorchester,Crime,1
+1065,Brighton,Crime,0
+1066,Beacon Hill,Crime,0
+1067,Downtown,Crime,0
+1068,Back Bay,Crime,0
+1069,Jamaica Plain,Crime,0
+1070,Brighton,Crime,0
+1071,Dorchester,Crime,0
+1072,Beacon Hill,Crime,0
+1073,Fenway,Crime,0
+1074,Brighton,Crime,1
+1075,Downtown,Crime,0
+1076,Mattapan,Crime,3
+1077,Back Bay,Crime,1
+1078,Jamaica Plain,Crime,0
+1079,Dorchester,Crime,0
+1080,Mattapan,Crime,0
+1081,Hyde Park,Crime,0
+1082,North End,Crime,0
+1083,Dorchester,Crime,4
+1084,Mattapan,Crime,4
+1085,North End,Crime,0
+1086,Roslindale,Crime,0
+1087,Back Bay,Crime,0
+1088,Beacon Hill,Crime,0
+1089,Downtown,Crime,0
+1090,Charlestown,Crime,0
+1091,South End,Crime,0
+1092,Allston,Crime,0
+1093,Allston,Crime,0
+1094,Beacon Hill,Crime,0
+1095,East Boston,Crime,0
+1096,Fenway,Crime,0
+1097,Dorchester,Crime,0
+1098,Downtown,Crime,1
+1099,Dorchester,Crime,1
+1100,Charlestown,Crime,0
+1101,South Boston,Crime,1
+1102,Dorchester,Crime,1
+1103,South Boston,Crime,0
+1104,South Boston Waterfront,Crime,0
+1105,Fenway,Crime,1
+1106,Roxbury,Crime,76
+1107,Dorchester,Crime,76
+1108,Mattapan,Crime,76
+1109,South Boston,Crime,0
+1110,South Boston,Crime,0
+1111,Fenway,Crime,0
+1112,Beacon Hill,Crime,0
+1113,Mission Hill,Crime,0
+1114,Fenway,Crime,0
+1115,South Boston,Crime,0
+1116,Brighton,Crime,0
+1117,Downtown,Crime,1
+1118,Beacon Hill,Crime,0
+1119,Charlestown,Crime,0
+1120,Dorchester,Crime,0
+1121,Fenway,Crime,0
+1122,Downtown,Crime,0
+1123,Beacon Hill,Crime,0
+1124,Fenway,Crime,0
+1125,Brighton,Crime,0
+1126,Beacon Hill,Crime,0
+1127,North End,Crime,0
+1128,South End,Crime,0
+1129,Roxbury,Crime,0
+1130,Mission Hill,Crime,0
+1131,Hyde Park,Crime,0
+1132,Roxbury,Crime,0
+1133,Dorchester,Crime,0
+1134,Dorchester,Crime,7
+1135,Dorchester,Crime,0
+1136,Fenway,Crime,0
+1137,Roxbury,Crime,0
+1138,Dorchester,Crime,0
+1139,Roxbury,Crime,0
+1140,Downtown,Crime,0
+1141,Roslindale,Crime,0
+1142,Downtown,Crime,5
+1143,Fenway,Crime,0
+1144,Back Bay,Crime,0
+1145,Downtown,Crime,0
+1146,Jamaica Plain,Crime,0
+1147,Dorchester,Crime,0
+1148,South Boston,Crime,0
+1149,Fenway,Crime,0
+1150,South Boston,Crime,0
+1151,South End,Crime,0
+1152,Roxbury,Crime,0
+1153,Dorchester,Crime,0
+1154,Dorchester,Crime,7
+1155,Beacon Hill,Crime,0
+1156,Beacon Hill,Crime,0
+1157,Brighton,Crime,0
+1158,South End,Crime,0
+1159,Dorchester,Crime,0
+1160,Dorchester,Crime,0
+1161,Beacon Hill,Crime,0
+1162,Beacon Hill,Crime,0
+1163,Beacon Hill,Crime,0
+1164,Downtown,Crime,1
+1165,Roslindale,Crime,1
+1166,Back Bay,Crime,0
+1167,Downtown,Crime,18
+1168,Jamaica Plain,Crime,3
+1169,Dorchester,Crime,3
+1170,Dorchester,Crime,2
+1171,Dorchester,Crime,0
+1172,Dorchester,Crime,0
+1173,Dorchester,Crime,0
+1174,Dorchester,Crime,4
+1175,Dorchester,Crime,0
+1176,Downtown,Crime,0
+1177,Dorchester,Crime,10
+1178,Dorchester,Crime,11
+1179,Dorchester,Crime,5
+1180,Roxbury,Crime,3
+1181,Roslindale,Crime,3
+1182,Dorchester,Crime,18
+1183,Roslindale,Crime,4
+1184,Dorchester,Crime,0
+1185,Dorchester,Crime,6
+1186,Roslindale,Crime,11
+1187,Dorchester,Crime,0
+1188,Dorchester,Crime,0
+1189,Fenway,Crime,0
+1190,South Boston,Crime,1
+1191,South Boston Waterfront,Crime,1
+1192,Roxbury,Crime,0
+1193,West Roxbury,Crime,0
+1194,Roslindale,Crime,4
+1195,Roslindale,Crime,3
+1196,Roslindale,Crime,5
+1197,South Boston,Crime,1
+1198,Roslindale,Crime,5
+1199,Beacon Hill,Crime,1
+1200,Mattapan,Crime,1
+1201,Fenway,Crime,0
+1202,Roxbury,Crime,5
+1203,Roxbury,Crime,9
+1204,Roslindale,Crime,9
+1205,Dorchester,Crime,0
+1206,Jamaica Plain,Crime,0
+1207,Dorchester,Crime,0
+1208,South Boston,Crime,0
+1209,Roslindale,Crime,2
+1210,Roslindale,Crime,3
+1211,Allston,Crime,0
+1212,Roslindale,Crime,29
+1213,Beacon Hill,Crime,0
+1214,Roslindale,Crime,13
+1215,Dorchester,Crime,14
+1216,Beacon Hill,Crime,1
+1217,Dorchester,Crime,1
+1218,Beacon Hill,Crime,0
+1219,Dorchester,Crime,0
+1220,Dorchester,Crime,2
+1221,Brighton,Crime,0
+1222,Dorchester,Crime,3
+1223,Back Bay,Crime,4
+1224,Dorchester,Crime,2
+1225,Hyde Park,Crime,2
+1226,Charlestown,Crime,1
+1227,Dorchester,Crime,0
+1228,Mattapan,Crime,0
+1229,Hyde Park,Crime,0
+1230,Roxbury,Crime,1
+1231,Dorchester,Crime,1
+1232,Mattapan,Crime,1
+1233,Downtown,Crime,0
+1234,Roxbury,Crime,1
+1235,Beacon Hill,Crime,0
+1236,Roxbury,Crime,2
+1237,South Boston,Crime,0
+1238,South Boston,Crime,0
+1239,West End,Crime,0
+1240,Allston,Crime,0
+1241,Jamaica Plain,Crime,0
+1242,Fenway,Crime,1
+1243,Fenway,Crime,3
+1244,Back Bay,Crime,3
+1245,Roxbury,Crime,3
+1246,West Roxbury,Crime,3
+1247,North End,Crime,1
+1248,Roxbury,Crime,16
+1249,Fenway,Crime,1
+1250,Fenway,Crime,0
+1251,Beacon Hill,Crime,6
+1252,Roxbury,Crime,2
+1253,Charlestown,Crime,1
+1254,Roxbury,Crime,1
+1255,Jamaica Plain,Crime,1
+1256,Dorchester,Crime,1
+1257,Roslindale,Crime,1
+1258,West Roxbury,Crime,1
+1259,Dorchester,Crime,0
+1260,Dorchester,Crime,19
+1261,South Boston,Crime,0
+1262,Hyde Park,Crime,0
+1263,Dorchester,Crime,23
+1264,Beacon Hill,Crime,0
+1265,Allston,Crime,0
+1266,Roxbury,Crime,2
+1267,Roxbury,Crime,2
+1268,Dorchester,Crime,0
+1269,Roxbury,Crime,9
+1270,Dorchester,Crime,9
+1271,Dorchester,Crime,1
+1272,Roxbury,Crime,27
+1273,Dorchester,Crime,27
+1274,Hyde Park,Crime,27
+1275,South Boston,Crime,0
+1276,Brighton,Crime,0
+1277,Back Bay,Crime,1
+1278,Beacon Hill,Crime,0
+1279,North End,Crime,1
+1280,South Boston,Crime,1
+1281,South End,Crime,1
+1282,Fenway,Crime,0
+1283,South Boston,Crime,20
+1284,South Boston,Crime,0
+1285,South Boston,Crime,0
+1286,Back Bay,Crime,1
+1287,Dorchester,Crime,1
+1288,Dorchester,Crime,0
+1289,Beacon Hill,Crime,0
+1290,Brighton,Crime,5
+1291,Roxbury,Crime,1
+1292,Beacon Hill,Crime,0
+1293,South End,Crime,0
+1294,Roxbury,Crime,3
+1295,South Boston,Crime,0
+1296,Back Bay,Crime,0
+1297,South Boston,Crime,0
+1298,Roxbury,Crime,0
+1299,South End,Crime,0
+1300,Fenway,Crime,1
+1301,Downtown,Crime,0
+1302,South End,Crime,0
+1303,South Boston,Crime,1
+1304,South End,Crime,1
+1305,Downtown,Crime,0
+1306,Mattapan,Crime,0
+1307,South Boston,Crime,0
+1308,South Boston,Crime,5
+1309,Jamaica Plain,Crime,5
+1310,Jamaica Plain,Crime,0
+1311,Mattapan,Crime,0
+1312,South Boston,Crime,0
+1313,South End,Crime,0
+1314,Brighton,Crime,1
+1315,Beacon Hill,Crime,0
+1316,Roxbury,Crime,0
+1317,Mattapan,Crime,0
+1318,South Boston,Crime,0
+1319,Brighton,Crime,0
+1320,Roslindale,Crime,0
+1321,Fenway,Crime,2
+1322,South End,Crime,2
+1323,Roxbury,Crime,2
+1324,Mission Hill,Crime,2
+1325,Jamaica Plain,Crime,2
+1326,Dorchester,Crime,2
+1327,Mattapan,Crime,2
+1328,Roxbury,Crime,0
+1329,Beacon Hill,Crime,0
+1330,Allston,Crime,0
+1331,North End,Crime,0
+1332,Downtown,Crime,0
+1333,East Boston,Crime,0
+1334,Brighton,Crime,0
+1335,Longwood Medical Area,Crime,0
+1336,Downtown,Crime,0
+1337,Roxbury,Crime,0
+1338,Downtown,Crime,0
+1339,Allston,Crime,0
+1340,Downtown,Crime,0
+1341,Mission Hill,Crime,1
+1342,Downtown,Crime,0
+1343,Charlestown,Crime,0
+1344,Downtown,Crime,1
+1345,Roslindale,Crime,0
+1346,Beacon Hill,Crime,0
+1347,Downtown,Crime,0
+1348,Downtown,Crime,0
+1349,East Boston,Crime,0
+1350,South Boston,Crime,0
+1351,Dorchester,Crime,0
+1352,Brighton,Crime,0
+1353,Back Bay,Crime,0
+1354,Beacon Hill,Crime,0
+1355,South Boston,Crime,0
+1356,Roslindale,Crime,0
+1357,South End,Crime,0
+1358,Mattapan,Crime,0
+1359,Brighton,Crime,0
+1360,Back Bay,Crime,0
+1361,Beacon Hill,Crime,0
+1362,Charlestown,Crime,0
+1363,South Boston,Crime,0
+1364,South End,Crime,0
+1365,Roxbury,Crime,0
+1366,West Roxbury,Crime,0
+1367,Hyde Park,Crime,0
+1368,Downtown,Crime,0
+1369,Charlestown,Crime,0
+1370,Jamaica Plain,Crime,7
+1371,Jamaica Plain,Crime,1
+1372,Dorchester,Crime,1
+1373,South End,Crime,1
+1374,Downtown,Crime,0
+1375,Roxbury,Crime,1
+1376,Roxbury,Crime,0
+1377,Dorchester,Crime,0
+1378,Beacon Hill,Crime,0
+1379,North End,Crime,7
+1380,South End,Crime,0
+1381,Back Bay,Crime,0
+1382,Roxbury,Crime,0
+1383,Mattapan,Crime,0
+1384,Roxbury,Crime,0
+1385,Beacon Hill,Crime,0
+1386,Brighton,Crime,7
+1387,Allston,Crime,7
+1388,Fenway,Crime,7
+1389,Beacon Hill,Crime,7
+1390,North End,Crime,7
+1391,Charlestown,Crime,7
+1392,East Boston,Crime,7
+1393,South Boston,Crime,7
+1394,Roxbury,Crime,7
+1395,Mission Hill,Crime,7
+1396,Jamaica Plain,Crime,7
+1397,Dorchester,Crime,7
+1398,Mattapan,Crime,7
+1399,Roslindale,Crime,7
+1400,West Roxbury,Crime,7
+1401,Hyde Park,Crime,7
