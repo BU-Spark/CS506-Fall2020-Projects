@@ -1,0 +1,27 @@
+# SCRUM meeting 12/1/2020
+## Alex
+### Updates
+- Merged Springfield arrest logs with the race and ethnicity data.
+- Created map of New Bedford incidents near public schools.
+### Blockers
+- Couldn't perfectly merge Springfield arrest data with race and ethnicity data, such that not all arrest logs could be matched to a race and ethnicity.
+### Plan
+- Adding missing dataset descriptions.
+## Dan
+### Updates
+- Conducted time-based analysis and age-based analysis for the New Bedford dataset.
+### Blockers
+- None at the moment.
+### Plan
+- Cleaning Haverhill dataset.
+- Analyzing narrative feature of Haverhill data.
+- Analyzing incident type for the Haverhill dataset..
+## Raphael
+### Updates
+- Created bar charts of racial demographics in New Bedford.
+- Enhanced race/ethnicity display in New Bedford.
+### Blockers
+- None at the moment.
+### Plan
+- Break down Haverhill data by gender and race of offenders.
+- Break down Haverhill incidents by prolific officers, specifically the ten most active officers.
