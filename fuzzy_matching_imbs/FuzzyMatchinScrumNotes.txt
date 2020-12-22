@@ -159,3 +159,39 @@ https://ieeexplore.ieee.org/abstract/document/5767865?casa_token=EhRW1wi8vOkAAAA
 We can look at other score metrics for a verification. Then our tiers and match criteria can be based on a combination of the score metrics.
 
 Something to look at and report: what percentage of rubmaps data has a match (from Google Places, Yelp, and combined).
+
+
+-------
+
+Meeting: 12/1/2020
+
+Requests from Liz and Danielle have been sent via email. They are as follows:
+1. Can you turn each of the scripts into a class and consolidate them into one script? It’s a bit busy with all of the separate standardizing and matching scripts. Also, can you add comments?
+2. Can you send us the collection script for Yelp?
+3. We noticed that the number of matched locations is much lower than the number of RM locations sent. So, we were wondering if, for tier 5, you had tested a lower threshold for matching (less than 90). If you did, what were the results? It might be worthwhile to play around with this a bit more, because it might be too strict of criteria as it stands, since so many of the locations aren’t coming through at all. Maybe consider adding a few more tiers with varying confidence levels. 
+4. We noticed a few of the state fields aren’t clean after being standardized. If there’s time, just take a look at it and see if there’s a clear solution.
+5. Is it possible to get a national file of matches (of GP and RM, not necessarily Yelp)?
+
+The priority order for them: 1, 5, 4, 3. (Just send it to them for #2.)
+If we run into troubles combining our scripts, let Rajat know, and he can see what he can do to help.
+
+Additional request: please save the full match sheet (with all match scores between Rubmaps and Google Places) for each state.
+Clarification on 5: the states can be in separate sheets. (Please send both full score sheets and high_chance for each state.)
+
+(My clarification for #3 given in the meeting was that we could lower the threshold, but that doesn't mean we'll get more true matches. I explained that we set the criteria based on what actually were matches and the scores they had.)
+
+Regarding the presentation, be sure to discuss the context.
+
+-------
+
+Meeting: 12/8
+
+In regards to consolidating into one script, at the very least, consolidate standardization scripts.
+
+Both python script and Jupyter notebook are okay formats.
+
+At least run matching script on all 50 states. If we have time to consolidate all 50 state files, great. But only if time.
+
+Remember to send all files and final report to Liz and Danielle.
+
+Last meeting on 12/15.

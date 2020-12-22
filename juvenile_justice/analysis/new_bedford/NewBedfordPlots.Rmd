@@ -1,0 +1,62 @@
+# load in the tidyverse
+library(tidyverse)
+# Set the working directory to "Desktop".
+setwd("~/Desktop")
+# Load in the New Bedford dataset.
+New_Bedford <- read_csv("field_incident_reports.csv")
+# true_race: takes in the race of a civilian involved in an # incident, x, and their ethnicity, y, and determines the "proper" race of the civilian based on the combination of race and ethnicity.
+true_race <- function(x,y) {
+  if (x == "W" & y == "H") {
+    "H"
+  } else if (x == "B") {
+    "B"
+  } else if (x == "W" & y != "H") {
+    "W"
+  } else if (x == "U") {
+    "U"
+  } else if (x == "P") {
+    "P"
+  } else if (x == "A") {
+    "A"
+  } else if (x != "B" & y == "H") {
+    "H"
+  }
+  
+}
+# Apply the "true_race" function to the dataset.
+New_Bedford <- New_Bedford %>% group_by(RACE,Ethnicity) %>% mutate(real_race = true_race(RACE, Ethnicity))
+
+# Make a bar chart showing the incident reports by the race of the individuals involved.
+ggplot(data = New_Bedford) + geom_bar(mapping = aes(x = real_race, fill = SEX)) + xlab("Race") + scale_x_discrete("Race", labels = c("A" = "Asian", "B" = "Black", "H" = "Hispanic", "P" = "Pac Isl", "U" = "Unknown", "W" = "White"))  + ylab("Number of Individuals") + ggtitle("New Bedford Incidents by Race") + scale_fill_discrete("SEX", labels = c("Female", "Male", "Unknown")) + guides(fill = guide_legend(title = "Sex"))
+
+# Create a revised version of the dataset, creating a new variable ("demographic") which represents a unique identification for each observation.
+revise <- New_Bedford %>% group_by(X1) %>% mutate(demographic = X1)
+# Sort the "demographic" variable.
+revise$demographic <- 1:nrow(revise)
+
+# dem_rep: takes in the race of a civilian involved in an  incident, x, and adjusts the dataset based on the racial demographics of the city of New Bedford.
+dem_rep <- function(x) {
+  if (x <= 3265) {
+    "W" 
+  } else if (x <= 3594) {
+    "B"
+  } else if (x <= 3668) {
+    "A"
+  } else if (x <= 3669) {
+    "P"
+  } else if (x <= 4408) {
+    "H"
+  } else {
+    "U"
+  }
+}
+
+# Apply the "dem_race" function to the dataset.
+revise <- revise %>% group_by(demographic) %>% mutate(dem_race = dem_rep(demographic))
+
+# Make a bar chart of the racial populations of New Bedford, adjusted for the size of the dataset.
+ggplot(data = revise) + geom_bar(mapping = aes(x = dem_race, fill = SEX)) + xlab("Race") + scale_x_discrete("Race", labels = c("A" = "Asian", "B" = "Black", "H" = "Hispanic", "P" = "Pac Isl", "U" = "Unknown", "W" = "White"))  + ylab("Number of Individuals (Adjusted for Population Sizes)") + ggtitle("New Bedford Racial Demographics") + scale_fill_discrete("SEX", labels = c("Female", "Male", "Unknown")) + guides(fill = guide_legend(title = "Sex"))
+
+
+
+
