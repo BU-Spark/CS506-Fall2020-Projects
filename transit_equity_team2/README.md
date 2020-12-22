@@ -53,17 +53,8 @@ Identify which bus routes, stops, or zones would have the most positive effect o
 ## Step Six:
 Generate visualizations: TBD with client using software such as ArcGIS or tableau as a final deliverable along with the list data.
 
-# Next steps
-We will be working closely with transit equity team 1. We met with the Spark program/project coordinators and they said we can split up the work however we see fit. We suggested splitting up the work by geographic locations, and are waiting for approval from the client on this approach. We will update this doc when we hear back from the client. 
+# Final Results
+All code, data, and visualizations can be found [here](https://github.com/cumason123/transit-equity).
 
-In the meantime, we spoke with the other team and decided the following:
-Focus on MBTA bus routes until rep gets back with information on how to split by geographic location. We are setting aside RTA for until we have a better understanding about which regional transit authorities to analyze in addition to MBTA.
-
-For the MBTA we are splitting the [bus routes](https://www.mbta.com/schedules/bus) into two groups. We will be aggregating the data into one repo that both teams can access. For each bus route, we will collect the stop, route, county #, tract #, and rideship data (TBD).
-
-Transit equity team 1: routes 100 - 700 + silver line + crosstown
-
-Transit equity team 2: routes 0 - 99
-
-## Additional Metrics
-Include [walk scores](https://www.walkscore.com/professional/public-transit-api.php#route) when ranking towns/neighborhoods.
+Please make sure to read the README.md in the linked github repo.
+ 
