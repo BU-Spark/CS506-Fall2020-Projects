@@ -1,0 +1,40 @@
+Test: RMSE of LogisticRegression(C=0.1) is 0.377
+              precision    recall  f1-score   support
+
+           0       0.86      1.00      0.92       266
+           1       0.00      0.00      0.00        44
+
+    accuracy                           0.86       310
+   macro avg       0.43      0.50      0.46       310
+weighted avg       0.74      0.86      0.79       310
+
+Test: RMSE of SVC(C=10, kernel='linear') is 0.301
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       266
+           1       0.74      0.57      0.64        44
+
+    accuracy                           0.91       310
+   macro avg       0.83      0.77      0.79       310
+weighted avg       0.90      0.91      0.90       310
+
+Test: RMSE of KNeighborsClassifier(n_neighbors=2) is 0.254
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       266
+           1       0.82      0.70      0.76        44
+
+    accuracy                           0.94       310
+   macro avg       0.88      0.84      0.86       310
+weighted avg       0.93      0.94      0.93       310
+
+Test: RMSE of DecisionTreeClassifier(criterion='entropy', max_depth=35) is 0.139
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       266
+           1       0.93      0.93      0.93        44
+
+    accuracy                           0.98       310
+   macro avg       0.96      0.96      0.96       310
+weighted avg       0.98      0.98      0.98       310
+

@@ -1,0 +1,11 @@
+- What have I worked on? - 
+Team completed the preprocessing and analysis of the dataset, and a rough draft of Deliverable 2.
+
+- What will I be working on next? -
+We will finish the materials for Deliverable 2, and improve our analysis of the data. 
+
+- Have I run into any issues? Do I need help? - 
+We were concerned on the amount of data we had to work on for our report, since it was a small amount. We consulted the PM and the client to see what would be the best way to present our analysis given the size of our data. 
+
+- Have I talked to the client recently? When are we meeting with them next? -
+We met with the PM, and consulted the client via email. We will be meeting the PM in two weeks, and with the client when we review our final report. 

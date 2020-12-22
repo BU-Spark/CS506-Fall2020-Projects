@@ -1,0 +1,34 @@
+Dataset: iMDB Movie Reviews
+
+The following scores were achieved for training training set:
+
+ - loss: 0.2718
+ - tp: 10058.0000
+ - fp: 1245.0000
+ - tn: 10026.0000
+ - fn: 1171.0000
+ - accuracy: 0.8926
+ - precision: 0.8899
+ - recall: 0.8957
+ - auc: 0.9542
+ - val_loss: 0.3185
+ - val_tp: 1128.0000
+ - val_fp: 192.0000
+ - val_tn: 1037.0000
+ - val_fn: 143.0000
+ - val_accuracy: 0.8660
+ - val_precision: 0.8545
+ - val_recall: 0.8875
+ - val_auc: 0.9396
+
+The following is the classification score report on novel data:
+              precision    recall  f1-score   support
+
+           0       0.57      0.61      0.59     12500
+           1       0.58      0.54      0.56     12500
+
+    accuracy                           0.57     25000
+   macro avg       0.57      0.57      0.57     25000
+weighted avg       0.57      0.57      0.57     25000
+
+---> END OF BiLSTM (w/ Attention)

@@ -1,0 +1,37 @@
+# Load in the tidyverse.
+library(tidyverse)
+# Set the working directory to "Desktop".
+setwd("~/Desktop")
+# Read in the Haverhill dataset.
+Haverhill <- read_csv("Clean_Haverhill.csv")
+# Get the rows with the data.
+Haverhill <- Haverhill[1:249,]
+# Replace all spaces in variable names with "_".
+names(Haverhill) <-str_replace_all(names(Haverhill), c(" " = "_"))
+
+# common_officers: takes in the name of a police officer,  x, and determines if the name is one of the three most 
+# prolific police officers in the Haverhill datatset. 
+common_officers <- function(x) {
+  if (x == "IANNALFO, S" || x == "MEARS, W" || x == "DONNELLY, N") {
+  "0"
+  } else {
+  "1"
+  }
+}
+
+# Apply the "common_officers" function to the dataset by
+# creating a "prolific officer" variable.
+Haverhill <- Haverhill %>% group_by(Officer_Name) %>% mutate(prolific_officer = common_officers(Officer_Name))
+
+# Make a bar chart comparing the reports of the three most
+# active officers against the other 62 officers.
+ggplot(data = Haverhill) + geom_bar(mapping = aes(x = prolific_officer, fill = Officer_Rank)) + xlab("Officer Groups") + scale_x_discrete("Officer Groups", labels = c("0" = "Officers I, M, D", "1" = "62 Other Officers")) + ylab("Number of Reports")+ scale_fill_discrete("Officer_Rank", labels = c("Detective", "Lieutenant", "Patrolman", "Sergeant")) + guides(fill = guide_legend(title = "Officer Rank"))
+
+----
+
+# Replace any "NA" values in the "Victim_Race" column with # "?"
+Haverhill$Victim_Race[is.na(Haverhill$Victim_Race)] <- "?"
+
+# Make a bar chart comparing the reports of the three most
+# active officers against the other 62 officers.
+ggplot(data = Haverhill) + geom_bar(mapping = aes(x = prolific_officer, fill = Victim_Race)) + xlab("Officer Groups") + scale_x_discrete("Officer Groups", labels = c("0" = "3 Officers", "1" = "62 Officers")) + ylab("Number of Reports") + scale_fill_discrete("Victim_Race", labels = c("Unknown", "Asian/Pacific Islander", "Black", "White")) + guides(fill = guide_legend(title = "Victim Race"))

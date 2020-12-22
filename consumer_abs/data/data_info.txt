@@ -1,0 +1,16 @@
+ABS ISSUANCE SCREENS
+Deal Type: AUTOS, CARDS, CONSUMERS, STUDENTS
+Country of Collateral: United States of America
+Mortgage Tranche Type: NOT IO or NTL
+Issue Date: >= 01/01/2007
+Private Structure Indicator: No 
+
+ABS SECF SCREENS:
+SUBSECTOR_ABS_CF_TYPE
+
+Subsector: AUTO, CARD, STUDNT
+CF: Y, PD (Paid Down)
+Type: FLT (Floating), SUB (Subordinated Bond), SEQ (Sequential Payer), SB (Soft Bullet Maturity)
+
+AUTO has no SB with Cashflows
+STUDNT has no SB

@@ -1,0 +1,11 @@
+- What have I worked on? - 
+We looked through the new dataset we received, and did some preliminary analysis. After discussing with the other team, we decided to work on the Motion cases.
+
+- What will I be working on next? -
+We will preprocess and further analyze the new dataset, and hopefully get some early insights on the new Motion applications. 
+
+- Have I run into any issues? Do I need help? - 
+The new dataset comes in a completely different format, so preprocessing will need to be done from scratch. We talked with the client today to clear up issues on the new format and clarify some steps for the analysis further on.
+
+- Have I talked to the client recently? When are we meeting with them next? -
+We met with the PM and client today. We will continuie to meet with the PM weekly, and we will meet with the client in two weeks.
