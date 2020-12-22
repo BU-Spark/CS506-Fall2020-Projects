@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="./html2canvas.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD5sqUXPg_EwtcxoGPqHP2TOpu3dXLKIM&callback=initialize&libraries=&v=weekly"
+            defer>
+        </script>
+
+        <script>
+            function initialize() {
+                const c = new google.maps.LatLng(42.3849184266,-71.0206151105);
+                var map = new google.maps.Map(document.getElementById("googleMap"), {
+                    center: c,
+                    zoom: 24,
+                    mapTypeId:google.maps.MapTypeId.SATELLITE,
+                    disableDefaultUI:true,
+                });
+            }
+            // function loadScript()
+            // {
+            //   var script = document.createElement("script");
+            //   script.type = "text/javascript";
+            //   script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAD5sqUXPg_EwtcxoGPqHP2TOpu3dXLKIM&sensor=false&callback=initialize";
+            //   document.body.appendChild(script);
+            // }
+
+            // window.onload = loadScript;
+        </script>
+
+    </head>
+
+    <script>
+        function takeScreenshot() {
+            console.log("test");
+            html2canvas(document.querySelector("#googleMap"), {
+                useCORS: true,
+                foreignObjectRendering: true,
+                allowTaint: false,
+                taintTest: true,
+                scale: 1,
+            }).then(canvas => {document.body.appendChild(canvas)}); 
+            // html2canvas(document.getElementById('googleMap'),{
+            //     onrendered: function(canvas) {
+            //         document.body.appendChild(canvas);
+            //     },
+            // });
+        }
+        setTimeout("takeScreenshot()",5000);
+    </script>
+
+    <body>
+        <div id="googleMap" style="width:1000px;height:800px;"></div>
+    </body>
+</html></html>l>
