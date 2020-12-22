@@ -1,0 +1,161 @@
+﻿Dist Code,REP,Rep Dist,Rep First,Rep Last,Rep Party,URL,Geometry,Repdistnum,Shape Area,Shape Len
+ESS10,Daniel H. Cahill (D),10th Essex,Daniel H.,Cahill,(D),http://malegislature.gov/Legislators/Profile/DFC1,Polygon,34,9826900.75147,21703.160093
+ESS17,Frank A. Moran (D),17th Essex,Frank A.,Moran,(D),http://malegislature.gov/Legislators/Profile/FAM1,Polygon,41,24003511.7403,33420.8376268
+HAMPD04,John C. Velis (D),4th Hampden,John C.,Velis,(D),http://malegislature.gov/Legislators/Profile/JCV1,Polygon,48,122717686.189,46372.0804083
+HAMPD05,Aaron Vega (D),5th Hampden,Aaron,Vega,(D),http://malegislature.gov/Legislators/Profile/A_V1,Polygon,49,59138209.2971,39684.2372252
+BRIST11,Christopher Hendricks (D),11th Bristol,Christopher,Hendricks,(D),http://malegislature.gov/Legislators/Profile/C_H1,Polygon,21,58306703.0843,47848.7133464
+BRIST13,Antonio F. D. Cabral (D),13th Bristol,Antonio F. D.,Cabral,(D),http://malegislature.gov/Legislators/Profile/AFC1,MultiPolygon,23,12714699.4314,29708.6521954
+MID04,Danielle W. Gregoire (D),4th Middlesex,Danielle W.,Gregoire,(D),http://malegislature.gov/Legislators/Profile/DWG1,Polygon,63,77240133.5501,67347.2943486
+MID05,David Paul Linsky (D),5th Middlesex,David Paul,Linsky,(D),http://malegislature.gov/Legislators/Profile/DPL1,Polygon,64,106172567.79,67825.3717711
+MID06,Maria D. Robinson (D),6th Middlesex,Maria D.,Robinson,(D),http://malegislature.gov/Legislators/Profile/MDR1,Polygon,65,54630336.6245,47402.3612783
+MID07,Jack Patrick Lewis (D),7th Middlesex,Jack P.,Lewis,(D),http://malegislature.gov/Legislators/Profile/JPL1,Polygon,66,44030715.5609,44895.006094
+MID08,Carolyn C. Dykema (D),8th Middlesex,Carolyn C.,Dykema,(D),http://malegislature.gov/Legislators/Profile/CCD1,Polygon,67,176429066.173,81861.5108993
+MID09,Thomas M. Stanley (D),9th Middlesex,Thomas M.,Stanley,(D),http://malegislature.gov/Legislators/Profile/TMS1,Polygon,68,64794497.8688,60414.3621098
+BARN01,Timothy R. Whelan (R),1st Barnstable,Timothy R.,Whelan,(R),http://malegislature.gov/Legislators/Profile/TRW1,MultiPolygon,1,170956047.431,145829.321691
+BARN02,"William L. Crocker, Jr. (R)",2nd Barnstable,William L.,"Crocker, Jr.",(R),http://malegislature.gov/Legislators/Profile/WLC1,MultiPolygon,2,98490394.202,148983.949174
+BARN03,David T. Vieira (R),3rd Barnstable,David T.,Vieira,(R),http://malegislature.gov/Legislators/Profile/DTV1,MultiPolygon,3,181279724.812,221319.863982
+BARN04,Sarah K. Peake (D),4th Barnstable,Sarah K.,Peake,(D),http://malegislature.gov/Legislators/Profile/SKP1,MultiPolygon,4,339956270.32,430385.165461
+BARN05,Randy Hunt (R),5th Barnstable,Randy,Hunt,(R),http://malegislature.gov/Legislators/Profile/R_H1,MultiPolygon,5,234081314.825,166417.67238
+BDN,Dylan A. Fernandes (D),"Barnstable, Dukes and Nantucket",Dylan A.,Fernandes,(D),http://malegislature.gov/Legislators/Profile/DAF1,MultiPolygon,6,468486768.229,521109.544214
+BERK01,"John P. Barrett, III (D)",1st Berkshire,John P.,"Barrett, III",(D),http://malegislature.gov/Legislators/Profile/J_B1,Polygon,7,606451729.838,145546.613709
+BERK02,Paul W. Mark (D),2nd Berkshire,Paul W.,Mark,(D),http://malegislature.gov/Legislators/Profile/PWM1,Polygon,8,1045700207.26,277190.962399
+BERK03,Tricia Farley-Bouvier (D),3rd Berkshire,Tricia,Farley-Bouvier,(D),http://malegislature.gov/Legislators/Profile/TFB1,Polygon,9,99865948.4504,43583.1510209
+BERK04,William Smitty Pignatelli (D),4th Berkshire,William Smitty,Pignatelli,(D),http://malegislature.gov/Legislators/Profile/WSP1,Polygon,10,1639231612.12,188067.506404
+BRIST01,Fred Jay Barrows (R),1st Bristol,Fred Jay,Barrows,(R),http://malegislature.gov/Legislators/Profile/FJB1,Polygon,11,123176995.85,73932.1789521
+BRIST02,James K. Hawkins,2nd Bristol,James K.,Hawkins,(D),http://malegislature.gov/Legislators/Profile/JKH1,Polygon,12,62291752.3604,40241.2431199
+BRIST03,Shaunna L. O'Connell (R),3rd Bristol,Shaunna L.,O'Connell,(R),http://malegislature.gov/Legislators/Profile/SLO1,Polygon,13,99773685.0008,65176.6795497
+BRIST04,Steven S. Howitt (R),4th Bristol,Steven S.,Howitt,(R),http://malegislature.gov/Legislators/Profile/SSH1,Polygon,14,236420710.5,97423.3121574
+BRIST05,Patricia A. Haddad (D),5th Bristol,Patricia A.,Haddad,(D),http://malegislature.gov/Legislators/Profile/PAH1,MultiPolygon,15,119292633.365,103915.879614
+BRIST06,Carole Fiola (D),6th Bristol,Carole,Fiola,(D),http://malegislature.gov/Legislators/Profile/C_F1,Polygon,16,48190642.3481,63855.4160363
+BRIST07,Alan Silvia (D),7th Bristol,Alan,Silvia,(D),http://malegislature.gov/Legislators/Profile/A_S1,Polygon,17,11638975.4753,16856.1322373
+BRIST08,"Paul A. Schmid, III (D)",8th Bristol,Paul A.,"Schmid, III",(D),http://malegislature.gov/Legislators/Profile/PAS1,MultiPolygon,18,291017457.944,227358.69355
+BRIST14,Elizabeth A. Poirier (R),14th Bristol,Elizabeth A.,Poirier,(R),http://malegislature.gov/Legislators/Profile/EAP1,Polygon,24,77908376.1021,53789.0495092
+ESS01,James M. Kelcourse (R),1st Essex,James M.,Kelcourse,(R),http://malegislature.gov/Legislators/Profile/JMK1,MultiPolygon,25,100240890.035,65789.2118594
+ESS03,Andres X. Vargas (D),3rd Essex,Andres X.,Vargas,(D),http://malegislature.gov/Legislators/Profile/AXV1,Polygon,27,59148827.7727,50853.1489382
+ESS04,Bradford R. Hill (R),4th Essex,Bradford R.,Hill,(R),http://malegislature.gov/Legislators/Profile/BRH1,MultiPolygon,28,248250864.443,207490.451248
+ESS05,Ann-Margaret Ferrante (D),5th Essex,Ann-Margaret,Ferrante,(D),http://malegislature.gov/Legislators/Profile/AMF1,MultiPolygon,29,125449066.113,191347.572582
+ESS07,Paul F. Tucker (D),7th Essex,Paul F.,Tucker,(D),http://malegislature.gov/Legislators/Profile/PFT1,MultiPolygon,31,21919910.6873,47226.7848168
+ESS08,Lori A. Ehrlich (D),8th Essex,Lori A.,Ehrlich,(D),http://malegislature.gov/Legislators/Profile/LAE1,MultiPolygon,32,20329759.7389,44115.8674729
+ESS09,Donald H. Wong (R),9th Essex,Donald H.,Wong,(R),http://malegislature.gov/Legislators/Profile/DHW1,Polygon,33,41030067.4944,47337.7920224
+ESS13,Theodore C. Speliotis (D),13th Essex,Theodore C.,Speliotis,(D),http://malegislature.gov/Legislators/Profile/TCS1,MultiPolygon,37,69290627.6297,64782.150626
+ESS14,Christina A. Minicucci (D),14th Essex,Christina A.,Minicucci,(D),http://malegislature.gov/Legislators/Profile/CAM1,Polygon,38,43837590.6878,55466.4416446
+ESS15,Linda Dean Campbell (D),15th Essex,Linda Dean,Campbell,(D),http://malegislature.gov/Legislators/Profile/LDC1,Polygon,39,63939066.6303,69877.0672169
+ESS16,Marcos A. Devers (D),16th Essex,Marcos A.,Devers,(D),http://malegislature.gov/Legislators/Profile/M_D1,Polygon,40,9019315.55489,24808.7510067
+ESS18,Tram T. Nguyen (D),18th Essex,Tram T.,Nguyen,(D),http://malegislature.gov/Legislators/Profile/TTN1,Polygon,42,152721111.284,88588.3765966
+FRANK01,Natalie M. Blais (D),1st Franklin,Natalie M.,Blais,(D),http://malegislature.gov/Legislators/Profile/NMB1,Polygon,43,1323443841.8,218192.723047
+FRANK02,Susannah Whipps M. Lee (I),2nd Franklin,Susannah W. M.,Lee,(I),http://malegislature.gov/Legislators/Profile/SLG1,Polygon,44,1057964778.2,227100.818469
+HAMPD01,Todd M. Smola (R),1st Hampden,Todd M.,Smola,(R),http://malegislature.gov/Legislators/Profile/TMS2,Polygon,45,510538131.068,141793.148924
+HAMPD02,Brian M. Ashe (D),2nd Hampden,Brian M.,Ashe,(D),http://malegislature.gov/Legislators/Profile/BMA1,Polygon,46,219878393.726,87544.7750837
+HAMPD03,Nicholas A. Boldyga (R),3rd Hampden,Nicholas A.,Boldyga,(R),http://malegislature.gov/Legislators/Profile/NAG1,Polygon,47,256482285.889,100118.417849
+HAMPD06,Michael J. Finn (D),6th Hampden,Michael J.,Finn,(D),http://malegislature.gov/Legislators/Profile/MJF1,Polygon,50,52656697.5464,49489.5704658
+HAMPD07,Thomas M. Petrolati (D),7th Hampden,Thomas M.,Petrolati,(D),http://malegislature.gov/Legislators/Profile/TMP1,Polygon,51,197259034.101,107273.893428
+BRIST09,Christopher M. Markey (D),9th Bristol,Christopher M.,Markey,(D),http://malegislature.gov/Legislators/Profile/CMM1,MultiPolygon,19,166185427.383,118536.413942
+BRIST10,William M. Straus (D),10th Bristol,William M.,Straus,(D),http://malegislature.gov/Legislators/Profile/WMS1,MultiPolygon,20,209771241.671,168711.222862
+HAMPS01,Lindsay N. Sabadosa (D),1st Hampshire,Lindsay N.,Sabadosa,(D),http://malegislature.gov/Legislators/Profile/L_S1,Polygon,57,321483483.83,120646.245297
+HAMPS02,Daniel R. Carey (D),2nd Hampshire,Daniel R.,Carey,(D),http://malegislature.gov/Legislators/Profile/DRC1,Polygon,58,181646401.829,120026.617371
+HAMPS03,Mindy Domb (D),3rd Hampshire,Mindy,Domb,(D),http://malegislature.gov/Legislators/Profile/M_D2,Polygon,59,178309223.748,83946.4386334
+MID01,Sheila C. Harrington (R),1st Middlesex,Sheila C.,Harrington,(R),http://malegislature.gov/Legislators/Profile/SCH1,Polygon,60,352182657.704,118103.146179
+MID02,James Arciero (D),2nd Middlesex,James,Arciero,(D),http://malegislature.gov/Legislators/Profile/J_A1,Polygon,61,147481780.768,62031.4337884
+MID18,Rady Mom (D),18th Middlesex,Rady,Mom,(D),http://malegislature.gov/Legislators/Profile/R_M2,Polygon,77,10935672.9496,19170.3116055
+MID22,Marc T. Lombardo (R),22nd Middlesex,Marc T.,Lombardo,(R),http://malegislature.gov/Legislators/Profile/MTL1,Polygon,81,68143328.9654,38724.01916
+MID23,Sean Garballey (D),23rd Middlesex,Sean,Garballey,(D),http://malegislature.gov/Legislators/Profile/S_G1,Polygon,82,15138529.9952,25274.4158673
+MID24,David M. Rogers (D),24th Middlesex,David M.,Rogers,(D),http://malegislature.gov/Legislators/Profile/DMR1,Polygon,83,17192698.9092,26398.6144212
+MID25,Marjorie C. Decker (D),25th Middlesex,Marjorie C.,Decker,(D),http://malegislature.gov/Legislators/Profile/MCD1,Polygon,84,4602566.88383,12119.6188689
+MID26,Mike Connolly (D),26th Middlesex,Mike,Connolly,(D),http://malegislature.gov/Legislators/Profile/M_C1,Polygon,85,6687439.87223,18679.2635493
+MID27,Denise Provost (D),27th Middlesex,Denise,Provost,(D),http://malegislature.gov/Legislators/Profile/D_P1,Polygon,86,4664395.5193,14348.3709675
+MID32,Paul A. Brodeur (D),32nd Middlesex,Paul A.,Brodeur,(D),http://malegislature.gov/Legislators/Profile/P_B1,Polygon,91,22182036.5195,32732.716613
+HAMPD08,Joseph F. Wagner (D),8th Hampden,Joseph F.,Wagner,(D),http://malegislature.gov/Legislators/Profile/JFW1,Polygon,52,43305917.5645,41113.8065423
+HAMPD10,Carlos Gonzalez (D),10th Hampden,Carlos,Gonzalez,(D),http://malegislature.gov/Legislators/Profile/C_G1,Polygon,54,16030301.4872,30481.9117971
+SUFF05,Liz Miranda (D),5th Suffolk,Liz,Miranda,(D),http://malegislature.gov/Legislators/Profile/L_M2,Polygon,128,4864696.74032,16854.0610689
+SUFF06,Russell E. Holmes (D),6th Suffolk,Russell E.,Holmes,(D),http://malegislature.gov/Legislators/Profile/REH1,Polygon,129,7922005.65874,22391.2473893
+SUFF07,Chynah Tyler (D),7th Suffolk,Chynah,Tyler,(D),http://malegislature.gov/Legislators/Profile/C_T1,Polygon,130,4570023.34856,18791.1725581
+SUFF08,Jay D. Livingstone (D),8th Suffolk,Jay D.,Livingstone,(D),http://malegislature.gov/Legislators/Profile/J_L1,Polygon,131,6453441.16617,16125.4453249
+MID28,"Joseph W. McGonagle, Jr. (D)",28th Middlesex,Joseph W.,"McGonagle, Jr.",(D),http://malegislature.gov/Legislators/Profile/JWM1,Polygon,87,8921152.58446,15219.6737665
+MID29,Jonathan Hecht (D),29th Middlesex,Jonathan,Hecht,(D),http://malegislature.gov/Legislators/Profile/J_H1,Polygon,88,14133168.9641,24350.6780317
+MID30,Richard M. Haggerty (D),30th Middlesex,Richard M.,Haggerty,(D),http://malegislature.gov/Legislators/Profile/RMH1,Polygon,89,31730889.7683,33351.4132597
+MID31,Michael S. Day (D),31st Middlesex,Michael S.,Day,(D),http://malegislature.gov/Legislators/Profile/MSD1,Polygon,90,33651690.0417,32416.0352319
+MID03,Kate Hogan (D),3rd Middlesex,Kate,Hogan,(D),http://malegislature.gov/Legislators/Profile/K_H1,Polygon,62,143239286.858,57501.7938875
+MID10,John J. Lawn (D),10th Middlesex,John J.,Lawn,(D),http://malegislature.gov/Legislators/Profile/JJL2,Polygon,69,13828722.3541,33255.4346385
+MID11,Kay S. Khan (D),11th Middlesex,Kay S.,Khan,(D),http://malegislature.gov/Legislators/Profile/K_K1,Polygon,70,20055517.4181,29596.7876429
+MID13,Carmine Lawrence Gentile (D),13th Middlesex,Carmine L.,Gentile,(D),http://malegislature.gov/Legislators/Profile/CLG1,MultiPolygon,72,114799546.765,73406.8978276
+MID14,Tami L. Gouveia (D),14th Middlesex,Tami L.,Gouveia,(D),http://malegislature.gov/Legislators/Profile/TLG1,Polygon,73,150657658.488,77534.8197321
+MID15,Michelle Ciccolo (D),15th Middlesex,Michelle,Ciccolo,(D),http://malegislature.gov/Legislators/Profile/M_C2,Polygon,74,53335379.4943,36193.8979811
+MID16,"Thomas A. Golden, Jr. (D)",16th Middlesex,Thomas A.,"Golden, Jr.",(D),http://malegislature.gov/Legislators/Profile/TAG1,Polygon,75,28087601.5198,46627.2610239
+MID19,David Allen Robertson (D),19th Middlesex,David Allen,Robertson,(D),http://malegislature.gov/Legislators/Profile/D_R1,Polygon,78,67855702.9512,50978.8515457
+MID20,"Bradley H. Jones, Jr. (R)",20th Middlesex,Bradley H.,"Jones, Jr.",(R),http://malegislature.gov/Legislators/Profile/BHJ1,Polygon,79,95343982.6761,59723.8233783
+MID21,Kenneth I. Gordon (D),21st Middlesex,Kenneth I.,Gordon,(D),http://malegislature.gov/Legislators/Profile/KIG1,Polygon,80,76563295.0976,54814.2363673
+HAMPD09,Jose F. Tosado (D),9th Hampden,Jose F.,Tosado,(D),http://malegislature.gov/Legislators/Profile/JFT1,Polygon,53,32854394.2721,58825.9860671
+HAMPD11,Bud L. Williams (D),11th Hampden,Bud L.,Williams,(D),http://malegislature.gov/Legislators/Profile/BLW1,Polygon,55,19134140.9966,29854.0032894
+HAMPD12,"Angelo J. Puppolo, Jr. (D)",12th Hampden,Angelo J.,"Puppolo, Jr.",(D),http://malegislature.gov/Legislators/Profile/AJP1,Polygon,56,76635000.4044,67500.2715976
+MID17,David M. Nangle (D),17th Middlesex,David M.,Nangle,(D),http://malegislature.gov/Legislators/Profile/DMN1,Polygon,76,23575868.6227,29049.8160649
+PLYM09,Gerard J. Cassidy (D),9th Plymouth,Gerard J.,Cassidy,(D),https://malegislature.gov/Legislators/Profile/G_C2,Polygon,120,13987868.7339,25603.0000614
+SUFF03,Aaron M. Michlewitz (D),3rd Suffolk,Aaron M.,Michlewitz,(D),http://malegislature.gov/Legislators/Profile/AMM1,Polygon,126,3753014.59622,12895.468952
+SUFF16,RoseLee Vincent (D),16th Suffolk,RoseLee,Vincent,(D),http://malegislature.gov/Legislators/Profile/R_V1,MultiPolygon,139,17713597.0924,62437.259426
+SUFF10,Edward F. Coppinger (D),10th Suffolk,Edward F.,Coppinger,(D),http://malegislature.gov/Legislators/Profile/E_C1,Polygon,133,23225083.8591,30760.3994202
+SUFF11,Elizabeth A. Malia (D),11th Suffolk,Elizabeth A.,Malia,(D),http://malegislature.gov/Legislators/Profile/EAM1,Polygon,134,9548119.27484,22506.5331267
+SUFF12,Daniel Cullinane (D),12th Suffolk,Daniel,Cullinane,(D),http://malegislature.gov/Legislators/Profile/D_C1,Polygon,135,10215903.3988,23539.4207407
+SUFF13,Daniel J. Hunt (D),13th Suffolk,Daniel J.,Hunt,(D),http://malegislature.gov/Legislators/Profile/DJH1,MultiPolygon,136,8642595.73697,34955.033552
+SUFF14,Angelo M. Scaccia (D),14th Suffolk,Angelo M.,Scaccia,(D),http://malegislature.gov/Legislators/Profile/AMS1,Polygon,137,14291898.0812,22013.1193192
+SUFF15,Nika Elugardo (D),15th Suffolk,Nika,Elugardo,(D),http://malegislature.gov/Legislators/Profile/N_E1,Polygon,138,8393152.22191,22444.1687602
+SUFF18,Michael J. Moran (D),18th Suffolk,Michael J.,Moran,(D),http://malegislature.gov/Legislators/Profile/MJM1,Polygon,141,8877673.11721,35714.4476821
+WORC01,Kimberly N. Ferguson (R),1st Worcester,Kimberly N.,Ferguson,(R),http://malegislature.gov/Legislators/Profile/KNF1,Polygon,143,414449832.662,105786.401668
+WORC02,Jonathan D. Zlotnik (D),2nd Worcester,Jonathan D.,Zlotnik,(D),http://malegislature.gov/Legislators/Profile/JDZ1,Polygon,144,327232352.312,82007.9273289
+SUFF19,Robert A. DeLeo (D),19th Suffolk,Robert A.,DeLeo,(D),http://malegislature.gov/Legislators/Profile/RAD1,MultiPolygon,142,10473601.2746,37757.8369616
+WORC05,"Donald R. Berthiaume, Jr. (R)",5th Worcester,Donald R.,"Berthiaume, Jr.",(R),http://malegislature.gov/Legislators/Profile/DRB1,Polygon,147,706669979.225,146468.0323
+WORC06,Peter J. Durant (R),6th Worcester,Peter J.,Durant,(R),http://malegislature.gov/Legislators/Profile/PJD2,Polygon,148,218346492.358,96317.8561769
+WORC07,Paul K. Frost (R),7th Worcester,Paul K.,Frost,(R),http://malegislature.gov/Legislators/Profile/PKF1,Polygon,149,149862832.536,68613.2534729
+WORC08,Michael J. Soter (R),8th Worcester,Michael J.,Soter,(R),http://malegislature.gov/Legislators/Profile/MJS1,Polygon,150,169752486.485,78607.8172052
+NOR10,Jeffrey N. Roy (D),10th Norfolk,Jeffrey N.,Roy,(D),http://malegislature.gov/Legislators/Profile/JNR1,Polygon,106,90815219.8887,43093.7150843
+SUFF17,Kevin G. Honan (D),17th Suffolk,Kevin G.,Honan,(D),http://malegislature.gov/Legislators/Profile/KGH1,Polygon,140,4034410.10147,18768.295055
+MID35,Paul J. Donato (D),35th Middlesex,Paul J.,Donato,(D),http://malegislature.gov/Legislators/Profile/PJD1,Polygon,94,15477396.7775,30246.6573994
+SUFF09,Jon Santiago (D),9th Suffolk,Jon,Santiago,(D),http://malegislature.gov/Legislators/Profile/J_S2,Polygon,132,4257318.39064,19630.85119
+WORC09,"David K. Muradian, Jr. (R)",9th Worcester,David K.,"Muradian, Jr.",(R),http://malegislature.gov/Legislators/Profile/DKM1,Polygon,151,163557028.807,62430.1830777
+WORC10,Brian W. Murray (D),10th Worcester,Brian W.,Murray,(D),http://malegislature.gov/Legislators/Profile/BWM1,Polygon,152,108719145.246,54205.5965745
+WORC11,Hannah E. Kane (R),11th Worcester,Hannah E.,Kane,(R),http://malegislature.gov/Legislators/Profile/HEK1,Polygon,153,81444933.0032,52623.7290065
+WORC12,"Harold P. Naughton, Jr. (D)",12th Worcester,Harold P.,"Naughton, Jr.",(D),http://malegislature.gov/Legislators/Profile/HPN1,Polygon,154,240305781.67,90061.2471098
+WORC13,John J. Mahoney (D),13th Worcester,John J.,Mahoney,(D),http://malegislature.gov/Legislators/Profile/JJM1,Polygon,155,27597885.3218,35010.9392608
+WORC14,James J. O'Day (D),14th Worcester,James J.,O'Day,(D),http://malegislature.gov/Legislators/Profile/JJO1,Polygon,156,58547897.1742,53146.7172697
+WORC15,Mary S. Keefe (D),15th Worcester,Mary S.,Keefe,(D),http://malegislature.gov/Legislators/Profile/MSK1,Polygon,157,14417695.3272,29125.0335025
+WORC03,Stephan Hay (D),3rd Worcester,Stephan,Hay,(D),http://malegislature.gov/Legislators/Profile/S_H1,Polygon,145,81443315.8511,47899.8857615
+WORC04,Natalie Higgins (D),4th Worcester,Natalie,Higgins,(D),http://malegislature.gov/Legislators/Profile/N_H1,Polygon,146,76874785.4649,42265.0364236
+WORC17,David Henry Argosky Leboeuf (D),17th Worcester,David H. A.,Leboeuf,(D),http://malegislature.gov/Legislators/Profile/DAL1,Polygon,159,79424733.4479,45491.66583
+ESS06,Jerald A. Parisella (D),6th Essex,Jerald A.,Parisella,(D),http://malegislature.gov/Legislators/Profile/JAP1,MultiPolygon,30,40001899.6761,36984.9632533
+NOR14,Alice Hanlon Peisch (D),14th Norfolk,Alice Hanlon,Peisch,(D),http://malegislature.gov/Legislators/Profile/AHP1,Polygon,110,84001941.7237,51521.4016981
+MID33,Steven Ultrino (D),33rd Middlesex,Steven,Ultrino,(D),http://malegislature.gov/Legislators/Profile/S_G2,Polygon,92,8682254.22363,20573.9829989
+MID34,Christine P. Barber (D),34th Middlesex,Christine P.,Barber,(D),http://malegislature.gov/Legislators/Profile/CPB2,MultiPolygon,93,7783101.8662,22833.6184821
+MID36,Colleen M. Garry (D),36th Middlesex,Colleen M.,Garry,(D),http://malegislature.gov/Legislators/Profile/CMG1,Polygon,95,102301254.905,70271.4737667
+MID37,Jennifer E. Benson (D),37th Middlesex,Jennifer E.,Benson,(D),http://malegislature.gov/Legislators/Profile/JEB1,Polygon,96,236169863.285,122029.14494
+NOR01,Bruce J. Ayers (D),1st Norfolk,Bruce J.,Ayers,(D),http://malegislature.gov/Legislators/Profile/BJA1,Polygon,97,32010475.7398,65034.9363785
+NOR03,Ronald Mariano (D),3rd Norfolk,Ronald,Mariano,(D),http://malegislature.gov/Legislators/Profile/R_M1,MultiPolygon,99,36239282.8212,58965.7664652
+NOR04,James Michael Murphy (D),4th Norfolk,James M.,Murphy,(D),http://malegislature.gov/Legislators/Profile/JMM1,MultiPolygon,100,37584092.5414,60154.3289603
+NOR05,Mark J. Cusack (D),5th Norfolk,Mark J.,Cusack,(D),http://malegislature.gov/Legislators/Profile/MJC1,Polygon,101,42744018.9756,37812.9716012
+NOR06,William C. Galvin (D),6th Norfolk,William C.,Galvin,(D),http://malegislature.gov/Legislators/Profile/WCG1,Polygon,102,79017592.8271,53881.1978763
+NOR07,William J. Driscoll (D),7th Norfolk,William J.,Driscoll,(D),http://malegislature.gov/Legislators/Profile/WJD1,Polygon,103,47436712.8531,60203.4613137
+NOR08,Louis L. Kafka (D),8th Norfolk,Louis L.,Kafka,(D),http://malegislature.gov/Legislators/Profile/LLK1,Polygon,104,104862088.739,67281.5409639
+NOR09,Shawn C. Dooley (R),9th Norfolk,Shawn C.,Dooley,(R),http://malegislature.gov/Legislators/Profile/S_D1,Polygon,105,166860855.837,86780.2094424
+NOR11,Paul McMurtry (D),11th Norfolk,Paul,McMurtry,(D),http://malegislature.gov/Legislators/Profile/P_M1,Polygon,107,67221047.463,49313.6801598
+NOR02,Tackey Chan (D),2nd Norfolk,Tackey,Chan,(D),http://malegislature.gov/Legislators/Profile/T_C1,MultiPolygon,98,14690133.9884,35915.5846188
+NOR12,John H. Rogers (D),12th Norfolk,John H.,Rogers,(D),http://malegislature.gov/Legislators/Profile/JHR1,Polygon,108,51788457.7428,49199.4473441
+NOR13,Denise C. Garlick (D),13th Norfolk,Denise C.,Garlick,(D),http://malegislature.gov/Legislators/Profile/DCG1,Polygon,109,91333688.4108,55592.1594631
+PLYM01,Mathew J. Muratore (R),1st Plymouth,Mathew J.,Muratore,(R),http://malegislature.gov/Legislators/Profile/MJM2,Polygon,112,227014863.893,99015.2909863
+PLYM02,Susan Williams Gifford (R),2nd Plymouth,Susan Williams,Gifford,(R),http://malegislature.gov/Legislators/Profile/SWG1,MultiPolygon,113,296823798.765,183357.821871
+PLYM03,Joan Meschino (D),3rd Plymouth,Joan,Meschino,(D),http://malegislature.gov/Legislators/Profile/J_M1,MultiPolygon,114,95819606.6719,139330.630248
+PLYM04,Patrick Joseph Kearney (D),4th Plymouth,Patrick J.,Kearney,(D),http://malegislature.gov/Legislators/Profile/PJK1,MultiPolygon,115,110485479.442,117003.775635
+PLYM06,Josh S. Cutler (D),6th Plymouth,Josh S.,Cutler,(D),http://malegislature.gov/Legislators/Profile/JSC1,MultiPolygon,117,158202436.637,100354.302757
+PLYM07,Alyson M. Sullivan (R),7th Plymouth,Alyson M.,Sullivan,(R),http://malegislature.gov/Legislators/Profile/AMS2,Polygon,118,77903536.0501,50913.6799822
+PLYM05,David F. DeCoste (R),5th Plymouth,David F.,DeCoste,(R),http://malegislature.gov/Legislators/Profile/DFD1,Polygon,116,122587568.356,51024.0623956
+PLYM08,Angelo L. D'Emilia (R),8th Plymouth,Angelo L.,D'Emilia,(R),http://malegislature.gov/Legislators/Profile/ALD1,Polygon,119,127416282.214,63404.0221742
+PLYM10,Michelle M. Dubois (D),10th Plymouth,Michelle M.,Dubois,(D),http://malegislature.gov/Legislators/Profile/MMD1,Polygon,121,72867046.0611,56718.458286
+PLYM11,Claire D. Cronin (D),11th Plymouth,Claire D.,Cronin,(D),http://malegislature.gov/Legislators/Profile/CDC1,Polygon,122,76241893.7169,54370.1776842
+SUFF04,David Biele (D),4th Suffolk,David,Biele,(D),http://malegislature.gov/Legislators/Profile/D_B1,MultiPolygon,127,12716746.3024,53966.0562898
+WORC18,Joseph D. McKenna (R),18th Worcester,Joseph D.,McKenna,(R),http://malegislature.gov/Legislators/Profile/JDM1,Polygon,160,252988537.799,87122.3162301
+ESS12,Thomas P. Walsh (D),12th Essex,Thomas P.,Walsh,(D),http://malegislature.gov/Legislators/Profile/TJW1,Polygon,36,31652965.9157,25636.8495953
+PLYM12,Kathleen P. LaNatra (D),12th Plymouth,Kathleen P.,LaNatra,(D),http://malegislature.gov/Legislators/Profile/KPL1,MultiPolygon,123,210987751.059,122876.737976
+BRIST12,Norman J. Orrall (R),12th Bristol,Norman J.,Orrall,(R),http://malegislature.gov/Legislators/Profile/NJO1,Polygon,22,217031709.547,120696.616783
+ESS02,Leonard Mirra (R),2nd Essex,Leonard,Mirra,(R),http://malegislature.gov/Legislators/Profile/L_M1,MultiPolygon,26,241005545.284,137341.402345
+ESS11,Peter L. Capano (D),11th Essex,Peter L.,Capano,(D),http://malegislature.gov/Legislators/Profile/PLC1,MultiPolygon,35,16322720.834,48737.1541765
+SUFF01,Adrian C. Madaro (D),1st Suffolk,Adrian C.,Madaro,(D),http://malegislature.gov/Legislators/Profile/ACM1,Polygon,124,12171281.9242,30483.2458321
+SUFF02,Daniel Joseph Ryan (D),2nd Suffolk,Daniel J.,Ryan,(D),http://malegislature.gov/Legislators/Profile/DJR1,MultiPolygon,125,8031400.28338,29074.4701515
+MID12,Ruth B. Balser (D),12th Middlesex,Ruth B.,Balser,(D),http://malegislature.gov/Legislators/Profile/RBB1,Polygon,71,25259666.394,29460.8991967
+WORC16,Daniel M. Donahue (D),16th Worcester,Daniel M.,Donahue,(D),http://malegislature.gov/Legislators/Profile/DMD1,Polygon,158,19271899.361,22236.3358282
+NOR15,Tommy Vitolo (D),15th Norfolk,Tommy,Vitolo,(D),http://malegislature.gov/Legislators/Profile/T_V1,Polygon,111,5526976.68498,18475.2737382

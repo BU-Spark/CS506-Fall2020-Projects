@@ -1,0 +1,264 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(FinTS)
+library(tidyquant)
+library(ggplot2)
+library(dplyr)
+library(forecast)
+library(glmnet)
+library(ESGtoolkit)
+library(lubridate)
+library(plyr)
+library(corrplot)
+library(reshape2)
+library(fredr)
+library(RQuantLib)
+library(leaps)
+library(reshape2)
+library(scales)
+library(ggfortify)
+library(furrr)
+library(tsibble)
+
+setwd('D:/OneDrive/College Notebook/Boston University/Fall Senior Year/CS 506/Project/CS506-Fall2020-Projects/consumer_abs/data/individual_securities')
+directories=lapply(c("/card/", "/auto/", "/consumer/"), function(x) paste(getwd(), x, sep=""))
+
+# card_files=lapply(list.files(directories[[1]]), function(x) read_excel(x))
+
+setwd(directories[[2]])
+auto_files=lapply(list.files(getwd()), function(x) data.frame(read_excel(x)))
+auto_names=lapply(list.files(getwd()), function(x) sub('\\.xlsx$', '', x))
+
+setwd(directories[[3]])
+consumer_files=lapply(list.files(getwd()), function(x) data.frame(read_excel(x)))
+consumer_names=lapply(list.files(getwd()), function(x) sub('\\.xlsx$', '', x))
+
+
+refSecurities=read_excel('D:/OneDrive/College Notebook/Boston University/Fall Senior Year/CS 506/Project/CS506-Fall2020-Projects/consumer_abs/data/traceIssuances.xlsx')
+```
+```{r}
+yieldCodes=c("DGS1", "DGS2", "DGS3", "DGS5", "DGS7", "DGS10", "DGS20", "DGS30")
+forwardCodes=c('THREEFF1', 'THREEFF2', 'THREEFF3', 'THREEFF4', 'THREEFF5', 'THREEFF6', 'THREEFF7', 'THREEFF8', 'THREEFF9', 'THREEFF10')
+fredr_set_key('488442838674a6777f462b62cca2b708')
+
+yieldConstruction=function(id) {
+        df=fredr_series_observations(id, observation_start = as.Date('2000-01-01'), observation_end=as.Date('2020-12-01'))
+        df$date=as.Date(df$date, format='%Y-%m-%d')
+        names(df)[3]=id
+        df$date=as.Date(df$date)
+        return(df[, !names(df)=='series_id'])
+}
+
+yieldCurve=yieldConstruction("DGS1")
+
+for(i in yieldCodes[c(2:length(yieldCodes))]) {
+        df=yieldConstruction(i)
+        
+        yieldCurve=left_join(yieldCurve, df, by=c("date"))
+        
+}
+
+forwardCurve=yieldConstruction("THREEFF1")
+
+for(i in forwardCodes[c(2:length(forwardCodes))]) {
+        df=yieldConstruction(i)
+        
+        forwardCurve=left_join(forwardCurve, df, by=c("date"))
+}
+
+```
+```{r}
+preProcessDF=function(df, security_name, join_curves=FALSE) {
+        df=df %>% map_df(rev)
+        returns = log(1+diff(df$Price)/df$Price[-length(df$Price)])
+       
+        df=df[1:length(df$Price)-1,]
+        df$returns = returns
+        df=df %>% map_df(rev)
+        
+        ref=refSecurities[which(refSecurities$`Security Name`==security_name ),]
+        maturityDate=as.Date(ref$Maturity)
+        period=2
+        rates=c(ref$Cpn/100)
+        issueDate=as.Date(ref$`Issue Date`)
+        
+        
+        df$YTM=apply(df, 1, function(x) FixedRateBondYield(settlementDays=1, as.double(x['Price']), 
+                                                          faceAmount=100, effectiveDate=as.Date(x['Date']), 
+                                                          maturityDate, 
+                                                        period=1, calendar='UnitedStates/GovernmentBond', rates, 
+                                                        dayCounter=2, businessDayConvention=0, compound=0, 
+                                                        redemption=100, issueDate))
+        
+        
+        df=df %>% map_df(rev)
+        
+        if(join_curves) {
+          names(df)[names(df)=='Date'] = 'date'
+          df$date=as.Date(df$date, format='%Y-%m-%d')
+          df = joinCurves(df)
+          names(df)[names(df)=='date'] = 'Date'
+          
+        }
+          
+        start_date = as.Date(df[1, ]$Date, format="%Y-%m-%d")
+        start_year = year(start_date)
+        start_month = month(start_date)
+        
+        return(ts(subset(df, select=-c(Date)), start=c(start_year, start_month), frequency=12))
+        
+        
+        # return(df %>% map_df(rev))
+       #  return(df)
+        
+      
+                
+}
+
+joinCurves=function(df) {
+          
+        df=left_join(df, yieldCurve %>% 
+            group_by(date = as.Date(date)) %>%
+            summarise_each(funs( if(length(na.omit(.))>=15) 
+                               mean(., na.rm=TRUE) else NA_real_), DGS1:DGS30), by=c('date'))
+        
+        df=left_join(df, forwardCurve %>% 
+            group_by(date = as.Date(date)) %>%
+            summarise_each(funs( if(length(na.omit(.))>=15) 
+                               mean(., na.rm=TRUE) else NA_real_), THREEFF1:THREEFF10), by=c('date'))
+        
+        return(df)
+}
+
+consumer_dfs = lapply(c(1:length(consumer_files)), function(x) preProcessDF(consumer_files[[x]], consumer_names[x]))
+auto_dfs = lapply(c(1:length(auto_files)), function(x) preProcessDF(auto_files[[x]], auto_names[x]))
+head(consumer_dfs[[1]])
+head(auto_dfs[[1]])
+```
+
+
+
+
+```{r}
+
+doTimeSeries = function(df, name, max_k, train_size) {
+  df = df
+  X = as.matrix(df[, !colnames(df) %in% c("YTM", 'date', 'returns', 'Price')])
+  y = df[, colnames(df) %in% c('returns', 'date')]
+  
+  X_train = head(X, round(nrow(X) * train_size))
+  s = nrow(X) - nrow(X_train) 
+  
+  y_train = head(y, round(length(y) * train_size))
+  
+  X_test = tail(X, s)
+  y_test = tail(y, s)
+  
+  plotArmaTrueacf(y_train)
+  
+  
+  loadings = svd(X_train)$v
+  rownames(loadings) = colnames(X_train)
+  Z = X_train%*%loadings
+  # colnames(Z) = paste0("PC", 1:ncol(X_train))
+  corrplot(cor(Z))
+  
+  sing.val = svd(X_train/sqrt(ncol(X_train)))$d
+  plot(sing.val, xlab="axis", ylab="singular value")
+  abline(h=1, col="red")
+  
+  meltR = melt(loadings)
+  p=ggplot(meltR, aes(x=Var1, y = value)) + 
+    geom_bar(stat="identity") + 
+    coord_flip() + 
+    facet_wrap(. ~ Var2) +
+    ggtitle("Loadings")
+  print(p)
+  
+  
+  loadings = svd(X_test)$v
+  rownames(loadings) = colnames(X_test)
+  Z_test = X_test%*%loadings
+  # colnames(Z_test) = paste0("PC", 1:ncol(X_test))
+  
+  k = min(nrow(X_test), max_k)
+  
+  
+  if(length(which(sing.val <= 0.05)) > 1) {
+    k = min(which(sing.val <= 0.05)[1], k)
+  }
+  
+ 
+  model = auto.arima(y_train, stationary=TRUE, stepwise = FALSE, xreg=as.matrix(Z[, 1:k]), seasonal=FALSE)
+  y_pred = forecast(model, h=length(y_test), xreg=as.matrix(Z_test[, 1:k]))
+
+  
+  y_df=data.frame(y)
+  y_df$date=as.Date(time(y))
+  
+  y_pred_df=data.frame(y_pred$mean)
+  y_pred_df$date=as.Date(time(y_test))
+  
+  
+  p=autoplot(y_pred, fcol="Forecast") + geom_line(data=y_df, aes(x=date, y=y, color='Actual'), group=2) + 
+    scale_color_manual(name = element_blank(), labels = c("Actual"),
+      values = c("darkred", "steelblue")) + 
+    ggtitle(paste(paste("Prediction Results for", name))) + xlab("Date") + ylab("Return") + 
+    theme(plot.title = element_text(hjust = 0.5))
+  print(p)
+  
+  print(accuracy(y_pred))
+
+  return(model)
+}
+
+```
+
+
+
+```{r}
+consumer_models=list()
+auto_models=list()
+
+for(i in c(1:length(consumer_dfs))) {
+  print(i)
+  consumer_models[[i]]=doTimeSeries(consumer_dfs[[i]], consumer_names[[i]], 8, 0.8)
+}
+
+```
+```{r}
+for(i in c(1:length(auto_dfs))) {
+  print(i)
+  print(auto_names[[i]])
+  auto_models[[i]]=doTimeSeries(auto_dfs[[i]], auto_names[[i]], 3, 0.8)
+}
+
+```
+```{r}
+for(i in c(1:length(consumer_models))) {
+  print(consumer_names[[i]])
+  (summary(consumer_models[[i]]))
+}
+```
+```{r}
+
+for(i in c(1:length(auto_models))) {
+  print(auto_names[[i]])
+  (summary(auto_models[[i]]))
+}
+```
+
+
+
